@@ -1,0 +1,41 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Delegates",
+	"description": "TC39 delegates, keyed by the two- or three-letter uppercase abbreviation used to identify them in meeting notes.",
+	"type": "object",
+	"propertyNames": {
+		"pattern": "^[A-Z]{2,3}$"
+	},
+	"additionalProperties": {
+		"$ref": "#/$defs/Delegate"
+	},
+	"$defs": {
+		"Delegate": {
+			"title": "Delegate",
+			"description": "A TC39 delegate.",
+			"type": "object",
+			"properties": {
+				"name": {
+					"description": "The delegate's full name.",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				},
+				"github": {
+					"description": "The delegate's GitHub username, if known.",
+					"type": "string",
+					"pattern": "^[A-Za-z0-9-]+$",
+					"maxLength": 39
+				},
+				"affiliation": {
+					"description": "The delegate's affiliation, if known: an employer, or a status such as \"Invited Expert\".",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				}
+			},
+			"required": [
+				"name"
+			],
+			"additionalProperties": false
+		}
+	}
+}

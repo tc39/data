@@ -1,0 +1,125 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Stages",
+	"description": "The stages of the TC39 process, in ascending order.",
+	"type": "array",
+	"prefixItems": [
+		{
+			"$ref": "#/$defs/Stage",
+			"type": "object",
+			"properties": {
+				"stage": {
+					"const": "0"
+				}
+			},
+			"required": [
+				"stage"
+			]
+		},
+		{
+			"$ref": "#/$defs/Stage",
+			"type": "object",
+			"properties": {
+				"stage": {
+					"const": "1"
+				}
+			},
+			"required": [
+				"stage"
+			]
+		},
+		{
+			"$ref": "#/$defs/Stage",
+			"type": "object",
+			"properties": {
+				"stage": {
+					"const": "2"
+				}
+			},
+			"required": [
+				"stage"
+			]
+		},
+		{
+			"$ref": "#/$defs/Stage",
+			"type": "object",
+			"properties": {
+				"stage": {
+					"const": "2.7"
+				}
+			},
+			"required": [
+				"stage"
+			]
+		},
+		{
+			"$ref": "#/$defs/Stage",
+			"type": "object",
+			"properties": {
+				"stage": {
+					"const": "3"
+				}
+			},
+			"required": [
+				"stage"
+			]
+		},
+		{
+			"$ref": "#/$defs/Stage",
+			"type": "object",
+			"properties": {
+				"stage": {
+					"const": "4"
+				}
+			},
+			"required": [
+				"stage"
+			]
+		}
+	],
+	"items": false,
+	"minItems": 6,
+	"$defs": {
+		"Stage": {
+			"title": "Stage",
+			"description": "A stage of the TC39 process.",
+			"type": "object",
+			"properties": {
+				"stage": {
+					"description": "The stage number, as a string (e.g. \"2.7\").",
+					"type": "string",
+					"enum": [
+						"0",
+						"1",
+						"2",
+						"2.7",
+						"3",
+						"4"
+					]
+				},
+				"status": {
+					"description": "What it means for a proposal to be at this stage.",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				},
+				"entranceCriteria": {
+					"description": "What a proposal must have in order to enter this stage; plain text that may contain a newline-separated Markdown bullet list.",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				},
+				"purpose": {
+					"description": "What the committee and champions aim to accomplish while a proposal is at this stage; plain text that may contain a newline-separated Markdown bullet list.",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				}
+			},
+			"required": [
+				"stage",
+				"status",
+				"entranceCriteria",
+				"purpose"
+			],
+			"additionalProperties": false
+		}
+	}
+}
