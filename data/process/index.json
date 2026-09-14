@@ -1,0 +1,38 @@
+[
+	{
+		"stage": "0",
+		"status": "This is a new proposal. It is not currently being considered by the committee.",
+		"entranceCriteria": "None. New proposals are assigned this stage by their authors outside of the usual advancement process.",
+		"purpose": "Ideation and exploration. Define a problem space in which the committee and the champions can focus their efforts.\n- Make the case for an improvement\n- Describe the shape of some possible solutions\n- Identify potential challenges\n- Research how the problem is dealt with using available facilities today\n- Research how the problem has been solved by other languages or in the library ecosystem"
+	},
+	{
+		"stage": "1",
+		"status": "This proposal is under consideration. The committee expects to devote time to examining the identified problem space, the full breadth of possible solutions, and cross-cutting concerns.",
+		"entranceCriteria": "- Identified a champion or champion group who will advance the addition\n- Prose outlining the problem/need and the general shape of a solution\n- Discussion of key algorithms, abstractions, and semantics\n- Identification of potential cross-cutting concerns and implementation challenges/complexity\n- A publicly available repository for the proposal that captures the above requirements",
+		"purpose": "Designing a solution.\n- Make the case for a particular solution or solution space\n- Resolve any cross-cutting concerns"
+	},
+	{
+		"stage": "2",
+		"status": "The committee has chosen a preferred solution or solution space, but the design is a draft and may still change significantly. The committee expects the feature to be developed and eventually included in the standard, but due to reasons that may not be apparent at this stage, the feature may never be included in the standard.",
+		"entranceCriteria": "- Proposal document describes all high-level APIs and syntax\n- Illustrative examples of usage\n- Initial spec text including all major semantics, syntax, and APIs. Placeholders, TODOs, and editorial issues are acceptable",
+		"purpose": "Refining the solution.\n- Work out minor details such as ordering of observable effects, handling of invalid inputs, API names, etc.\n- Receive and address spec text reviews from the assigned reviewers and the appropriate editor group\n- Produce experimental implementations such as loosely-correct (not for production use) polyfills to aid in validating the design and exploring the details\n- Investigate integration with relevant host APIs, if necessary"
+	},
+	{
+		"stage": "2.7",
+		"status": "The proposal is approved in principle and undergoing validation. The solution is complete and no further work is possible without feedback from tests, implementations, or usage. No changes to the proposal will be requested by the committee aside from those elicited through testing, implementation, or usage experience.",
+		"entranceCriteria": "- Complete spec text: all semantics, syntax, and APIs are completely described\n- Assigned reviewers have signed off on the current spec text\n- Relevant editor group has signed off on the current spec text",
+		"purpose": "Testing and validation.\n- Validate the design of the feature through the development of a rigorous and comprehensive test suite\n- Develop spec-compliant prototypes to validate implementability, as necessary, or aid in test development"
+	},
+	{
+		"stage": "3",
+		"status": "The proposal has been recommended for implementation. No changes to the proposal are expected, but some necessary changes may still occur due to web incompatibilities or feedback from production-grade implementations.",
+		"entranceCriteria": "- The feature has sufficient testing and appropriate pre-implementation experience",
+		"purpose": "Gaining implementation experience and discovering any web compatibility or integration issues."
+	},
+	{
+		"stage": "4",
+		"status": "The proposed feature is complete and ready to be included in the standard. No further changes will be made to the proposal.",
+		"entranceCriteria": "- Two compatible implementations which pass the Test262 acceptance tests\n- Significant in-the-field experience with shipping implementations, such as that provided by two independent VMs\n- A pull request has been sent to tc39/ecma262 or tc39/ecma402, as appropriate, with the integrated spec text\n- The relevant editor group has signed off on the pull request",
+		"purpose": "Integration into the draft specification and eventual inclusion in a yearly standard publication."
+	}
+]
