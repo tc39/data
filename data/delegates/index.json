@@ -69,14 +69,14 @@
     "github": "slightlyoff",
     "affiliation": "Microsoft"
   },
-  "AVT": {
-    "name": "Alexander J. Vincent",
-    "github": "ajvincent"
-  },
   "AAT": {
     "name": "Alexander Akait",
     "github": "alexander-akait",
     "affiliation": "Invited Expert"
+  },
+  "AVT": {
+    "name": "Alexander J. Vincent",
+    "github": "ajvincent"
   },
   "ASH": {
     "name": "Alexey Shvaika",
@@ -237,10 +237,6 @@
     "name": "Ben Allen",
     "github": "ben-allen"
   },
-  "BCE": {
-    "name": "Benjamin E. Coe",
-    "github": "bcoe"
-  },
   "BLN": {
     "name": "Ben Lichtman"
   },
@@ -259,6 +255,10 @@
   },
   "BTR": {
     "name": "Ben Titzer"
+  },
+  "BCE": {
+    "name": "Benjamin E. Coe",
+    "github": "bcoe"
   },
   "BGS": {
     "name": "Benjamin Georges"
@@ -462,11 +462,6 @@
   "DAV": {
     "name": "Dan Abramov"
   },
-  "DHC": {
-    "name": "Daniel Chao",
-    "github": "bioball",
-    "affiliation": "Apple"
-  },
   "DDC": {
     "name": "Dan Clark",
     "github": "dandclark",
@@ -487,13 +482,13 @@
     "github": "danlapid",
     "affiliation": "Cloudflare"
   },
-  "DLM": {
-    "name": "Daniel Minor",
-    "github": "dminor",
-    "affiliation": "Mozilla"
-  },
   "DAS": {
     "name": "Dan Stefan"
+  },
+  "DHC": {
+    "name": "Daniel Chao",
+    "github": "bioball",
+    "affiliation": "Apple"
   },
   "DCD": {
     "name": "Daniel Clifford"
@@ -506,6 +501,11 @@
     "name": "Daniel Griesser",
     "github": "HazAT",
     "affiliation": "Functional Software (Sentry)"
+  },
+  "DLM": {
+    "name": "Daniel Minor",
+    "github": "dminor",
+    "affiliation": "Mozilla"
   },
   "DRR": {
     "name": "Daniel Rosenwasser",
@@ -735,6 +735,11 @@
     "github": "mozfreddyb",
     "affiliation": "Mozilla"
   },
+  "PFM": {
+    "name": "Frivalszky-Mayer Péter",
+    "github": "FrivalszkyP",
+    "affiliation": "IBM"
+  },
   "GI": {
     "name": "Gabriel Isenberg",
     "github": "gisenberg",
@@ -813,9 +818,15 @@
     "github": "guybedford",
     "affiliation": "Cloudflare"
   },
-  "HZO": {
-    "name": "小船",
-    "github": "adamchuan"
+  "CZY": {
+    "name": "Harry Chen",
+    "github": "czy88840616",
+    "affiliation": "Alibaba"
+  },
+  "JHX": {
+    "name": "HE Shi-Jun",
+    "github": "hax",
+    "affiliation": "Invited Expert"
   },
   "HHM": {
     "name": "Hemanth HM",
@@ -835,6 +846,11 @@
     "github": "hbenl",
     "affiliation": "Mozilla"
   },
+  "JLH": {
+    "name": "Huáng Jùnliàng",
+    "github": "JLHwung",
+    "affiliation": "Invited Expert"
+  },
   "HBM": {
     "name": "Hubert Manilla",
     "github": "bomsy",
@@ -851,6 +867,10 @@
   },
   "IH": {
     "name": "Ian Halliday"
+  },
+  "XWC": {
+    "name": "Ian Tse",
+    "github": "Tseian"
   },
   "IMR": {
     "name": "Igor Minar",
@@ -886,6 +906,11 @@
     "name": "István Sebestyén",
     "github": "ecmageneva",
     "affiliation": "Ecma Staff"
+  },
+  "JSC": {
+    "name": "J. S. Choi",
+    "github": "js-choi",
+    "affiliation": "Invited Expert"
   },
   "JBS": {
     "name": "Jack Steinberg",
@@ -932,6 +957,10 @@
     "name": "James M Snell",
     "github": "jasnell",
     "affiliation": "Cloudflare"
+  },
+  "YJM": {
+    "name": "James Yang",
+    "github": "futurist"
   },
   "JK": {
     "name": "Jamie Kyle",
@@ -1000,14 +1029,14 @@
     "github": "jeffmo",
     "affiliation": "Meta"
   },
-  "JSW": {
-    "name": "Jeff Walden",
-    "github": "jswalden"
-  },
   "JPO": {
     "name": "Jeff Posnick",
     "github": "jeffposnick",
     "affiliation": "Bloomberg"
+  },
+  "JSW": {
+    "name": "Jeff Walden",
+    "github": "jswalden"
   },
   "JZY": {
     "name": "Jem Young",
@@ -1036,10 +1065,6 @@
     "name": "Jihyeok Park",
     "github": "jhnaldo",
     "affiliation": "Invited Expert"
-  },
-  "YJM": {
-    "name": "James Yang",
-    "github": "futurist"
   },
   "JMK": {
     "name": "Jirka Maršík",
@@ -1072,11 +1097,6 @@
   "JB": {
     "name": "John Buchanan"
   },
-  "JHX": {
-    "name": "HE Shi-Jun",
-    "github": "hax",
-    "affiliation": "Invited Expert"
-  },
   "JLZ": {
     "name": "John Lenz",
     "github": "concavelenz",
@@ -1096,6 +1116,11 @@
     "github": "jdalton",
     "affiliation": "Socket"
   },
+  "JKP": {
+    "name": "Jon Kuperman",
+    "github": "jkup",
+    "affiliation": "Bloomberg"
+  },
   "JHS": {
     "name": "Jonas Haukenes",
     "github": "johauke",
@@ -1112,11 +1137,6 @@
   "JKN": {
     "name": "Jonathan Keslin",
     "github": "decompil3d"
-  },
-  "JKP": {
-    "name": "Jon Kuperman",
-    "github": "jkup",
-    "affiliation": "Bloomberg"
   },
   "JSN": {
     "name": "Jonathan Sampson"
@@ -1157,11 +1177,6 @@
   "JPK": {
     "name": "Joshua Peek"
   },
-  "JSC": {
-    "name": "J. S. Choi",
-    "github": "js-choi",
-    "affiliation": "Invited Expert"
-  },
   "JSM": {
     "name": "Jovonni Smith-Martinez"
   },
@@ -1177,11 +1192,6 @@
   "JGI": {
     "name": "Julien Gilli",
     "github": "misterdjules"
-  },
-  "JLH": {
-    "name": "Huáng Jùnliàng",
-    "github": "JLHwung",
-    "affiliation": "Invited Expert"
   },
   "JFI": {
     "name": "Justin Fagnani",
@@ -1309,10 +1319,9 @@
     "name": "Lee Byron",
     "github": "leebyron"
   },
-  "LZH": {
-    "name": "ZhaoLei",
-    "github": "zhaolei0505",
-    "affiliation": "Alibaba"
+  "LZM": {
+    "name": "LEI Zongmin",
+    "github": "leizongmin"
   },
   "LM": {
     "name": "Leland Richardson"
@@ -1331,6 +1340,10 @@
     "name": "Leo Kettmeir",
     "github": "crowlKats",
     "affiliation": "Deno Land"
+  },
+  "YLI": {
+    "name": "Li YuBei",
+    "github": "leeight"
   },
   "LWU": {
     "name": "Liang Wu"
@@ -1595,11 +1608,6 @@
     "github": "milomg",
     "affiliation": "Invited Expert"
   },
-  "JXZ": {
-    "name": "Xuanzi",
-    "github": "fefit",
-    "affiliation": "360"
-  },
   "MQW": {
     "name": "Min-qi Wu"
   },
@@ -1640,10 +1648,6 @@
   "NH": {
     "name": "Nagy Hostafa"
   },
-  "SNS": {
-    "name": "沧浪",
-    "github": "sinoon"
-  },
   "NSH": {
     "name": "Natalie Silvanovich",
     "github": "natashenka"
@@ -1677,6 +1681,11 @@
   "NTE": {
     "name": "Noah Tye",
     "github": "noahlt"
+  },
+  "TLY": {
+    "name": "Noelle Levy",
+    "github": "NilSet",
+    "affiliation": "Bending Spoons"
   },
   "NL": {
     "name": "Norbert Lindenberg",
@@ -1717,11 +1726,6 @@
   "PED": {
     "name": "Pedram Emrouznejad",
     "github": "pemrouz"
-  },
-  "PFM": {
-    "name": "Frivalszky-Mayer Péter",
-    "github": "FrivalszkyP",
-    "affiliation": "IBM"
   },
   "PHE": {
     "name": "Peter Hoddie",
@@ -2186,11 +2190,6 @@
     "github": "hober",
     "affiliation": "Apple"
   },
-  "TLY": {
-    "name": "Noelle Levy",
-    "github": "NilSet",
-    "affiliation": "Bending Spoons"
-  },
   "TND": {
     "name": "Thomas Nattestad"
   },
@@ -2318,10 +2317,6 @@
     "github": "waldemarhorwat",
     "affiliation": "Invited Expert"
   },
-  "XWC": {
-    "name": "Ian Tse",
-    "github": "Tseian"
-  },
   "WWG": {
     "name": "Weijia Wang",
     "github": "starkwang"
@@ -2363,6 +2358,11 @@
     "name": "Xuan Huang (黄玄)",
     "github": "Huxpro"
   },
+  "JXZ": {
+    "name": "Xuanzi",
+    "github": "fefit",
+    "affiliation": "360"
+  },
   "YNP": {
     "name": "Yagiz Nizipli",
     "github": "anonrig"
@@ -2384,13 +2384,13 @@
     "github": "wycats",
     "affiliation": "Salesforce"
   },
+  "YIY": {
+    "name": "Yi Yi"
+  },
   "LYL": {
     "name": "Yilong Li",
     "github": "umuoy1",
     "affiliation": "Alibaba"
-  },
-  "YIY": {
-    "name": "Yi Yi"
   },
   "YWS": {
     "name": "Yoav Weiss",
@@ -2413,10 +2413,6 @@
     "name": "Yuanyan Cao",
     "github": "yuanyan"
   },
-  "YLI": {
-    "name": "Li YuBei",
-    "github": "leeight"
-  },
   "YSV": {
     "name": "Yulia Startsev",
     "github": "codehag",
@@ -2437,10 +2433,6 @@
     "github": "naugtur",
     "affiliation": "Metamask"
   },
-  "LZM": {
-    "name": "LEI Zongmin",
-    "github": "leizongmin"
-  },
   "ZSN": {
     "name": "Zev Solomon",
     "github": "zsolomon88",
@@ -2449,15 +2441,15 @@
   "ZYY": {
     "name": "Zeyu Yang"
   },
+  "LZH": {
+    "name": "ZhaoLei",
+    "github": "zhaolei0505",
+    "affiliation": "Alibaba"
+  },
   "LZJ": {
     "name": "Zhi Jie Li",
     "github": "zeldajay",
     "affiliation": "360"
-  },
-  "CZY": {
-    "name": "Harry Chen",
-    "github": "czy88840616",
-    "affiliation": "Alibaba"
   },
   "ZB": {
     "name": "Zibi Braniecki",
@@ -2468,5 +2460,13 @@
     "name": "Zuo Jian Lin",
     "github": "linzj",
     "affiliation": "Alibaba"
+  },
+  "HZO": {
+    "name": "小船",
+    "github": "adamchuan"
+  },
+  "SNS": {
+    "name": "沧浪",
+    "github": "sinoon"
   }
 }
