@@ -1,6 +1,6 @@
 {
 	"name": "@tc39/data-process",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "TC39 process data",
 	"main": "index.json",
 	"types": "./index.d.ts",
