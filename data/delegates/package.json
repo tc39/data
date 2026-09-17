@@ -1,6 +1,6 @@
 {
 	"name": "@tc39/data-delegates",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "TC39 delegates data",
 	"main": "index.json",
 	"types": "./index.d.ts",
