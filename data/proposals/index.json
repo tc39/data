@@ -6814,6 +6814,20 @@
     "url": "https://github.com/tc39/proposal-explicit-resource-management",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SYG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -6980,6 +6994,16 @@
     "url": "https://github.com/tc39/proposal-joint-iteration",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7039,6 +7063,20 @@
     "url": "https://github.com/tc39/proposal-temporal",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "BFS"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7318,6 +7356,16 @@
     "url": "https://github.com/tc39/proposal-upsert",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JMN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7393,6 +7441,16 @@
     "url": "https://github.com/tc39/proposal-json-parse-with-source",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7456,6 +7514,20 @@
     "url": "https://github.com/tc39/proposal-iterator-sequencing",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JMN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7519,6 +7591,12 @@
     "url": "https://github.com/tc39/proposal-arraybuffer-base64",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7578,6 +7656,12 @@
     "url": "https://github.com/tc39/proposal-math-sum",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7625,6 +7709,16 @@
     "url": "https://github.com/tc39/proposal-is-error",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "ACE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SRV"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7684,6 +7778,16 @@
     "url": "https://github.com/tc39/proposal-array-from-async",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7856,6 +7960,16 @@
     "url": "https://github.com/tc39/proposal-float16array",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7903,6 +8017,16 @@
     "url": "https://github.com/tc39/proposal-promise-try",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RKG"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -7958,6 +8082,16 @@
     "url": "https://github.com/tc39/proposal-iterator-helpers",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RBN"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8069,6 +8203,16 @@
     "url": "https://github.com/tc39/proposal-json-modules",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "BSH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YSV"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8156,6 +8300,16 @@
     "url": "https://github.com/tc39/proposal-import-attributes",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JRL"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8267,6 +8421,16 @@
     "url": "https://github.com/tc39/proposal-regexp-modifiers",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8322,6 +8486,20 @@
     "url": "https://github.com/tc39/proposal-set-methods",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RW"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "TAB"
+      }
+    ],
     "authors": [
       {
         "kind": "community",
@@ -8393,6 +8571,16 @@
     "url": "https://github.com/tc39/proposal-duplicate-named-capturing-groups",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8440,6 +8628,16 @@
     "url": "https://github.com/tc39/proposal-arraybuffer-transfer",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "PHE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RBN"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8495,6 +8693,16 @@
     "url": "https://github.com/tc39/proposal-promise-with-resolvers",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JRL"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8542,6 +8750,16 @@
     "url": "https://github.com/tc39/proposal-array-grouping",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SRV"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8605,6 +8823,12 @@
     "url": "https://github.com/tc39/proposal-resizablearraybuffer",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KM"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8680,6 +8904,20 @@
     "url": "https://github.com/tc39/proposal-regexp-v-flag",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MLS"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8735,6 +8973,20 @@
     "url": "https://github.com/tc39/proposal-atomics-wait-async",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RW"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8786,6 +9038,20 @@
     "url": "https://github.com/tc39/proposal-is-usv-string",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JRL"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8837,6 +9103,20 @@
     "url": "https://github.com/tc39/proposal-change-array-by-copy",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SRV"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JRL"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8900,6 +9180,20 @@
     "url": "https://github.com/tc39/proposal-symbols-as-weakmap-keys",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "BSH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -8999,6 +9293,16 @@
     "url": "https://github.com/tc39/proposal-hashbang",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "BT"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9038,6 +9342,20 @@
     "url": "https://github.com/tc39/proposal-array-find-from-last",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YSV"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9085,6 +9403,12 @@
     "url": "https://github.com/tc39/proposal-error-cause",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "YSV"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9132,6 +9456,16 @@
     "url": "https://github.com/tc39/proposal-class-static-block",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "PFC"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9183,6 +9517,20 @@
     "url": "https://github.com/tc39/proposal-accessible-object-hasownproperty",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "FHS"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9226,6 +9574,20 @@
     "url": "https://github.com/tc39/proposal-relative-indexing-method",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9277,6 +9639,20 @@
     "url": "https://github.com/tc39/proposal-private-fields-in-in",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SYG"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9332,6 +9708,24 @@
     "url": "https://github.com/tc39/proposal-top-level-await",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KS"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JSI"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "GN"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9403,6 +9797,20 @@
     "url": "https://github.com/tc39/proposal-regexp-match-indices",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MLS"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9462,6 +9870,12 @@
     "url": "",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9557,6 +9971,20 @@
     "url": "https://github.com/tc39/proposal-numeric-separator",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KCD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9628,6 +10056,16 @@
     "url": "https://github.com/tc39/proposal-logical-assignment",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DRR"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9683,6 +10121,12 @@
     "url": "https://github.com/tc39/proposal-weakrefs",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "SYG"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9769,6 +10213,16 @@
     "url": "https://github.com/tc39/proposal-promise-any",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "POK"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9828,6 +10282,20 @@
     "url": "https://github.com/tc39/proposal-string-replaceall",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MLS"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "community",
@@ -9883,6 +10351,20 @@
     "url": "https://github.com/tc39/proposal-import-meta",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "AK"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YK"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9930,6 +10412,12 @@
     "url": "https://github.com/tc39/proposal-nullish-coalescing",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RKG"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -9985,6 +10473,20 @@
     "url": "https://github.com/tc39/proposal-optional-chaining",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RKG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "BCE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10064,6 +10566,12 @@
     "url": "https://github.com/tc39/proposal-for-in-order",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "POK"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10103,6 +10611,20 @@
     "url": "https://github.com/tc39/proposal-global",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "CP"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10150,6 +10672,20 @@
     "url": "https://github.com/tc39/proposal-promise-allSettled",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YSV"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10201,6 +10737,16 @@
     "url": "https://github.com/tc39/proposal-bigint",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10284,6 +10830,20 @@
     "url": "https://github.com/tc39/proposal-dynamic-import",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "CP"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "AWB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JSL"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10335,6 +10895,16 @@
     "url": "https://github.com/tc39/proposal-string-matchall",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MB"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10386,6 +10956,16 @@
     "url": "https://github.com/tc39/proposal-flatMap",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RW"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10449,6 +11029,16 @@
     "url": "https://github.com/tc39/proposal-string-left-right-trim",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10488,6 +11078,24 @@
     "url": "https://github.com/tc39/proposal-well-formed-stringify",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "YK"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MSL"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10527,6 +11135,12 @@
     "url": "https://github.com/tc39/proposal-object-from-entries",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      }
+    ],
     "authors": [
       {
         "kind": "community",
@@ -10574,6 +11188,20 @@
     "url": "https://github.com/tc39/Function-prototype-toString-revision",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YK"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10636,6 +11264,20 @@
     "url": "https://github.com/tc39/proposal-Symbol-description",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KCL"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10679,6 +11321,16 @@
     "url": "https://github.com/tc39/proposal-json-superset",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10726,6 +11378,16 @@
     "url": "https://github.com/tc39/proposal-optional-catch-binding",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10761,6 +11423,16 @@
     "url": "https://github.com/tc39/proposal-async-iteration",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "BFS"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10800,6 +11472,16 @@
     "url": "https://github.com/tc39/proposal-promise-finally",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10859,6 +11541,20 @@
     "url": "https://github.com/tc39/proposal-regexp-unicode-property-escapes",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JSL"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10910,6 +11606,16 @@
     "url": "https://github.com/tc39/proposal-regexp-lookbehind",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -10969,6 +11675,12 @@
     "url": "https://github.com/tc39/proposal-object-rest-spread",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "ARB"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -11020,6 +11732,12 @@
     "url": "https://github.com/tc39/proposal-regexp-named-groups",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -11067,6 +11785,16 @@
     "url": "https://github.com/tc39/proposal-regexp-dotall-flag",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -11106,6 +11834,16 @@
     "url": "https://github.com/tc39/proposal-template-literal-revision",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -11136,6 +11874,24 @@
     "url": "https://github.com/tc39/proposal-ecmascript-sharedmem",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "AWB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -11183,6 +11939,20 @@
     "url": "https://github.com/tc39/proposal-async-await",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YK"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -11226,6 +11996,16 @@
     "url": "https://github.com/tc39/proposal-trailing-function-commas",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "BT"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -11272,6 +12052,16 @@
     "url": "https://github.com/tc39/proposal-object-getownpropertydescriptors",
     "specification": "ECMA-262",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SP"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13256,6 +14046,16 @@
     "url": "https://github.com/tc39/proposal-intl-era-monthcode",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "EAO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SFC"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13319,6 +14119,16 @@
     "url": "https://github.com/tc39/proposal-intl-locale-info",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "SFC"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "ZB"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13422,6 +14232,16 @@
     "url": "https://github.com/tc39/proposal-intl-duration-format",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RBN"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13517,6 +14337,32 @@
     "url": "https://github.com/tc39/proposal-intl-numberformat-v3",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "USA"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YSV"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JSW"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SRV"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13580,6 +14426,16 @@
     "url": "https://github.com/tc39/proposal-intl-enumeration",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13678,6 +14534,16 @@
     "url": "https://github.com/tc39/proposal-intl-extend-timezonename",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "PFC"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RBU"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13725,6 +14591,12 @@
     "url": "https://github.com/tc39/proposal-intl-segmenter",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "CP"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13839,6 +14711,12 @@
     "url": "https://github.com/tc39/proposal-intl-displaynames",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13878,6 +14756,16 @@
     "url": "https://github.com/tc39/proposal-intl-datetime-style",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "FYT"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "NHD"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13917,6 +14805,16 @@
     "url": "https://github.com/tc39/proposal-intl-list-format",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "FRA"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -13956,6 +14854,16 @@
     "url": "https://github.com/tc39/proposal-intl-locale",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "BFS"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KCL"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -14034,6 +14942,16 @@
     "url": "https://github.com/tc39/proposal-intl-relative-time",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MPT"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MB"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -14093,6 +15011,16 @@
     "url": "https://github.com/tc39/proposal-intl-plural-rules",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SP"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -14139,6 +15067,16 @@
     "url": "https://github.com/tc39/proposal-intl-formatToParts",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RW"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
@@ -14169,6 +15107,16 @@
     "url": "https://github.com/tc39/proposal-intl-formatToParts",
     "specification": "ECMA-402",
     "stage": "4",
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RW"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ],
     "authors": [
       {
         "kind": "delegate",
