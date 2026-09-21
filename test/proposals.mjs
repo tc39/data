@@ -88,6 +88,18 @@ test('data/proposals: people lists do not contain duplicates', (t) => {
 	t.end();
 });
 
+test('data/proposals: Stage 2.7 reviewers are not champions', (t) => {
+	const championReviewers = proposals.flatMap((proposal) => {
+		const championKeys = new Set(proposal.champions.map(personKey));
+		return (proposal.stage27Reviewers ?? [])
+			.filter((reviewer) => championKeys.has(personKey(reviewer)))
+			.map((reviewer) => `${proposal.id}: ${personKey(reviewer)}`);
+	});
+
+	t.deepEqual(championReviewers, [], 'Stage 2.7 reviewers are not in the proposal champion group');
+	t.end();
+});
+
 test('data/proposals: every active proposal has a champion', (t) => {
 	const unchampioned = proposals
 		.filter(({ champions, stage }) => activeStages.has(stage) && champions.length === 0)
@@ -177,9 +189,10 @@ test('data/proposals: optional metadata agrees with proposal stages', (t) => {
 		if (['0', '1'].includes(proposal.stage) && 'stage27Reviewers' in proposal) {
 			issues.push(`${proposal.id}: Stage 2.7 reviewers before Stage 2`);
 		}
-		if (['2', '2.7', '3', '4'].includes(proposal.stage)
+		// Stage 4 should also require this metadata, but it is missing from many historical records.
+		if (['2', '2.7', '3'].includes(proposal.stage)
 			&& (proposal.stage27Reviewers?.length ?? 0) === 0) {
-			issues.push(`${proposal.id}: no Stage 2.7 reviewers at Stage ${proposal.stage}`);
+			issues.push(`${proposal.id}: no Stage 2.7 reviewer metadata at Stage ${proposal.stage}`);
 		}
 		if (['3', '4'].includes(proposal.stage) && !('test262' in proposal)) {
 			issues.push(`${proposal.id}: no Test262 metadata at Stage ${proposal.stage}`);

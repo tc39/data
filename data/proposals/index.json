@@ -55,7 +55,17 @@
       "hasTests": true,
       "featureFlag": "legacy-regexp",
       "url": "https://github.com/tc39/test262/search?l=JavaScript&q=legacy-regexp"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "AWB"
+      }
+    ]
   },
   {
     "id": "source-phase-imports",
@@ -121,7 +131,21 @@
       "hasTests": true,
       "featureFlag": "source-phase-imports",
       "url": "https://github.com/tc39/test262/pull/3980"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KKL"
+      }
+    ]
   },
   {
     "id": "dynamic-code-brand-checks",
@@ -182,7 +206,13 @@
     "test262": {
       "hasTests": false,
       "url": "https://github.com/tc39/test262/issues/4229"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      }
+    ]
   },
   {
     "id": "defer-import-eval",
@@ -201,14 +231,6 @@
       }
     ],
     "champions": [
-      {
-        "kind": "delegate",
-        "abbreviation": "YSV"
-      },
-      {
-        "kind": "delegate",
-        "abbreviation": "GB"
-      },
       {
         "kind": "delegate",
         "abbreviation": "NRO"
@@ -257,7 +279,17 @@
       "hasTests": true,
       "featureFlag": "Testing plan",
       "url": "https://github.com/tc39/test262/issues/4111"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "GB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DLM"
+      }
+    ]
   },
   {
     "id": "nonextensible-applies-to-private",
@@ -319,7 +351,17 @@
       "hasTests": true,
       "featureFlag": "nonextensible-applies-to-private",
       "url": "https://github.com/tc39/test262/pull/4577"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      }
+    ]
   },
   {
     "id": "import-text",
@@ -353,7 +395,17 @@
       "hasTests": true,
       "featureFlag": "import-text",
       "url": "https://github.com/tc39/test262/pull/4607"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      }
+    ]
   },
   {
     "id": "iterator-chunking",
@@ -403,7 +455,21 @@
       "hasTests": true,
       "featureFlag": "iterator-chunking",
       "url": "https://github.com/tc39/test262/pull/5011"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "ACE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JMN"
+      }
+    ]
   },
   {
     "id": "iterator-includes",
@@ -441,7 +507,17 @@
       "hasTests": true,
       "featureFlag": "iterator-includes",
       "url": "https://github.com/tc39/test262/pull/5031"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      }
+    ]
   },
   {
     "id": "iterator-join",
@@ -475,7 +551,17 @@
       "hasTests": true,
       "featureFlag": "iterator-join",
       "url": "https://github.com/tc39/test262/pull/4768"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ]
   },
   {
     "id": "error-stack-accessor",
@@ -521,7 +607,17 @@
       "hasTests": true,
       "featureFlag": "tests PR",
       "url": "https://github.com/tc39/test262/pull/5045"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      }
+    ]
   },
   {
     "id": "regexp-buffer-boundaries",
@@ -571,7 +667,17 @@
       "hasTests": true,
       "featureFlag": "tests PR",
       "url": "https://github.com/tc39/test262/pull/4975"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      }
+    ]
   },
   {
     "id": "decorators",
@@ -761,7 +867,25 @@
       "hasTests": true,
       "featureFlag": "decorators",
       "url": "https://github.com/tc39/test262/search?l=JavaScript&q=decorators"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SYG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      }
+    ]
   },
   {
     "id": "decorator-metadata",
@@ -951,7 +1075,25 @@
       "hasTests": true,
       "featureFlag": "ShadowRealm",
       "url": "https://github.com/tc39/test262/search?l=JavaScript&q=ShadowRealm"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YSV"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
+    ]
   },
   {
     "id": "esm-phase-imports",
@@ -1011,6 +1153,20 @@
       {
         "date": "2026-05-20",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#esm-phase-imports-normative-prs"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "CZW"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KKL"
       }
     ]
   },
@@ -1081,6 +1237,20 @@
         "date": "2025-07-29",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-29.md#immutable-arraybuffer-for-stage-3"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "SYG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
     ]
   },
   {
@@ -1111,7 +1281,21 @@
       "hasTests": true,
       "featureFlag": "Import Bytes",
       "url": "https://github.com/tc39/test262/pull/4648"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "EAO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JSL"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      }
+    ]
   },
   {
     "id": "await-dictionary",
@@ -1161,7 +1345,13 @@
       "hasTests": true,
       "featureFlag": "await-dictionary",
       "url": "https://github.com/tc39/test262/search?l=JavaScript&q=await-dictionary"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JSL"
+      }
+    ]
   },
   {
     "id": "function-sent",
@@ -1208,6 +1398,16 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#functionsent"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DD"
       }
     ]
   },
@@ -1266,6 +1466,12 @@
         "date": "2024-06-11",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#throw-expressions"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      }
     ]
   },
   {
@@ -1318,6 +1524,20 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#function-implementation-hiding"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "YK"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MSL"
       }
     ]
   },
@@ -1387,6 +1607,24 @@
       {
         "date": "2022-12-01",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "GB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MAH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
       }
     ]
   },
@@ -1493,6 +1731,33 @@
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#destructure-private-fields"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RRD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "community",
+        "name": "Sarah Groff Hennigh-Palermo",
+        "github": "sarahghp"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SRV"
+      }
     ]
   },
   {
@@ -1545,6 +1810,24 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#stringdedent"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RRD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MPC"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SHO"
       }
     ]
   },
@@ -1602,6 +1885,20 @@
       {
         "date": "2026-07-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-21.md#jsonparseimmutable"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "EAO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RKG"
       }
     ]
   },
@@ -1685,6 +1982,20 @@
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#symbol-predicates"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "DLM"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MAH"
+      }
     ]
   },
   {
@@ -1738,6 +2049,20 @@
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#continuation-async-iterator-helpers-open-questions"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "YSV"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JTO"
+      }
     ]
   },
   {
@@ -1770,6 +2095,16 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#iteratorrange"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "WH"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
       }
     ]
   },
@@ -1910,6 +2245,16 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#discard-void-binding--extractors--structs--throw-expressions"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "ACE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "OMT"
       }
     ]
   },
@@ -2172,6 +2517,12 @@
       {
         "date": "2025-05-29",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#mathclamp-for-stage-2"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
       }
     ]
   },
@@ -6569,7 +6920,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#explicit-resource-management-stage-4-progress-update"
       }
     ],
-    "expectedPublicationYear": 2027
+    "expectedPublicationYear": 2027,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "atomics-microwait",
@@ -6611,7 +6965,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#atomicspause-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2027
+    "expectedPublicationYear": 2027,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "joint-iteration",
@@ -6665,7 +7022,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#joint-iteration-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2027
+    "expectedPublicationYear": 2027,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "temporal",
@@ -6939,7 +7299,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#temporal-progress-update"
       }
     ],
-    "expectedPublicationYear": 2027
+    "expectedPublicationYear": 2027,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "upsert",
@@ -7009,7 +7372,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-20.md#upsert-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "json-parse-with-source",
@@ -7067,7 +7433,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#normative-extend-jsonparse-and-jsonstringify-for-interaction-with-the-source-text-of-primitive-values"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "iterator-sequencing",
@@ -7125,7 +7494,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#iterator-sequencing-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "arraybuffer-base64",
@@ -7179,7 +7551,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#uint8array-base64hex-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "math-sum",
@@ -7221,7 +7596,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-07/july-28.md#mathsumprecise-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "is-error",
@@ -7275,7 +7653,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-28.md#erroriserror-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "array-from-async",
@@ -7329,7 +7710,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-28.md#arrayfromasync-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regex-escaping",
@@ -7399,7 +7783,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#regexp-escaping-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "redeclarable-global-eval-vars",
@@ -7433,7 +7820,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#redeclarable-global-eval-vars-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "float16array",
@@ -7475,7 +7865,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#float16array-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "promise-try",
@@ -7525,7 +7918,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-20.md#needs-consensus-pr-make-promisetry-use-promiseresolve-in-non-error-case"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "iterator-helpers",
@@ -7631,7 +8027,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#re-using-iteratorresult-objects-in-iterator-helpers"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "json-modules",
@@ -7713,7 +8112,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "import-attributes",
@@ -7819,7 +8221,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regexp-modifiers",
@@ -7869,7 +8274,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#regexp-modifiers-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "set-methods",
@@ -7935,7 +8343,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "duplicate-named-capturing-groups",
@@ -7977,7 +8388,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#duplicate-named-capture-groups-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "arraybuffer-transfer",
@@ -8027,7 +8441,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#arraybuffer-transfer-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2024
+    "expectedPublicationYear": 2024,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "promise-with-resolvers",
@@ -8069,7 +8486,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#promisewithresolvers-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2024
+    "expectedPublicationYear": 2024,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "array-grouping",
@@ -8127,7 +8547,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#array-grouping-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2024
+    "expectedPublicationYear": 2024,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "resizablearraybuffer",
@@ -8197,7 +8620,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#resizable-buffers-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2024
+    "expectedPublicationYear": 2024,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regexp-v-flag",
@@ -8247,7 +8673,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#regexp-v-flag-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2024
+    "expectedPublicationYear": 2024,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "atomics-wait-async",
@@ -8293,7 +8722,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2024
+    "expectedPublicationYear": 2024,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "is-usv-string",
@@ -8339,7 +8771,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#well-formed-unicode-strings-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2024
+    "expectedPublicationYear": 2024,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "change-array-by-copy",
@@ -8397,7 +8832,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#change-array-by-copy"
       }
     ],
-    "expectedPublicationYear": 2023
+    "expectedPublicationYear": 2023,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "symbols-as-weakmap-keys",
@@ -8491,7 +8929,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys"
       }
     ],
-    "expectedPublicationYear": 2023
+    "expectedPublicationYear": 2023,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "hashbang",
@@ -8525,7 +8966,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-20.md#shebang-grammar"
       }
     ],
-    "expectedPublicationYear": 2023
+    "expectedPublicationYear": 2023,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "array-find-from-last",
@@ -8567,7 +9011,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#findlastfindlastindex-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2023
+    "expectedPublicationYear": 2023,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "error-cause",
@@ -8609,7 +9056,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "class-static-block",
@@ -8655,7 +9105,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "accessible-object-hasownproperty",
@@ -8693,7 +9146,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "relative-indexing-method",
@@ -8739,7 +9195,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#relative-indexing-at-method-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "private-fields-in-in",
@@ -8789,7 +9248,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#ergonomic-brand-checks-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "top-level-await",
@@ -8855,7 +9317,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regexp-match-indices",
@@ -8909,7 +9374,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "class-fields-private-methods-and-static-class-features",
@@ -8999,7 +9467,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-19.md#class-fields-private-methods-and-static-class-features-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "numeric-separator",
@@ -9065,7 +9536,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "logical-assignment",
@@ -9115,7 +9589,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "weakrefs",
@@ -9197,7 +9674,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "promise-any",
@@ -9251,7 +9731,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "string-replaceall",
@@ -9301,7 +9784,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "import-meta",
@@ -9343,7 +9829,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "nullish-coalescing",
@@ -9393,7 +9882,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "optional-chaining",
@@ -9467,7 +9959,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "for-in-order",
@@ -9501,7 +9996,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#for-in-order-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "global",
@@ -9543,7 +10041,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#globalthis-to-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "promise-allsettled",
@@ -9589,7 +10090,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#promiseallsettled"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "bigint",
@@ -9667,7 +10171,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#disallow-bigint-literals-for-annex-b-non-octal-digits"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "dynamic-import",
@@ -9713,7 +10220,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-25.md#loosening-idempotency-requirements-for-hostimportmoduledynamically-to-enable-retrying-failed-fetches"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "string-matchall",
@@ -9759,7 +10269,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "flatmap",
@@ -9817,7 +10330,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "string-left-right-trim",
@@ -9851,7 +10367,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "well-formed-stringify",
@@ -9885,7 +10404,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "object-from-entries",
@@ -9927,7 +10449,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "function-prototype-tostring-revision",
@@ -9985,7 +10510,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-27.md#conclusionresolution-13"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "symbol-description",
@@ -10023,7 +10551,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-27.md#conclusionresolution-12"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "json-superset",
@@ -10065,7 +10596,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-8"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "optional-catch-binding",
@@ -10095,7 +10629,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-7"
       }
     ],
-    "expectedPublicationYear": 2019
+    "expectedPublicationYear": 2019,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "async-iteration",
@@ -10129,7 +10666,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "promise-finally",
@@ -10183,7 +10723,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#promiseprototypefinally-should-use-onfinallys-realm-for-newly-creating-functions"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regexp-unicode-property-escapes",
@@ -10229,7 +10772,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-1"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regexp-lookbehind",
@@ -10283,7 +10829,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-20.md#8ia-normative-add-regexp-lookbehind-to-annex-b"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "object-rest-spread",
@@ -10329,7 +10878,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#restspread-properties-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regexp-named-groups",
@@ -10371,7 +10923,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "regexp-dotall-flag",
@@ -10405,7 +10960,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "template-literal-revision",
@@ -10431,7 +10989,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#10ia-template-literal-updates"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "ecmascript-sharedmem",
@@ -10473,7 +11034,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer"
       }
     ],
-    "expectedPublicationYear": 2017
+    "expectedPublicationYear": 2017,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "async-await",
@@ -10511,7 +11075,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions"
       }
     ],
-    "expectedPublicationYear": 2017
+    "expectedPublicationYear": 2017,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "trailing-function-commas",
@@ -10553,7 +11120,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions"
       }
     ],
-    "expectedPublicationYear": 2017
+    "expectedPublicationYear": 2017,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "object-getownpropertydescriptors",
@@ -10603,7 +11173,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9iia-objectgetownpropertydescriptors-when-a-proxy-returns-an-undefined-descriptor"
       }
     ],
-    "expectedPublicationYear": 2017
+    "expectedPublicationYear": 2017,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "string-pad-start-end",
@@ -10633,7 +11206,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd"
       }
     ],
-    "expectedPublicationYear": 2017
+    "expectedPublicationYear": 2017,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "object-values-entries",
@@ -10675,7 +11251,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries"
       }
     ],
-    "expectedPublicationYear": 2017
+    "expectedPublicationYear": 2017,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "exponentiation-operator",
@@ -10721,7 +11300,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw"
       }
     ],
-    "expectedPublicationYear": 2016
+    "expectedPublicationYear": 2016,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "array-prototype-includes",
@@ -10767,7 +11349,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#arrayprototypeincludes"
       }
     ],
-    "expectedPublicationYear": 2016
+    "expectedPublicationYear": 2016,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "callable-class-constructors",
@@ -12026,7 +12611,22 @@
         "date": "2026-05-19",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#intl-keep-trailing-zeros-for-stage-3"
       }
-    ]
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SFC"
+      }
+    ],
+    "test262": {
+      "hasTests": true,
+      "featureFlag": "Intl.NumberFormat-v3",
+      "url": "https://github.com/tc39/test262/search?l=JavaScript&q=Intl.NumberFormat-v3"
+    }
   },
   {
     "id": "intl-eradisplay",
@@ -12059,6 +12659,16 @@
         "date": "2022-11-29",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-29.md#eradisplay-option-for-intldatetimeformat"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "EAO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DLM"
+      }
     ]
   },
   {
@@ -12083,6 +12693,16 @@
       {
         "date": "2024-12-02",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#more-currency-display-choices"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
       }
     ]
   },
@@ -12538,7 +13158,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-03/march-10.md#introducing-intl-eramonth-code-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-locale-info",
@@ -12636,7 +13259,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#needs-consensus-pr-normative-call-regionpreference-in-weekinfooflocale"
       }
     ],
-    "expectedPublicationYear": 2026
+    "expectedPublicationYear": 2026,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-duration-format",
@@ -12726,7 +13352,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#intldurationformat-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2025
+    "expectedPublicationYear": 2025,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-numberformat-v3",
@@ -12784,7 +13413,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#asking-consensus-for-httpsgithubcomtc39proposal-intl-numberformat-v3pull130"
       }
     ],
-    "expectedPublicationYear": 2023
+    "expectedPublicationYear": 2023,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-enumeration",
@@ -12838,7 +13470,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-30.md#intl-enumeration-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-displaynames-v2",
@@ -12872,7 +13507,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#intldisplaynames-v2-option-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-extend-timezonename",
@@ -12914,7 +13552,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#extend-timezonename-option-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-segmenter",
@@ -12988,7 +13629,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-25.md#intlsegmenter-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2022
+    "expectedPublicationYear": 2022,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-datetimeformat-formatrange",
@@ -13018,7 +13662,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-26.md#intldatetimeformat-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-displaynames",
@@ -13052,7 +13699,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#intldisplaynames-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-datetime-style",
@@ -13086,7 +13736,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#intldatetimeformat-datestyletimestyle-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-list-format",
@@ -13120,7 +13773,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#intllistformat-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2021
+    "expectedPublicationYear": 2021,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-locale",
@@ -13162,7 +13818,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#intllocale-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "unified-intl-numberformat",
@@ -13188,7 +13847,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#unified-number-format-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-relative-time",
@@ -13242,7 +13904,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#intlrelativetimeformat-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2020
+    "expectedPublicationYear": 2020,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-plural-rules",
@@ -13284,7 +13949,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-26.md#12ig-intlpluralrules-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-formattoparts",
@@ -13310,7 +13978,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-26.md#12ia-intlnumberformatprototypeformattoparts-for-stage-4"
       }
     ],
-    "expectedPublicationYear": 2018
+    "expectedPublicationYear": 2018,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-datetimeformat-prototype-formattoparts",
@@ -13336,7 +14007,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#9ii-ecma-402-formattoparts"
       }
     ],
-    "expectedPublicationYear": 2017
+    "expectedPublicationYear": 2017,
+    "test262": {
+      "hasTests": true
+    }
   },
   {
     "id": "intl-unit-format",

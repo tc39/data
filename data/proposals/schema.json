@@ -116,7 +116,7 @@
 		},
 		"Test262Coverage": {
 			"title": "Test262 coverage",
-			"description": "Test262 coverage recorded for a Stage 2.7 or Stage 3 proposal.",
+			"description": "Test262 coverage recorded for a proposal.",
 			"type": "object",
 			"properties": {
 				"hasTests": {
@@ -198,6 +198,7 @@
 					"items": {
 						"$ref": "#/$defs/Person"
 					},
+					"minItems": 1,
 					"uniqueItems": true
 				},
 				"expectedPublicationYear": {
