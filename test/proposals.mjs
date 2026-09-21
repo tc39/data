@@ -33,6 +33,22 @@ const offPathStages = new Set(processStages
 	.filter(({ isOnPathToInclusion }) => !isOnPathToInclusion)
 	.map(({ stage }) => stage));
 
+// These proposals have known gaps in their historical champion metadata.
+const missingChampionExceptions = new Set([
+	'function-sent',
+	'collection-normalization',
+	'destructuring-private',
+]);
+
+// No formally appointed Stage 2.7 reviewers have been identified for these proposals.
+const missingStage27ReviewerExceptions = new Set([
+	'decorator-metadata',
+	'collection-normalization',
+	'pipeline-operator',
+	'module-declarations',
+	'jobcallback-module',
+]);
+
 /** @param {Person} person @returns {string} */
 function personKey(person) {
 	return person.kind === 'delegate' ? `delegate:${person.abbreviation}` : `community:${person.name}`;
@@ -102,7 +118,9 @@ test('data/proposals: Stage 2.7 reviewers are not champions', (t) => {
 
 test('data/proposals: every active proposal has a champion', (t) => {
 	const unchampioned = proposals
-		.filter(({ champions, stage }) => activeStages.has(stage) && champions.length === 0)
+		.filter(({ champions, id, stage }) => activeStages.has(stage)
+			&& champions.length === 0
+			&& !missingChampionExceptions.has(id))
 		.map(({ id }) => id);
 
 	t.deepEqual(unchampioned, [], 'no active proposal is missing a champion');
@@ -216,7 +234,8 @@ test('data/proposals: optional metadata agrees with proposal stages', (t) => {
 		}
 		// Stage 4 should also require this metadata, but it is missing from many historical records.
 		if (['2', '2.7', '3'].includes(proposal.stage)
-			&& (proposal.stage27Reviewers?.length ?? 0) === 0) {
+			&& (proposal.stage27Reviewers?.length ?? 0) === 0
+			&& !missingStage27ReviewerExceptions.has(proposal.id)) {
 			issues.push(`${proposal.id}: no Stage 2.7 reviewer metadata at Stage ${proposal.stage}`);
 		}
 		if (['3', '4'].includes(proposal.stage) && !('test262' in proposal)) {
