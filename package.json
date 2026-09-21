@@ -2,7 +2,7 @@
 	"private": true,
 	"name": "@tc39/data",
 	"version": "0.0.0",
-	"description": "TC39's source of truth for programmatically available process/proposal data.",
+	"description": "TC39's source of truth for programmatically available delegate, process, and proposal data.",
 	"main": false,
 	"scripts": {
 		"prepare": "node generate-types.mjs",
