@@ -1256,7 +1256,7 @@
   {
     "id": "import-buffer",
     "name": "Import Bytes",
-    "url": "https://github.com/styfle/proposal-import-buffer",
+    "url": "https://github.com/tc39/proposal-import-bytes",
     "specification": "ECMA-262",
     "stage": "2.7",
     "authors": [
@@ -2529,7 +2529,7 @@
   {
     "id": "native-promise-predicate",
     "name": "Native Promise Predicate",
-    "url": "https://github.com/mhofman/proposal-native-promise-predicate",
+    "url": "https://github.com/tc39/proposal-native-promise-predicate",
     "specification": "ECMA-262",
     "stage": "2",
     "authors": [
@@ -6052,7 +6052,7 @@
   {
     "id": "new-global",
     "name": "Module Global",
-    "url": "https://github.com/endojs/proposal-new-global",
+    "url": "https://github.com/endojs/proposal-module-global",
     "specification": "ECMA-262",
     "stage": "1",
     "authors": [
@@ -6329,7 +6329,7 @@
   {
     "id": "export-star-default",
     "name": "export all from",
-    "url": "https://github.com/guybedford/proposal-export-star-default",
+    "url": "https://github.com/tc39/proposal-export-star-default",
     "specification": "ECMA-262",
     "stage": "1",
     "authors": [
@@ -6354,7 +6354,7 @@
   {
     "id": "comparisons",
     "name": "Comparisons",
-    "url": "https://github.com/JakobJingleheimer/proposal-comparisons",
+    "url": "https://github.com/tc39/proposal-comparisons",
     "specification": "ECMA-262",
     "stage": "1",
     "authors": [
@@ -12986,7 +12986,7 @@
   {
     "id": "symbol-thenable",
     "name": "Symbol.thenable",
-    "url": "https://github.com/devsnek/proposal-symbol-thenable",
+    "url": "https://github.com/tc39/proposal-symbol-thenable",
     "specification": "ECMA-262",
     "stage": "withdrawn",
     "authors": [],
@@ -13808,7 +13808,7 @@
   {
     "id": "intl-zoneddatetimeformat",
     "name": "Intl.ZonedDateTimeFormat",
-    "url": "https://github.com/FrankYFTang/intl-zoneddatetimeformat",
+    "url": "https://github.com/tc39/proposal-intl-zoneddatetimeformat",
     "specification": "ECMA-402",
     "stage": "1",
     "authors": [
@@ -13833,7 +13833,7 @@
   {
     "id": "intl-unit-protocol",
     "name": "explore associating a unit with a number",
-    "url": "https://github.com/sffc/proposal-intl-unit-protocol",
+    "url": "https://github.com/tc39/proposal-intl-unit-protocol",
     "specification": "ECMA-402",
     "stage": "1",
     "authors": [
@@ -13891,7 +13891,7 @@
   {
     "id": "intl-default-behaviours",
     "name": "Default Behaviours for some Intl APIs",
-    "url": "https://github.com/eemeli/proposal-intl-default-behaviours",
+    "url": "https://github.com/tc39/proposal-intl-default-behaviours",
     "specification": "ECMA-402",
     "stage": "1",
     "authors": [
@@ -13945,7 +13945,7 @@
   {
     "id": "intl-energy-units",
     "name": "Intl Energy Units",
-    "url": "https://github.com/johanrd/proposal-intl-energy-units",
+    "url": "https://github.com/tc39/proposal-intl-energy-units",
     "specification": "ECMA-402",
     "stage": "1",
     "authors": [
