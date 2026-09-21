@@ -182,7 +182,7 @@
 					"uniqueItems": true
 				},
 				"presentations": {
-					"description": "Committee presentations in source order.",
+					"description": "Committee presentations in ascending chronological order.",
 					"type": "array",
 					"items": {
 						"$ref": "#/$defs/Presentation"

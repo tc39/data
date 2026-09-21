@@ -138,14 +138,14 @@ test('data/proposals: presentation dates are valid calendar dates', (t) => {
 	t.end();
 });
 
-test('data/proposals: presentations are ordered newest to oldest', (t) => {
+test('data/proposals: presentations are ordered oldest to newest', (t) => {
 	const outOfOrder = proposals.flatMap((proposal) => {
 		const dates = proposal.presentations.map(({ date }) => date);
-		const sortedDates = dates.toSorted((left, right) => presentationTime(right) - presentationTime(left));
+		const sortedDates = dates.toSorted((left, right) => presentationTime(left) - presentationTime(right));
 		return dates.some((date, index) => date !== sortedDates[index]) ? [proposal.id] : [];
 	});
 
-	t.deepEqual(outOfOrder, [], 'presentation dates are in descending order');
+	t.deepEqual(outOfOrder, [], 'presentation dates are in ascending order');
 	t.end();
 });
 
