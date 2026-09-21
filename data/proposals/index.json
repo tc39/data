@@ -277,8 +277,8 @@
     ],
     "test262": {
       "hasTests": true,
-      "featureFlag": "Testing plan",
-      "url": "https://github.com/tc39/test262/issues/4111"
+      "featureFlag": "import-defer",
+      "url": "https://github.com/tc39/test262/search?q=import-defer"
     },
     "stage27Reviewers": [
       {
@@ -6922,7 +6922,9 @@
     ],
     "expectedPublicationYear": 2027,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "explicit-resource-management",
+      "url": "https://github.com/tc39/test262/search?q=explicit-resource-management"
     }
   },
   {
@@ -6967,7 +6969,9 @@
     ],
     "expectedPublicationYear": 2027,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Atomics.pause",
+      "url": "https://github.com/tc39/test262/search?q=Atomics.pause"
     }
   },
   {
@@ -7024,7 +7028,9 @@
     ],
     "expectedPublicationYear": 2027,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "joint-iteration",
+      "url": "https://github.com/tc39/test262/search?q=joint-iteration"
     }
   },
   {
@@ -7301,7 +7307,9 @@
     ],
     "expectedPublicationYear": 2027,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Temporal",
+      "url": "https://github.com/tc39/test262/search?q=Temporal"
     }
   },
   {
@@ -7374,7 +7382,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "upsert",
+      "url": "https://github.com/tc39/test262/search?q=upsert"
     }
   },
   {
@@ -7435,7 +7445,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "json-parse-with-source",
+      "url": "https://github.com/tc39/test262/search?q=json-parse-with-source"
     }
   },
   {
@@ -7496,7 +7508,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "iterator-sequencing",
+      "url": "https://github.com/tc39/test262/search?q=iterator-sequencing"
     }
   },
   {
@@ -7553,7 +7567,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "uint8array-base64",
+      "url": "https://github.com/tc39/test262/search?q=uint8array-base64"
     }
   },
   {
@@ -7598,7 +7614,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Math.sumPrecise",
+      "url": "https://github.com/tc39/test262/search?q=Math.sumPrecise"
     }
   },
   {
@@ -7655,7 +7673,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Error.isError",
+      "url": "https://github.com/tc39/test262/search?q=Error.isError"
     }
   },
   {
@@ -7712,7 +7732,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Array.fromAsync",
+      "url": "https://github.com/tc39/test262/search?q=Array.fromAsync"
     }
   },
   {
@@ -7785,7 +7807,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "RegExp.escape",
+      "url": "https://github.com/tc39/test262/search?q=RegExp.escape"
     }
   },
   {
@@ -7822,7 +7846,8 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/language/global-code"
     }
   },
   {
@@ -7867,7 +7892,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Float16Array",
+      "url": "https://github.com/tc39/test262/search?q=Float16Array"
     }
   },
   {
@@ -7920,7 +7947,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "promise-try",
+      "url": "https://github.com/tc39/test262/search?q=promise-try"
     }
   },
   {
@@ -8029,7 +8058,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "iterator-helpers",
+      "url": "https://github.com/tc39/test262/search?q=iterator-helpers"
     }
   },
   {
@@ -8114,7 +8145,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "json-modules",
+      "url": "https://github.com/tc39/test262/search?q=json-modules"
     }
   },
   {
@@ -8223,7 +8256,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "import-attributes",
+      "url": "https://github.com/tc39/test262/search?q=import-attributes"
     }
   },
   {
@@ -8276,7 +8311,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-modifiers",
+      "url": "https://github.com/tc39/test262/search?q=regexp-modifiers"
     }
   },
   {
@@ -8345,7 +8382,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "set-methods",
+      "url": "https://github.com/tc39/test262/search?q=set-methods"
     }
   },
   {
@@ -8390,7 +8429,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-duplicate-named-groups",
+      "url": "https://github.com/tc39/test262/search?q=regexp-duplicate-named-groups"
     }
   },
   {
@@ -8443,7 +8484,9 @@
     ],
     "expectedPublicationYear": 2024,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "arraybuffer-transfer",
+      "url": "https://github.com/tc39/test262/search?q=arraybuffer-transfer"
     }
   },
   {
@@ -8488,7 +8531,9 @@
     ],
     "expectedPublicationYear": 2024,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "promise-with-resolvers",
+      "url": "https://github.com/tc39/test262/search?q=promise-with-resolvers"
     }
   },
   {
@@ -8549,7 +8594,9 @@
     ],
     "expectedPublicationYear": 2024,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "array-grouping",
+      "url": "https://github.com/tc39/test262/search?q=array-grouping"
     }
   },
   {
@@ -8622,7 +8669,9 @@
     ],
     "expectedPublicationYear": 2024,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "resizable-arraybuffer",
+      "url": "https://github.com/tc39/test262/search?q=resizable-arraybuffer"
     }
   },
   {
@@ -8675,7 +8724,9 @@
     ],
     "expectedPublicationYear": 2024,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-v-flag",
+      "url": "https://github.com/tc39/test262/search?q=regexp-v-flag"
     }
   },
   {
@@ -8724,7 +8775,9 @@
     ],
     "expectedPublicationYear": 2024,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Atomics.waitAsync",
+      "url": "https://github.com/tc39/test262/search?q=Atomics.waitAsync"
     }
   },
   {
@@ -8773,7 +8826,9 @@
     ],
     "expectedPublicationYear": 2024,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "String.prototype.isWellFormed",
+      "url": "https://github.com/tc39/test262/search?q=String.prototype.isWellFormed"
     }
   },
   {
@@ -8834,7 +8889,9 @@
     ],
     "expectedPublicationYear": 2023,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "change-array-by-copy",
+      "url": "https://github.com/tc39/test262/search?q=change-array-by-copy"
     }
   },
   {
@@ -8931,7 +8988,9 @@
     ],
     "expectedPublicationYear": 2023,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "symbols-as-weakmap-keys",
+      "url": "https://github.com/tc39/test262/search?q=symbols-as-weakmap-keys"
     }
   },
   {
@@ -8968,7 +9027,9 @@
     ],
     "expectedPublicationYear": 2023,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "hashbang",
+      "url": "https://github.com/tc39/test262/search?q=hashbang"
     }
   },
   {
@@ -9013,7 +9074,9 @@
     ],
     "expectedPublicationYear": 2023,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "array-find-from-last",
+      "url": "https://github.com/tc39/test262/search?q=array-find-from-last"
     }
   },
   {
@@ -9058,7 +9121,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "error-cause",
+      "url": "https://github.com/tc39/test262/search?q=error-cause"
     }
   },
   {
@@ -9107,7 +9172,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "class-static-block",
+      "url": "https://github.com/tc39/test262/search?q=class-static-block"
     }
   },
   {
@@ -9148,7 +9215,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Object.hasOwn",
+      "url": "https://github.com/tc39/test262/search?q=Object.hasOwn"
     }
   },
   {
@@ -9197,7 +9266,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Array.prototype.at",
+      "url": "https://github.com/tc39/test262/search?q=Array.prototype.at"
     }
   },
   {
@@ -9250,7 +9321,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "class-fields-private-in",
+      "url": "https://github.com/tc39/test262/search?q=class-fields-private-in"
     }
   },
   {
@@ -9319,7 +9392,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "top-level-await",
+      "url": "https://github.com/tc39/test262/search?q=top-level-await"
     }
   },
   {
@@ -9376,7 +9451,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-match-indices",
+      "url": "https://github.com/tc39/test262/search?q=regexp-match-indices"
     }
   },
   {
@@ -9469,7 +9546,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "class-fields-public",
+      "url": "https://github.com/tc39/test262/search?q=class-fields-public"
     }
   },
   {
@@ -9538,7 +9617,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "numeric-separator-literal",
+      "url": "https://github.com/tc39/test262/search?q=numeric-separator-literal"
     }
   },
   {
@@ -9591,7 +9672,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "logical-assignment-operators",
+      "url": "https://github.com/tc39/test262/search?q=logical-assignment-operators"
     }
   },
   {
@@ -9676,7 +9759,8 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/built-ins/WeakRef"
     }
   },
   {
@@ -9733,7 +9817,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Promise.any",
+      "url": "https://github.com/tc39/test262/search?q=Promise.any"
     }
   },
   {
@@ -9786,7 +9872,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "String.prototype.replaceAll",
+      "url": "https://github.com/tc39/test262/search?q=String.prototype.replaceAll"
     }
   },
   {
@@ -9831,7 +9919,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "import.meta",
+      "url": "https://github.com/tc39/test262/search?q=import.meta"
     }
   },
   {
@@ -9884,7 +9974,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "coalesce-expression",
+      "url": "https://github.com/tc39/test262/search?q=coalesce-expression"
     }
   },
   {
@@ -9961,7 +10053,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "optional-chaining",
+      "url": "https://github.com/tc39/test262/search?q=optional-chaining"
     }
   },
   {
@@ -9998,7 +10092,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "for-in-order",
+      "url": "https://github.com/tc39/test262/search?q=for-in-order"
     }
   },
   {
@@ -10043,7 +10139,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "globalThis",
+      "url": "https://github.com/tc39/test262/search?q=globalThis"
     }
   },
   {
@@ -10092,7 +10190,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Promise.allSettled",
+      "url": "https://github.com/tc39/test262/search?q=Promise.allSettled"
     }
   },
   {
@@ -10173,7 +10273,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "BigInt",
+      "url": "https://github.com/tc39/test262/search?q=BigInt"
     }
   },
   {
@@ -10222,7 +10324,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "dynamic-import",
+      "url": "https://github.com/tc39/test262/search?q=dynamic-import"
     }
   },
   {
@@ -10271,7 +10375,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "String.prototype.matchAll",
+      "url": "https://github.com/tc39/test262/search?q=String.prototype.matchAll"
     }
   },
   {
@@ -10332,7 +10438,9 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Array.prototype.flatMap",
+      "url": "https://github.com/tc39/test262/search?q=Array.prototype.flatMap"
     }
   },
   {
@@ -10369,7 +10477,9 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "string-trimming",
+      "url": "https://github.com/tc39/test262/search?q=string-trimming"
     }
   },
   {
@@ -10406,7 +10516,9 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "well-formed-json-stringify",
+      "url": "https://github.com/tc39/test262/search?q=well-formed-json-stringify"
     }
   },
   {
@@ -10451,7 +10563,9 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Object.fromEntries",
+      "url": "https://github.com/tc39/test262/search?q=Object.fromEntries"
     }
   },
   {
@@ -10512,7 +10626,8 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/pull/1510"
     }
   },
   {
@@ -10553,7 +10668,9 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Symbol.prototype.description",
+      "url": "https://github.com/tc39/test262/search?q=Symbol.prototype.description"
     }
   },
   {
@@ -10598,7 +10715,9 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "json-superset",
+      "url": "https://github.com/tc39/test262/search?q=json-superset"
     }
   },
   {
@@ -10631,7 +10750,9 @@
     ],
     "expectedPublicationYear": 2019,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "optional-catch-binding",
+      "url": "https://github.com/tc39/test262/search?q=optional-catch-binding"
     }
   },
   {
@@ -10668,7 +10789,9 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "async-iteration",
+      "url": "https://github.com/tc39/test262/search?q=async-iteration"
     }
   },
   {
@@ -10725,7 +10848,9 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Promise.prototype.finally",
+      "url": "https://github.com/tc39/test262/search?q=Promise.prototype.finally"
     }
   },
   {
@@ -10774,7 +10899,9 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-unicode-property-escapes",
+      "url": "https://github.com/tc39/test262/search?q=regexp-unicode-property-escapes"
     }
   },
   {
@@ -10831,7 +10958,9 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-lookbehind",
+      "url": "https://github.com/tc39/test262/search?q=regexp-lookbehind"
     }
   },
   {
@@ -10880,7 +11009,9 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "object-rest",
+      "url": "https://github.com/tc39/test262/search?q=object-rest"
     }
   },
   {
@@ -10925,7 +11056,9 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-named-groups",
+      "url": "https://github.com/tc39/test262/search?q=regexp-named-groups"
     }
   },
   {
@@ -10962,7 +11095,9 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "regexp-dotall",
+      "url": "https://github.com/tc39/test262/search?q=regexp-dotall"
     }
   },
   {
@@ -10991,7 +11126,8 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/pull/764"
     }
   },
   {
@@ -11036,7 +11172,9 @@
     ],
     "expectedPublicationYear": 2017,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "SharedArrayBuffer",
+      "url": "https://github.com/tc39/test262/search?q=SharedArrayBuffer"
     }
   },
   {
@@ -11077,7 +11215,9 @@
     ],
     "expectedPublicationYear": 2017,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "async-functions",
+      "url": "https://github.com/tc39/test262/search?q=async-functions"
     }
   },
   {
@@ -11122,7 +11262,8 @@
     ],
     "expectedPublicationYear": 2017,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/pull/733"
     }
   },
   {
@@ -11175,7 +11316,8 @@
     ],
     "expectedPublicationYear": 2017,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/built-ins/Object/getOwnPropertyDescriptors"
     }
   },
   {
@@ -11208,7 +11350,8 @@
     ],
     "expectedPublicationYear": 2017,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/built-ins/String/prototype/padStart"
     }
   },
   {
@@ -11253,7 +11396,8 @@
     ],
     "expectedPublicationYear": 2017,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/built-ins/Object/values"
     }
   },
   {
@@ -11302,7 +11446,9 @@
     ],
     "expectedPublicationYear": 2016,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "exponentiation",
+      "url": "https://github.com/tc39/test262/search?q=exponentiation"
     }
   },
   {
@@ -11351,7 +11497,9 @@
     ],
     "expectedPublicationYear": 2016,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Array.prototype.includes",
+      "url": "https://github.com/tc39/test262/search?q=Array.prototype.includes"
     }
   },
   {
@@ -13160,7 +13308,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.Era-monthcode",
+      "url": "https://github.com/tc39/test262/search?q=Intl.Era-monthcode"
     }
   },
   {
@@ -13261,7 +13411,9 @@
     ],
     "expectedPublicationYear": 2026,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.Locale-info",
+      "url": "https://github.com/tc39/test262/search?q=Intl.Locale-info"
     }
   },
   {
@@ -13354,7 +13506,9 @@
     ],
     "expectedPublicationYear": 2025,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.DurationFormat",
+      "url": "https://github.com/tc39/test262/search?q=Intl.DurationFormat"
     }
   },
   {
@@ -13415,7 +13569,9 @@
     ],
     "expectedPublicationYear": 2023,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.NumberFormat-v3",
+      "url": "https://github.com/tc39/test262/search?q=Intl.NumberFormat-v3"
     }
   },
   {
@@ -13472,7 +13628,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl-enumeration",
+      "url": "https://github.com/tc39/test262/search?q=Intl-enumeration"
     }
   },
   {
@@ -13509,7 +13667,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.DisplayNames-v2",
+      "url": "https://github.com/tc39/test262/search?q=Intl.DisplayNames-v2"
     }
   },
   {
@@ -13554,7 +13714,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.DateTimeFormat-extend-timezonename",
+      "url": "https://github.com/tc39/test262/search?q=Intl.DateTimeFormat-extend-timezonename"
     }
   },
   {
@@ -13631,7 +13793,9 @@
     ],
     "expectedPublicationYear": 2022,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.Segmenter",
+      "url": "https://github.com/tc39/test262/search?q=Intl.Segmenter"
     }
   },
   {
@@ -13664,7 +13828,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.DateTimeFormat-formatRange",
+      "url": "https://github.com/tc39/test262/search?q=Intl.DateTimeFormat-formatRange"
     }
   },
   {
@@ -13701,7 +13867,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.DisplayNames",
+      "url": "https://github.com/tc39/test262/search?q=Intl.DisplayNames"
     }
   },
   {
@@ -13738,7 +13906,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.DateTimeFormat-datetimestyle",
+      "url": "https://github.com/tc39/test262/search?q=Intl.DateTimeFormat-datetimestyle"
     }
   },
   {
@@ -13775,7 +13945,9 @@
     ],
     "expectedPublicationYear": 2021,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.ListFormat",
+      "url": "https://github.com/tc39/test262/search?q=Intl.ListFormat"
     }
   },
   {
@@ -13820,7 +13992,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.Locale",
+      "url": "https://github.com/tc39/test262/search?q=Intl.Locale"
     }
   },
   {
@@ -13849,7 +14023,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.NumberFormat-unified",
+      "url": "https://github.com/tc39/test262/search?q=Intl.NumberFormat-unified"
     }
   },
   {
@@ -13906,7 +14082,9 @@
     ],
     "expectedPublicationYear": 2020,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "featureFlag": "Intl.RelativeTimeFormat",
+      "url": "https://github.com/tc39/test262/search?q=Intl.RelativeTimeFormat"
     }
   },
   {
@@ -13951,7 +14129,8 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/intl402/PluralRules"
     }
   },
   {
@@ -13980,7 +14159,8 @@
     ],
     "expectedPublicationYear": 2018,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/intl402/NumberFormat/prototype/formatToParts"
     }
   },
   {
@@ -14009,7 +14189,8 @@
     ],
     "expectedPublicationYear": 2017,
     "test262": {
-      "hasTests": true
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/tree/main/test/intl402/DateTimeFormat/prototype/formatToParts"
     }
   },
   {

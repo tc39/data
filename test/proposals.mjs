@@ -161,6 +161,31 @@ test('data/proposals: presentations are ordered oldest to newest', (t) => {
 	t.end();
 });
 
+test('data/proposals: Test262 coverage links identify test evidence', (t) => {
+	const invalid = proposals.flatMap((proposal) => {
+		if (proposal.test262?.hasTests !== true) {
+			return [];
+		}
+		if (!proposal.test262.url) {
+			return [`${proposal.id}: missing URL`];
+		}
+
+		const url = new URL(proposal.test262.url);
+		const isPullRequest = (/^\/tc39\/test262\/pull\/[1-9]\d*$/u).test(url.pathname);
+		const isTestDirectory = (/^\/tc39\/test262\/tree\/[^/]+\/test\/.+$/u).test(url.pathname);
+		const isFeatureSearch = url.pathname === '/tc39/test262/search'
+			&& typeof proposal.test262.featureFlag === 'string'
+			&& url.searchParams.get('q') === proposal.test262.featureFlag;
+
+		return isPullRequest || isTestDirectory || isFeatureSearch
+			? []
+			: [`${proposal.id}: ${proposal.test262.url}`];
+	});
+
+	t.deepEqual(invalid, [], 'tests are evidenced by a PR, feature search, or test directory');
+	t.end();
+});
+
 test('data/proposals: external data links point to their canonical repositories', (t) => {
 	const invalid = proposals.flatMap((proposal) => {
 		const links = proposal.presentations
