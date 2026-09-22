@@ -45,7 +45,6 @@ const reviewerExceptions = new Set([
 	'array-prototype-includes',
 	'atomics-microwait',
 	'collection-normalization',
-	'decorator-metadata',
 	'exponentiation-operator',
 	'intl-datetimeformat-formatrange',
 	'intl-displaynames-v2',

@@ -931,7 +931,25 @@
       "hasTests": true,
       "featureFlag": "decorator-metadata",
       "url": "https://github.com/tc39/test262/pull/3971"
-    }
+    },
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "SYG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "LEO"
+      }
+    ]
   },
   {
     "id": "shadowrealm",
