@@ -70,10 +70,24 @@ function presentationTime(date) {
 }
 
 /** @param {Proposal} proposal @returns {boolean} */
+function hasChampionGap(proposal) {
+	return activeStages.has(proposal.stage) && proposal.champions.length === 0;
+}
+
+/** @param {Proposal} proposal @returns {boolean} */
 function hasReviewerGap(proposal) {
 	return ['2', '2.7', '3', '4'].includes(proposal.stage)
-		&& (proposal.stage27Reviewers?.length ?? 0) === 0
-		&& !reviewerExceptions.has(proposal.id);
+		&& (proposal.stage27Reviewers?.length ?? 0) === 0;
+}
+
+/**
+ * @param {Set<string>} exceptions
+ * @param {(proposal: Proposal) => boolean} hasGap
+ * @returns {string[]}
+ */
+function unneededExceptions(exceptions, hasGap) {
+	const gaps = new Set(proposals.filter(hasGap).map(({ id }) => id));
+	return [...exceptions].filter((id) => !gaps.has(id));
 }
 
 test('data/proposals: proposal identifiers are unique', (t) => {
@@ -134,12 +148,24 @@ test('data/proposals: Stage 2.7 reviewers are not champions', (t) => {
 
 test('data/proposals: every active proposal has a champion', (t) => {
 	const unchampioned = proposals
-		.filter(({ champions, id, stage }) => activeStages.has(stage)
-			&& champions.length === 0
-			&& !championExceptions.has(id))
+		.filter((proposal) => hasChampionGap(proposal) && !championExceptions.has(proposal.id))
 		.map(({ id }) => id);
 
 	t.deepEqual(unchampioned, [], 'no active proposal is missing a champion');
+	t.end();
+});
+
+test('data/proposals: metadata exceptions remain necessary', (t) => {
+	t.deepEqual(
+		unneededExceptions(championExceptions, hasChampionGap),
+		[],
+		'every champion exception identifies an active proposal without champions',
+	);
+	t.deepEqual(
+		unneededExceptions(reviewerExceptions, hasReviewerGap),
+		[],
+		'every reviewer exception identifies an applicable proposal without Stage 2.7 reviewers',
+	);
 	t.end();
 });
 
@@ -248,7 +274,7 @@ test('data/proposals: optional metadata agrees with proposal stages', (t) => {
 		if (['0', '1'].includes(proposal.stage) && 'stage27Reviewers' in proposal) {
 			issues.push(`${proposal.id}: Stage 2.7 reviewers before Stage 2`);
 		}
-		if (hasReviewerGap(proposal)) {
+		if (hasReviewerGap(proposal) && !reviewerExceptions.has(proposal.id)) {
 			issues.push(`${proposal.id}: no Stage 2.7 reviewer metadata at Stage ${proposal.stage}`);
 		}
 		if (['3', '4'].includes(proposal.stage) && !('test262' in proposal)) {
