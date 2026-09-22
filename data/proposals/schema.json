@@ -1,0 +1,228 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Proposals",
+	"description": "TC39 proposals across all supported specifications and process stages.",
+	"type": "array",
+	"items": {
+		"$ref": "#/$defs/Proposal"
+	},
+	"$defs": {
+		"ProposalStage": {
+			"title": "Proposal stage",
+			"description": "A stage of the TC39 process.",
+			"type": "string",
+			"enum": [
+				"0",
+				"1",
+				"2",
+				"2.7",
+				"3",
+				"4",
+				"abandoned",
+				"rejected",
+				"subsumed",
+				"withdrawn"
+			]
+		},
+		"Specification": {
+			"title": "Specification",
+			"description": "An ECMA specification targeted by a proposal.",
+			"type": "string",
+			"enum": [
+				"ECMA-262",
+				"ECMA-402",
+				"ECMA-404",
+				"ECMA-426"
+			]
+		},
+		"DelegateReference": {
+			"title": "Delegate reference",
+			"description": "A TC39 delegate, identified by an abbreviation in @tc39/data-delegates.",
+			"type": "object",
+			"properties": {
+				"kind": {
+					"const": "delegate"
+				},
+				"abbreviation": {
+					"description": "The delegate's official abbreviation.",
+					"type": "string",
+					"pattern": "^[A-Z]{2,3}$"
+				}
+			},
+			"required": [
+				"kind",
+				"abbreviation"
+			],
+			"additionalProperties": false
+		},
+		"CommunityMember": {
+			"title": "Community member",
+			"description": "A proposal contributor who is not referenced as a TC39 delegate.",
+			"type": "object",
+			"properties": {
+				"kind": {
+					"const": "community"
+				},
+				"name": {
+					"description": "The contributor's full name.",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				},
+				"github": {
+					"description": "The contributor's GitHub username, if known.",
+					"type": "string",
+					"pattern": "^[A-Za-z0-9-]+$",
+					"maxLength": 39
+				}
+			},
+			"required": [
+				"kind",
+				"name"
+			],
+			"additionalProperties": false
+		},
+		"Person": {
+			"title": "Person",
+			"description": "An author, champion, or reviewer of a proposal.",
+			"oneOf": [
+				{
+					"$ref": "#/$defs/DelegateReference"
+				},
+				{
+					"$ref": "#/$defs/CommunityMember"
+				}
+			]
+		},
+		"Presentation": {
+			"title": "Presentation",
+			"description": "A presentation of a proposal to the committee.",
+			"type": "object",
+			"properties": {
+				"date": {
+					"description": "The meeting month as YYYY-MM, or its date as YYYY-MM-DD when a day is recorded.",
+					"type": "string",
+					"pattern": "^[0-9]{4}-(?:0[1-9]|1[0-2])(?:-(?:0[1-9]|[12][0-9]|3[01]))?$"
+				},
+				"notesUrl": {
+					"description": "A link to the meeting notes for this presentation, if known.",
+					"type": "string",
+					"pattern": "^https://github\\.com/tc39/notes/blob/\\S+/meetings/\\S+$"
+				}
+			},
+			"required": [
+				"date"
+			],
+			"additionalProperties": false
+		},
+		"Test262Coverage": {
+			"title": "Test262 coverage",
+			"description": "Test262 coverage recorded for a proposal.",
+			"type": "object",
+			"properties": {
+				"hasTests": {
+					"description": "Whether the proposal has Test262 tests or a feature flag.",
+					"type": "boolean"
+				},
+				"url": {
+					"description": "A link to the proposal's Test262 tests, search results, pull request, or tracking issue.",
+					"type": "string",
+					"pattern": "^https://github\\.com/tc39/test262/\\S+$"
+				},
+				"featureFlag": {
+					"description": "The Test262 feature flag or other coverage label, if known.",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				}
+			},
+			"required": [
+				"hasTests"
+			],
+			"additionalProperties": false
+		},
+		"Proposal": {
+			"title": "Proposal",
+			"description": "A TC39 proposal.",
+			"type": "object",
+			"properties": {
+				"id": {
+					"description": "The proposal's immutable kebab-case identifier.",
+					"type": "string",
+					"pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+				},
+				"name": {
+					"description": "The proposal's plain-text display name.",
+					"type": "string",
+					"pattern": "^(?![\\s\\S]*`)\\S([\\s\\S]*\\S)?$"
+				},
+				"url": {
+					"description": "The proposal's canonical HTTPS URL, or an empty string for a proposal without a repository.",
+					"type": "string",
+					"pattern": "^(?:https://\\S+)?$"
+				},
+				"specification": {
+					"$ref": "#/$defs/Specification"
+				},
+				"stage": {
+					"$ref": "#/$defs/ProposalStage"
+				},
+				"authors": {
+					"description": "The proposal's authors.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/Person"
+					},
+					"uniqueItems": true
+				},
+				"champions": {
+					"description": "The proposal's champions.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/Person"
+					},
+					"uniqueItems": true
+				},
+				"presentations": {
+					"description": "Committee presentations in ascending chronological order.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/Presentation"
+					},
+					"uniqueItems": true
+				},
+				"test262": {
+					"$ref": "#/$defs/Test262Coverage"
+				},
+				"stage27Reviewers": {
+					"description": "The delegates and community members reviewing the proposal for Stage 2.7.",
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/Person"
+					},
+					"minItems": 1,
+					"uniqueItems": true
+				},
+				"expectedPublicationYear": {
+					"description": "The expected or actual year of publication in an ECMAScript standard.",
+					"type": "integer",
+					"minimum": 2015
+				},
+				"rationale": {
+					"description": "Why a proposal has a terminal status.",
+					"type": "string",
+					"pattern": "^\\S([\\s\\S]*\\S)?$"
+				}
+			},
+			"required": [
+				"id",
+				"name",
+				"url",
+				"specification",
+				"stage",
+				"authors",
+				"champions",
+				"presentations"
+			],
+			"additionalProperties": false
+		}
+	}
+}
