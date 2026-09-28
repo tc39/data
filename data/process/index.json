@@ -52,8 +52,8 @@
 		"isTerminal": true,
 		"isOnPathToInclusion": false,
 		"status": "Work on this proposal has stopped without a decision by the committee to reject it.",
-		"entranceCriteria": "The champions were no longer participating in the process, and no delegates were willing to take over as champion.",
-		"purpose": "Record that work has stopped and preserve the proposal's history."
+		"entranceCriteria": "The champions are no longer participating in the process, and no delegates are willing to take over as champion.",
+		"purpose": "Record that work has stopped and that there are currently no plans to continue considering the proposed problem space."
 	},
 	{
 		"stage": "rejected",
@@ -61,7 +61,7 @@
 		"isOnPathToInclusion": false,
 		"status": "The committee has decided not to pursue this proposal.",
 		"entranceCriteria": "The committee has reached consensus not to continue considering the proposed problem space.",
-		"purpose": "Record the committee's decision and preserve its rationale."
+		"purpose": "Record that work has stopped and that there are currently no plans to continue considering the proposed problem space."
 	},
 	{
 		"stage": "subsumed",
@@ -69,14 +69,14 @@
 		"isOnPathToInclusion": false,
 		"status": "This proposal's scope has been incorporated into another proposal.",
 		"entranceCriteria": "Another proposal has made this proposal unnecessary.",
-		"purpose": "Point readers to the proposal that continues the work and preserve this proposal's history."
+		"purpose": "Point readers to the proposal that continues the work."
 	},
 	{
 		"stage": "withdrawn",
 		"isTerminal": true,
 		"isOnPathToInclusion": false,
 		"status": "The proposal's champions have withdrawn it from consideration.",
-		"entranceCriteria": "The champions have decided not to continue pursuing the proposal.",
-		"purpose": "Record the withdrawal and preserve the proposal's history."
+		"entranceCriteria": "The champions have notified the committee that they do not intend to continue pursuing the proposal.",
+		"purpose": "Record that work has stopped and that there are currently no plans to continue considering the proposed problem space."
 	}
 ]
