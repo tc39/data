@@ -12649,7 +12649,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#9ig-dateparse-fallback-semantics"
       }
     ],
-    "rationale": "likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]"
+    "rationale": "likely replaced by [uniform parsing of quasi-standard `Date.parse` input](https://github.com/tc39/proposal-uniform-interchange-date-parsing)"
   },
   {
     "id": "tc39-proposal-literals",
@@ -12815,7 +12815,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#record-and-tuple-update"
       }
     ],
-    "rationale": "replaced with [Symbols as WeakMap keys][symbols-weakmap]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection"
+    "rationale": "replaced with [Symbols as WeakMap keys](https://github.com/tc39/proposal-symbols-as-weakmap-keys); also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection"
   },
   {
     "id": "generic-comparison",
@@ -12840,7 +12840,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison"
       }
     ],
-    "rationale": "replaced with [Array Equality][array-equality]"
+    "rationale": "replaced with [Array Equality](https://github.com/tc39/proposal-array-equality)"
   },
   {
     "id": "typedarray-stride",
@@ -12936,7 +12936,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-24.md#arraybufferprototypetransfer"
       }
     ],
-    "rationale": "superseded by [Resizable Buffers][resizable-buffers]"
+    "rationale": "superseded by [Resizable Buffers](https://github.com/tc39/proposal-resizablearraybuffer)"
   },
   {
     "id": "function-helpers",
@@ -13314,7 +13314,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#redux-update-on-sequence-property-escapes-in-unicode-regular-expressions"
       }
     ],
-    "rationale": "subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal"
+    "rationale": "subsumed by [RegExp v flag with set notation + properties of strings](https://github.com/tc39/proposal-regexp-v-flag) proposal"
   },
   {
     "id": "record-tuple",
@@ -13395,7 +13395,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-14.md#withdrawing-records--tuples"
       }
     ],
-    "rationale": "subsumed by [Composites][composite]"
+    "rationale": "subsumed by [Composites](https://github.com/tc39/proposal-composites)"
   },
   {
     "id": "dynamic-import-host-adjustment",
@@ -13526,7 +13526,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#needs-consensus-pr-ecma-402-specify-time-zone-ids-to-reduce-divergence-between-engines"
       }
     ],
-    "rationale": "Reached Stage 3 in July 2023, then was merged into [Temporal][temporal]"
+    "rationale": "Reached Stage 3 in July 2023, then was merged into [Temporal](https://github.com/tc39/proposal-temporal)"
   },
   {
     "id": "intl-keep-trailing-zeros",
