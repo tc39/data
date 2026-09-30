@@ -412,7 +412,7 @@
     "name": "iterator chunking",
     "url": "https://github.com/tc39/proposal-iterator-chunking",
     "specification": "ECMA-262",
-    "stage": "3",
+    "stage": "4",
     "authors": [
       {
         "kind": "delegate",
@@ -451,6 +451,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-chunking-for-stage-3"
       }
     ],
+    "expectedPublicationYear": 2027,
     "test262": {
       "hasTests": true,
       "featureFlag": "iterator-chunking",
@@ -476,7 +477,7 @@
     "name": "Iterator Includes",
     "url": "https://github.com/tc39/proposal-iterator-includes",
     "specification": "ECMA-262",
-    "stage": "3",
+    "stage": "4",
     "authors": [
       {
         "kind": "delegate",
@@ -503,6 +504,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-includes-for-stage-3"
       }
     ],
+    "expectedPublicationYear": 2027,
     "test262": {
       "hasTests": true,
       "featureFlag": "iterator-includes",
@@ -524,7 +526,7 @@
     "name": "Iterator Join",
     "url": "https://github.com/tc39/proposal-iterator-join",
     "specification": "ECMA-262",
-    "stage": "3",
+    "stage": "4",
     "authors": [
       {
         "kind": "delegate",
@@ -545,8 +547,12 @@
       {
         "date": "2026-05-20",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-join"
+      },
+      {
+        "date": "2026-09"
       }
     ],
+    "expectedPublicationYear": 2027,
     "test262": {
       "hasTests": true,
       "featureFlag": "iterator-join",
@@ -1875,10 +1881,10 @@
   },
   {
     "id": "json-parseimmutable",
-    "name": "JSON.parseImmutable",
+    "name": "JSON.parse options",
     "url": "https://github.com/tc39/proposal-json-parseimmutable",
     "specification": "ECMA-262",
-    "stage": "2",
+    "stage": "2.7",
     "authors": [
       {
         "kind": "delegate",
@@ -2798,6 +2804,9 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#continuation-thenable-curtailment-for-27"
+      },
+      {
+        "date": "2026-09"
       }
     ],
     "stage27Reviewers": [
@@ -6447,7 +6456,7 @@
     "name": "Bigint from exponential",
     "url": "https://github.com/tc39/proposal-bigint-from-exponential",
     "specification": "ECMA-262",
-    "stage": "1",
+    "stage": "2",
     "authors": [
       {
         "kind": "delegate",
@@ -6468,6 +6477,19 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#temperature-checks-relating-to-httpsgithubcomtc39proposal-bigint-from-exponential"
+      },
+      {
+        "date": "2026-09"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RBR"
       }
     ]
   },
@@ -6522,6 +6544,30 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#linear-matching"
+      }
+    ]
+  },
+  {
+    "id": "abort-controller",
+    "name": "Abort Controller",
+    "url": "https://github.com/bakkot/structured-concurrency-for-js",
+    "specification": "ECMA-262",
+    "stage": "1",
+    "authors": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      }
+    ],
+    "champions": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      }
+    ],
+    "presentations": [
+      {
+        "date": "2026-09"
       }
     ]
   },
