@@ -347,6 +347,11 @@
     "github": "caiolima",
     "affiliation": "Igalia"
   },
+  "CPO": {
+    "name": "Caitlin Potter",
+    "github": "caitp",
+    "affiliation": "Igalia"
+  },
   "CJT": {
     "name": "Cam Tenny",
     "github": "cjtenny"
@@ -1632,6 +1637,11 @@
   },
   "MTI": {
     "name": "Mrelita Tiwari"
+  },
+  "MSG": {
+    "name": "Ms2ger",
+    "github": "Ms2ger",
+    "affiliation": "Igalia"
   },
   "MCU": {
     "name": "Mu-An Chiou",

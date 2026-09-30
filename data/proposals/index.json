@@ -1789,9 +1789,8 @@
         "abbreviation": "WH"
       },
       {
-        "kind": "community",
-        "name": "Sarah Groff Hennigh-Palermo",
-        "github": "sarahghp"
+        "kind": "delegate",
+        "abbreviation": "SHO"
       },
       {
         "kind": "delegate",
@@ -5716,10 +5715,6 @@
       {
         "kind": "delegate",
         "abbreviation": "MLM"
-      },
-      {
-        "kind": "community",
-        "name": "Rob Eisenberg"
       }
     ],
     "presentations": [
@@ -6594,10 +6589,6 @@
       {
         "kind": "delegate",
         "abbreviation": "BT"
-      },
-      {
-        "kind": "community",
-        "name": "Matthew Podwysocki"
       }
     ],
     "presentations": [
@@ -6713,14 +6704,14 @@
     "stage": "0",
     "authors": [
       {
-        "kind": "community",
-        "name": "Caitlin Potter"
+        "kind": "delegate",
+        "abbreviation": "CPO"
       }
     ],
     "champions": [
       {
-        "kind": "community",
-        "name": "Caitlin Potter"
+        "kind": "delegate",
+        "abbreviation": "CPO"
       }
     ],
     "presentations": []
@@ -9807,8 +9798,8 @@
         "abbreviation": "GB"
       },
       {
-        "kind": "community",
-        "name": "Ms2ger"
+        "kind": "delegate",
+        "abbreviation": "MSG"
       }
     ],
     "champions": [
@@ -13637,8 +13628,8 @@
     "stage": "2",
     "authors": [
       {
-        "kind": "community",
-        "name": "Louis-Aime"
+        "kind": "delegate",
+        "abbreviation": "LAF"
       }
     ],
     "champions": [
@@ -13647,8 +13638,8 @@
         "abbreviation": "SFC"
       },
       {
-        "kind": "community",
-        "name": "Louis-Aime"
+        "kind": "delegate",
+        "abbreviation": "LAF"
       }
     ],
     "presentations": [

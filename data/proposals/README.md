@@ -11,7 +11,7 @@ TC39 proposal data.
 
 The package exports a JSON-formatted description of all TC39 proposals, past and present, for programmatic consumption. The data can be consumed in a human-readable form at [tc39/proposals](https://github.com/tc39/proposals).
 
-Delegate authors, champions, and reviewers are referenced by the abbreviations exported from [`@tc39/data-delegates`][delegates-package].
+Champions and Stage 2.7 reviewers are TC39 delegates, referenced by the abbreviations exported from [`@tc39/data-delegates`][delegates-package]. Authors may also be community members.
 
 ## Example
 

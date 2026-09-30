@@ -113,6 +113,27 @@ test('data/proposals: delegate references resolve', (t) => {
 	t.end();
 });
 
+test('data/proposals: champions are delegates', (t) => {
+	const communityChampions = proposals.flatMap(({ id, champions }) => champions.flatMap((person) => (
+		person.kind === 'community' ? [`${id}: ${person.name}`] : []
+	)));
+
+	t.deepEqual(communityChampions, [], 'every champion is a TC39 delegate');
+	t.end();
+});
+
+test('data/proposals: Stage 2.7 reviewers are delegates', (t) => {
+	const communityReviewers = proposals.flatMap(({ id, stage27Reviewers = [] }) => {
+		const names = stage27Reviewers.flatMap((person) => (
+			person.kind === 'community' ? [person.name] : []
+		));
+		return names.map((name) => `${id}: ${name}`);
+	});
+
+	t.deepEqual(communityReviewers, [], 'every Stage 2.7 reviewer is a TC39 delegate');
+	t.end();
+});
+
 test('data/proposals: people lists do not contain duplicates', (t) => {
 	const duplicates = proposals.flatMap((proposal) => [
 		{ field: 'authors', people: proposal.authors },
