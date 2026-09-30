@@ -1589,6 +1589,20 @@
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#collection-normalization"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "ACE"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      }
     ]
   },
   {
@@ -1721,6 +1735,16 @@
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#pipeline-operator-pt-1"
       }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RKG"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "CHU"
+      }
     ]
   },
   {
@@ -1735,7 +1759,12 @@
         "abbreviation": "JRL"
       }
     ],
-    "champions": [],
+    "champions": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      }
+    ],
     "presentations": [
       {
         "date": "2021-12-14",
@@ -1751,10 +1780,6 @@
       }
     ],
     "stage27Reviewers": [
-      {
-        "kind": "delegate",
-        "abbreviation": "KG"
-      },
       {
         "kind": "delegate",
         "abbreviation": "RRD"
@@ -1950,6 +1975,16 @@
       {
         "date": "2022-12-01",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "GB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
       }
     ]
   },
@@ -2302,6 +2337,16 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#propagate-active-scriptormodule-with-jobcallback-record"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "CDA"
       }
     ]
   },

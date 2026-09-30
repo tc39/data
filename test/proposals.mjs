@@ -37,21 +37,16 @@ const offPathStages = new Set(processStages
 const championExceptions = new Set([
 	'function-sent',
 	'collection-normalization',
-	'destructuring-private',
 ]);
 
 // No formally appointed Stage 2.7 reviewers have been identified for these proposals.
 const reviewerExceptions = new Set([
 	'array-prototype-includes',
 	'atomics-microwait',
-	'collection-normalization',
 	'exponentiation-operator',
 	'intl-datetimeformat-formatrange',
 	'intl-displaynames-v2',
-	'jobcallback-module',
-	'module-declarations',
 	'object-values-entries',
-	'pipeline-operator',
 	'redeclarable-global-eval-vars',
 	'regex-escaping',
 	'string-pad-start-end',
