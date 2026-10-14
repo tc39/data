@@ -259,6 +259,10 @@
         "date": "2024-06"
       },
       {
+        "date": "2024-10-10",
+        "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#import-defer-updates-regarding-evaluation-triggers"
+      },
+      {
         "date": "2024-12-03",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#import-defer-updates"
       },
@@ -8335,6 +8339,10 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#iterator-helpers-should-symboliterator-fallback-be-a-callable-check-or-an-undefinednull-check"
       },
       {
+        "date": "2023-05-16",
+        "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#iterator-helpers-should-malformed-iterators-fail-early-or-fail-only-when-iterated"
+      },
+      {
         "date": "2023-07-11",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#iterator-helpers-small-optimisation-to-avoid-string-wrapper-objects"
       },
@@ -8525,12 +8533,20 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#module-attributes-for-stage-1"
       },
       {
+        "date": "2019-12-05",
+        "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#module-attributes-continuation-of-earlier-discussion"
+      },
+      {
         "date": "2020-02-06",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#module-attributes-status-update"
       },
       {
         "date": "2020-06-03",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#module-attributes-for-stage-2"
+      },
+      {
+        "date": "2020-06-04",
+        "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#continuation-module-attributes-for-stage-2"
       },
       {
         "date": "2020-07-21",
@@ -8969,6 +8985,10 @@
       {
         "date": "2022-11-29",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/nov-29.md#array-grouping-webcompat-issue"
+      },
+      {
+        "date": "2023-05-16",
+        "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#arrayprototypegroup-rename-for-web-compatibility"
       },
       {
         "date": "2023-07-11",
@@ -11178,6 +11198,14 @@
       {
         "date": "2017-11-28",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#10ia-arrayprototypeflatten--arrayprototypeflatmap-for-stage-3"
+      },
+      {
+        "date": "2018-03-20",
+        "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-20.md#10ig-update-on-arrayprototypeflatten-web-incompatibility"
+      },
+      {
+        "date": "2018-03-22",
+        "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-03/mar-22.md#10ig-update-on-arrayprototypeflatten-web-incompatibility"
       },
       {
         "date": "2018-05-22",
