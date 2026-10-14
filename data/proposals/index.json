@@ -2509,7 +2509,7 @@
     "name": "Deferred Re-exports",
     "url": "https://github.com/tc39/proposal-deferred-reexports",
     "specification": "ECMA-262",
-    "stage": "2",
+    "stage": "2.7",
     "authors": [
       {
         "kind": "delegate",
@@ -3389,24 +3389,24 @@
   },
   {
     "id": "cancellation",
-    "name": "AbortController",
+    "name": "Cancellation API",
     "url": "https://github.com/tc39/proposal-cancellation",
     "specification": "ECMA-262",
-    "stage": "1",
+    "stage": "subsumed",
     "authors": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RBN"
+      }
+    ],
+    "champions": [
       {
         "kind": "delegate",
         "abbreviation": "RBN"
       },
       {
         "kind": "delegate",
-        "abbreviation": "KG"
-      }
-    ],
-    "champions": [
-      {
-        "kind": "delegate",
-        "abbreviation": "KG"
+        "abbreviation": "JSL"
       }
     ],
     "presentations": [
@@ -3421,7 +3421,29 @@
       {
         "date": "2018-07-25",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update"
-      },
+      }
+    ],
+    "rationale": "subsumed by [AbortController](https://github.com/bakkot/structured-concurrency-for-js)"
+  },
+  {
+    "id": "abort-controller",
+    "name": "AbortController",
+    "url": "https://github.com/bakkot/structured-concurrency-for-js",
+    "specification": "ECMA-262",
+    "stage": "1",
+    "authors": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      }
+    ],
+    "champions": [
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
+      }
+    ],
+    "presentations": [
       {
         "date": "2026-09-30"
       }
