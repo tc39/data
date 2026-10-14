@@ -679,7 +679,7 @@
     "github": "Ethan-Arrowood"
   },
   "EBW": {
-    "name": "Evan Winslow",
+    "name": "Evan B. Winslow",
     "github": "ewinslow",
     "affiliation": "Google"
   },
@@ -906,11 +906,6 @@
     "github": "ecmageneva",
     "affiliation": "Ecma Staff"
   },
-  "JSC": {
-    "name": "J. S. Choi",
-    "github": "js-choi",
-    "affiliation": "Invited Expert"
-  },
   "JBS": {
     "name": "Jack Steinberg",
     "github": "jackbsteinberg",
@@ -1028,14 +1023,14 @@
     "github": "jeffmo",
     "affiliation": "Meta"
   },
-  "JPO": {
-    "name": "Jeff Posnick",
-    "github": "jeffposnick",
-    "affiliation": "Bloomberg"
-  },
   "JSW": {
     "name": "Jeff Walden",
     "github": "jswalden"
+  },
+  "JPO": {
+    "name": "Jeffrey Posnick",
+    "github": "jeffposnick",
+    "affiliation": "Bloomberg"
   },
   "JZY": {
     "name": "Jem Young",
@@ -1115,10 +1110,6 @@
     "github": "jdalton",
     "affiliation": "Socket"
   },
-  "JKP": {
-    "name": "Jon Kuperman",
-    "github": "jkup"
-  },
   "JHS": {
     "name": "Jonas Haukenes",
     "github": "johauke",
@@ -1135,6 +1126,10 @@
   "JKN": {
     "name": "Jonathan Keslin",
     "github": "decompil3d"
+  },
+  "JKP": {
+    "name": "Jonathan Kuperman",
+    "github": "jkup"
   },
   "JSN": {
     "name": "Jonathan Sampson"
@@ -1174,6 +1169,11 @@
   },
   "JPK": {
     "name": "Joshua Peek"
+  },
+  "JSC": {
+    "name": "Joshua S. Choi",
+    "github": "js-choi",
+    "affiliation": "Invited Expert"
   },
   "JSM": {
     "name": "Jovonni Smith-Martinez"
@@ -1219,7 +1219,7 @@
     "github": "kamilogorek"
   },
   "KZM": {
-    "name": "Kat Marchán",
+    "name": "Kat Z. Marchán",
     "github": "zkat"
   },
   "KBA": {
@@ -1465,7 +1465,7 @@
     "affiliation": "Invited Expert"
   },
   "MED": {
-    "name": "Mark Davis",
+    "name": "Mark E. Davis",
     "github": "macchiati",
     "affiliation": "Google"
   },
@@ -1482,7 +1482,7 @@
     "github": "Gudahtt"
   },
   "MWS": {
-    "name": "Markus Scherer",
+    "name": "Markus W. Scherer",
     "github": "markusicu",
     "affiliation": "Google"
   },
@@ -1601,7 +1601,7 @@
     "affiliation": "Datlas"
   },
   "MLM": {
-    "name": "Milo M",
+    "name": "Milo Mighdoll",
     "github": "milomg",
     "affiliation": "Invited Expert"
   },
@@ -1702,7 +1702,7 @@
     "affiliation": "Google"
   },
   "PGO": {
-    "name": "Pablo Gorostiaga",
+    "name": "Pablo Gorostiaga Belio",
     "github": "gorosgobe",
     "affiliation": "Bloomberg"
   },
@@ -2427,7 +2427,7 @@
     "affiliation": "JetBrains"
   },
   "ZTZ": {
-    "name": "Zbyszek Tenerowicz",
+    "name": "Zbigniew Tenerowicz",
     "github": "naugtur",
     "affiliation": "Metamask"
   },
