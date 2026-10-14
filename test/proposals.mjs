@@ -35,7 +35,6 @@ const offPathStages = new Set(processStages
 
 // These proposals have known gaps in their historical champion metadata.
 const championExceptions = new Set([
-	'function-sent',
 	'collection-normalization',
 ]);
 

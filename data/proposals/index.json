@@ -152,7 +152,7 @@
     "name": "Dynamic Code Brand Checks",
     "url": "https://github.com/tc39/proposal-dynamic-code-brand-checks",
     "specification": "ECMA-262",
-    "stage": "3",
+    "stage": "4",
     "authors": [
       {
         "kind": "delegate",
@@ -201,6 +201,9 @@
       {
         "date": "2026-05-19",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#dynamic-code-brand-checks-for-stage-4-or-normative-change-pr-23"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "test262": {
@@ -212,7 +215,8 @@
         "kind": "delegate",
         "abbreviation": "MF"
       }
-    ]
+    ],
+    "expectedPublicationYear": 2027
   },
   {
     "id": "defer-import-eval",
@@ -345,6 +349,12 @@
       {
         "date": "2025-09-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#non-extensible-applies-to-private-for-stage-3"
+      },
+      {
+        "date": "2026-09-29"
+      },
+      {
+        "date": "2026-09-30"
       }
     ],
     "test262": {
@@ -449,6 +459,9 @@
       {
         "date": "2026-05-20",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-chunking-for-stage-3"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "expectedPublicationYear": 2027,
@@ -502,6 +515,9 @@
       {
         "date": "2026-05-20",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-includes-for-stage-3"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "expectedPublicationYear": 2027,
@@ -549,7 +565,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#iterator-join"
       },
       {
-        "date": "2026-09"
+        "date": "2026-09-29"
       }
     ],
     "expectedPublicationYear": 2027,
@@ -1177,6 +1193,9 @@
       {
         "date": "2026-05-20",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#esm-phase-imports-normative-prs"
+      },
+      {
+        "date": "2026-10-01"
       }
     ],
     "stage27Reviewers": [
@@ -1382,7 +1401,7 @@
     "name": "function.sent metaproperty",
     "url": "https://github.com/tc39/proposal-function.sent",
     "specification": "ECMA-262",
-    "stage": "2",
+    "stage": "abandoned",
     "authors": [
       {
         "kind": "delegate",
@@ -1422,6 +1441,9 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#functionsent"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "stage27Reviewers": [
@@ -1433,7 +1455,8 @@
         "kind": "delegate",
         "abbreviation": "DD"
       }
-    ]
+    ],
+    "rationale": "no delegate volunteered to champion the proposal"
   },
   {
     "id": "throw-expressions",
@@ -1594,6 +1617,9 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#collection-normalization"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "stage27Reviewers": [
@@ -1740,6 +1766,9 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#pipeline-operator-pt-1"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "stage27Reviewers": [
@@ -1783,6 +1812,9 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#destructure-private-fields"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "stage27Reviewers": [
@@ -1933,6 +1965,12 @@
       {
         "date": "2026-07-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-21.md#jsonparseimmutable"
+      },
+      {
+        "date": "2026-09-29"
+      },
+      {
+        "date": "2026-09-30"
       }
     ],
     "stage27Reviewers": [
@@ -1980,6 +2018,9 @@
       {
         "date": "2022-12-01",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "stage27Reviewers": [
@@ -2106,20 +2147,19 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#continuation-async-iterator-helpers-open-questions"
+      },
+      {
+        "date": "2026-10-01"
       }
     ],
     "stage27Reviewers": [
       {
         "kind": "delegate",
-        "abbreviation": "RGN"
+        "abbreviation": "JHD"
       },
       {
         "kind": "delegate",
-        "abbreviation": "YSV"
-      },
-      {
-        "kind": "delegate",
-        "abbreviation": "JTO"
+        "abbreviation": "RBR"
       }
     ]
   },
@@ -2342,6 +2382,9 @@
       {
         "date": "2026-01-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-01/january-21.md#propagate-active-scriptormodule-with-jobcallback-record"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "stage27Reviewers": [
@@ -2499,6 +2542,9 @@
       {
         "date": "2026-05-19",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-19.md#export-defer-stage-2-status-update"
+      },
+      {
+        "date": "2026-09-30"
       }
     ],
     "stage27Reviewers": [
@@ -2767,7 +2813,7 @@
     "name": "Curtailing the power of \"Thenables\"",
     "url": "https://github.com/tc39/proposal-thenable-curtailment",
     "specification": "ECMA-262",
-    "stage": "2.7",
+    "stage": "3",
     "authors": [
       {
         "kind": "delegate",
@@ -2806,7 +2852,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#continuation-thenable-curtailment-for-27"
       },
       {
-        "date": "2026-09"
+        "date": "2026-09-30"
       }
     ],
     "stage27Reviewers": [
@@ -2818,7 +2864,11 @@
         "kind": "delegate",
         "abbreviation": "JHD"
       }
-    ]
+    ],
+    "test262": {
+      "hasTests": true,
+      "url": "https://github.com/tc39/test262/pull/5123"
+    }
   },
   {
     "id": "amount",
@@ -2835,7 +2885,11 @@
     "champions": [
       {
         "kind": "delegate",
-        "abbreviation": "BAN"
+        "abbreviation": "JMN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "EAO"
       }
     ],
     "presentations": [
@@ -2862,6 +2916,9 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#duration-units-in-amount-and-intl-sequence-units"
+      },
+      {
+        "date": "2026-09-30"
       }
     ],
     "stage27Reviewers": [
@@ -3328,7 +3385,7 @@
   },
   {
     "id": "cancellation",
-    "name": "Cancellation API",
+    "name": "AbortController",
     "url": "https://github.com/tc39/proposal-cancellation",
     "specification": "ECMA-262",
     "stage": "1",
@@ -3336,16 +3393,16 @@
       {
         "kind": "delegate",
         "abbreviation": "RBN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "KG"
       }
     ],
     "champions": [
       {
         "kind": "delegate",
-        "abbreviation": "RBN"
-      },
-      {
-        "kind": "delegate",
-        "abbreviation": "JSL"
+        "abbreviation": "KG"
       }
     ],
     "presentations": [
@@ -3360,6 +3417,9 @@
       {
         "date": "2018-07-25",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update"
+      },
+      {
+        "date": "2026-09-30"
       }
     ]
   },
@@ -3963,6 +4023,9 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#private-declarations"
+      },
+      {
+        "date": "2026-09-30"
       }
     ]
   },
@@ -5882,7 +5945,7 @@
     "name": "Composites",
     "url": "https://github.com/tc39/proposal-composites",
     "specification": "ECMA-262",
-    "stage": "1",
+    "stage": "2",
     "authors": [
       {
         "kind": "delegate",
@@ -5911,6 +5974,23 @@
       {
         "date": "2026-07-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-21.md#composites-update"
+      },
+      {
+        "date": "2026-09-30"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "JHD"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "MF"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "RKG"
       }
     ]
   },
@@ -6395,14 +6475,18 @@
   },
   {
     "id": "export-star-default",
-    "name": "export all from",
+    "name": "Include default export in export *",
     "url": "https://github.com/tc39/proposal-export-star-default",
     "specification": "ECMA-262",
-    "stage": "1",
+    "stage": "2.7",
     "authors": [
       {
         "kind": "delegate",
         "abbreviation": "GB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "NRO"
       }
     ],
     "champions": [
@@ -6415,6 +6499,19 @@
       {
         "date": "2026-05-20",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-05/may-20.md#export-all-from-for-stage-1"
+      },
+      {
+        "date": "2026-09-30"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "GB"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "CLA"
       }
     ]
   },
@@ -6479,7 +6576,7 @@
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#temperature-checks-relating-to-httpsgithubcomtc39proposal-bigint-from-exponential"
       },
       {
-        "date": "2026-09"
+        "date": "2026-09-30"
       }
     ],
     "stage27Reviewers": [
@@ -6544,30 +6641,6 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#linear-matching"
-      }
-    ]
-  },
-  {
-    "id": "abort-controller",
-    "name": "Abort Controller",
-    "url": "https://github.com/bakkot/structured-concurrency-for-js",
-    "specification": "ECMA-262",
-    "stage": "1",
-    "authors": [
-      {
-        "kind": "delegate",
-        "abbreviation": "KG"
-      }
-    ],
-    "champions": [
-      {
-        "kind": "delegate",
-        "abbreviation": "KG"
-      }
-    ],
-    "presentations": [
-      {
-        "date": "2026-09"
       }
     ]
   },
@@ -10299,6 +10372,9 @@
       {
         "date": "2020-07-21",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23"
+      },
+      {
+        "date": "2026-09-30"
       }
     ],
     "expectedPublicationYear": 2021,
@@ -13932,10 +14008,10 @@
   },
   {
     "id": "intl-unit-protocol",
-    "name": "explore associating a unit with a number",
+    "name": "Intl Unit Protocol",
     "url": "https://github.com/tc39/proposal-intl-unit-protocol",
     "specification": "ECMA-402",
-    "stage": "1",
+    "stage": "2",
     "authors": [
       {
         "kind": "delegate",
@@ -13952,6 +14028,19 @@
       {
         "date": "2025-11-18",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#intl-unit-protocol"
+      },
+      {
+        "date": "2026-09-29"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "RGN"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "ACE"
       }
     ]
   },
@@ -14018,7 +14107,7 @@
     "name": "Intl Sequence Units",
     "url": "https://github.com/tc39/proposal-intl-sequence-units",
     "specification": "ECMA-402",
-    "stage": "1",
+    "stage": "2",
     "authors": [
       {
         "kind": "delegate",
@@ -14039,6 +14128,19 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#duration-units-in-amount-and-intl-sequence-units"
+      },
+      {
+        "date": "2026-09-29"
+      }
+    ],
+    "stage27Reviewers": [
+      {
+        "kind": "delegate",
+        "abbreviation": "EAO"
+      },
+      {
+        "kind": "delegate",
+        "abbreviation": "DLM"
       }
     ]
   },
@@ -14317,6 +14419,9 @@
       {
         "date": "2026-07-22",
         "notesUrl": "https://github.com/tc39/notes/blob/HEAD/meetings/2026-07/july-22.md#needs-consensus-pr-normative-call-regionpreference-in-weekinfooflocale"
+      },
+      {
+        "date": "2026-09-29"
       }
     ],
     "expectedPublicationYear": 2026,
