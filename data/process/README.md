@@ -9,14 +9,15 @@
 
 TC39 process data, public source of truth.
 
-The package exports an array of the stages of the TC39 process, in ascending order. Each stage has its `stage` number (as a string, e.g. `"2.7"`), a `status` describing what it means for a proposal to be at that stage, its `entranceCriteria`, and its `purpose`. The latter two are plain text that may contain a newline-separated Markdown bullet list.
+The package exports an array containing the numbered stages of the TC39 process in ascending order, followed by its terminal stages. Each entry has a string `stage` identifier, flags indicating whether it is terminal and whether proposals remain on the path to inclusion, a `status` describing what it means for a proposal to be at that stage, its `entranceCriteria`, and its `purpose`. The latter two are plain text that may contain a newline-separated Markdown bullet list.
 
 ## Example
 
 ```js
 import stages from '@tc39/data-process' with { type: 'json' };
 
-stages.map((stage) => stage.stage); // ['0', '1', '2', '2.7', '3', '4']
+stages.filter(({ isTerminal }) => isTerminal).map(({ stage }) => stage);
+// ['4', 'abandoned', 'rejected', 'subsumed', 'withdrawn']
 ```
 
 ```js
@@ -27,7 +28,7 @@ The package is a JSON module, so ESM consumers must include the `with { type: 'j
 
 ## Types
 
-TypeScript declarations are included: the exported value is a `Stages` tuple with one `Stage` per stage of the process, in ascending order, so `stages[3].stage` is known to be `"2.7"`.
+TypeScript declarations are included: the exported value is a `Stages` array of `Stage` values.
 
 ```ts
 import type { Stage, Stages } from '@tc39/data-process';
@@ -35,7 +36,7 @@ import type { Stage, Stages } from '@tc39/data-process';
 
 ## Schema
 
-[`schema.json`](./schema.json) is a [JSON Schema](https://json-schema.org/) (draft 2020-12) describing `index.json`, and is importable as `@tc39/data-process/schema.json`. It is the source of truth for the shape of the data: the data is validated against it, and the type declarations are generated from it. It pins each stage to its position, so a missing, duplicated, extra, or out-of-order stage fails validation.
+[`schema.json`](./schema.json) is a [JSON Schema](https://json-schema.org/) (draft 2020-12) describing `index.json`, and is importable as `@tc39/data-process/schema.json`. It is the source of truth for the shape of the data and its allowable stage identifiers: the data is validated against it, and the type declarations are generated from it.
 
 [package-url]: https://npmjs.org/package/@tc39/data-process
 [npm-version-svg]: https://versionbadg.es/tc39/data.svg
