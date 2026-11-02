@@ -1324,6 +1324,11 @@
   "LM": {
     "name": "Leland Richardson"
   },
+  "LWR": {
+    "name": "Luke Warlow",
+    "github": "lukewarlow",
+    "affiliation": "Igalia"
+  },
   "LWT": {
     "name": "Lenz Weber-Tronic",
     "github": "phryneas",
