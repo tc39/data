@@ -145,7 +145,7 @@ function topLevelKeys(contents) {
 }
 
 /**
- * Check the ordering and abbreviation constraints inherited from delegates.txt.
+ * Check the ordering and abbreviation constraints for delegate data.
  *
  * @param {string} contents JSON source for the delegates object.
  * @returns {void}
@@ -164,8 +164,8 @@ function checkDelegates(contents = readFileSync(delegatesURL, 'utf8')) {
 
   keys.forEach(({ line, value: abbreviation }) => {
     /*
-     * Each abbreviation must appear exactly once. Check the raw keys before
-     * consulting the parsed object, which retains only the duplicate's value.
+     * Each abbreviation must appear exactly once. Check the raw keys because
+     * JSON.parse retains only the last value for duplicate keys.
      */
     if (firstLines.has(abbreviation)) {
       throw new Error(`Line ${line}: duplicate abbreviation ${JSON.stringify(abbreviation)}; first used on line ${firstLines.get(abbreviation)}.`);
@@ -173,7 +173,7 @@ function checkDelegates(contents = readFileSync(delegatesURL, 'utf8')) {
     firstLines.set(abbreviation, line);
   });
 
-  let previousSortKey = '';
+  let previousAbbreviation = '';
   keys.forEach(({ line, value: abbreviation }) => {
     // Abbreviations must contain only uppercase Latin letters.
     if (!(/^[A-Z]+$/u).test(abbreviation)) {
@@ -190,18 +190,42 @@ function checkDelegates(contents = readFileSync(delegatesURL, 'utf8')) {
       throw new Error(`Line ${line}: invalid abbreviation ${JSON.stringify(abbreviation)}. New delegate abbreviations must be three letters.`);
     }
 
-    const delegate = delegates[abbreviation];
-    const sortKey = `${delegate.name} (${abbreviation})`;
-
-    // Delegates must appear in lexicographic order by name, then abbreviation.
-    if (previousSortKey.localeCompare(sortKey, 'en') > 0) {
-      throw new Error(`Line ${line}: not in lexicographic order.`);
+    // Delegates must appear in lexicographic order by abbreviation.
+    if (previousAbbreviation > abbreviation) {
+      throw new Error(`Line ${line}: abbreviations must be in lexicographic order.`);
     }
-    previousSortKey = sortKey;
+    previousAbbreviation = abbreviation;
   });
 }
 
 test('data/delegates: satisfies additional constraints', (t) => {
   t.doesNotThrow(() => checkDelegates(), 'the delegate data satisfies the ordering and abbreviation constraints');
+  t.end();
+});
+
+test('data/delegates: orders entries by abbreviation regardless of name', (t) => {
+  t.doesNotThrow(() => checkDelegates(JSON.stringify({
+    AAA: { name: 'Zed Example' },
+    AAB: { name: 'Alex Example' },
+  })), 'sorted abbreviations are accepted when names are in reverse order');
+
+  t.throws(() => checkDelegates(JSON.stringify({
+    AAB: { name: 'Alex Example' },
+    AAA: { name: 'Zed Example' },
+  })), /lexicographic order/u, 'unsorted abbreviations are rejected when names are sorted');
+  t.end();
+});
+
+test('data/delegates: orders a legacy abbreviation before abbreviations with that prefix', (t) => {
+  t.doesNotThrow(() => checkDelegates(JSON.stringify({
+    AC: { name: 'Alex Example' },
+    ACA: { name: 'Alex Example' },
+    ACB: { name: 'Alex Example' },
+  })), 'a shorter abbreviation comes first, followed by sorted longer abbreviations');
+
+  t.throws(() => checkDelegates(JSON.stringify({
+    ACA: { name: 'Alex Example' },
+    AC: { name: 'Alex Example' },
+  })), /lexicographic order/u, 'a longer abbreviation cannot precede its prefix');
   t.end();
 });

@@ -1,29 +1,66 @@
 {
-  "AVP": {
-    "name": "Aakash Patel",
-    "github": "avp",
-    "affiliation": "Meta"
-  },
-  "ADS": {
-    "name": "Aaron Davis",
-    "github": "kumavis",
-    "affiliation": "Metamask"
-  },
   "AAD": {
     "name": "Abdelrahman Awad",
     "github": "logaretm",
     "affiliation": "Functional Software (Sentry)"
   },
+  "AAT": {
+    "name": "Alexander Akait",
+    "github": "alexander-akait",
+    "affiliation": "Invited Expert"
+  },
+  "ABA": {
+    "name": "Attila Bartha",
+    "github": "atikenny"
+  },
+  "ABE": {
+    "name": "Andrew Burgese"
+  },
+  "ABL": {
+    "name": "André Bargull",
+    "github": "anba",
+    "affiliation": "Mozilla"
+  },
+  "ABN": {
+    "name": "Andrew Brown",
+    "github": "abrown"
+  },
+  "ABO": {
+    "name": "Andreu Botella",
+    "github": "andreubotella",
+    "affiliation": "Igalia"
+  },
+  "ABR": {
+    "name": "Andrea Bergia",
+    "github": "andreabergia",
+    "affiliation": "ServiceNow"
+  },
+  "ABS": {
+    "name": "Andrew Burgess",
+    "github": "burgessa23"
+  },
+  "ABU": {
+    "name": "Anthony Bullard",
+    "github": "gamebox",
+    "affiliation": "ServiceNow"
+  },
   "AC": {
     "name": "Abhijith Chatra"
   },
-  "AK": {
-    "name": "Adam Klein",
-    "github": "ajklein"
+  "ACB": {
+    "name": "Andrew Branch",
+    "github": "andrewbranch",
+    "affiliation": "Microsoft"
   },
-  "AVR": {
-    "name": "Adam Vandolder",
-    "github": "avandolder"
+  "ACE": {
+    "name": "Ashley Claymore",
+    "github": "acutmore",
+    "affiliation": "Bloomberg"
+  },
+  "ADS": {
+    "name": "Aaron Davis",
+    "github": "kumavis",
+    "affiliation": "Metamask"
   },
   "ADT": {
     "name": "Aditi Singh",
@@ -33,189 +70,118 @@
   "AEC": {
     "name": "Adrian Caballero"
   },
-  "AHL": {
-    "name": "Adrian Hall"
-  },
-  "BEL": {
-    "name": "Agata Belkius"
-  },
-  "AKI": {
-    "name": "Aki Braun",
-    "github": "gesa",
-    "affiliation": "Invited Expert"
-  },
-  "AGI": {
-    "name": "Akrosh Gandhi"
-  },
-  "AS": {
-    "name": "Alan Schmitt",
-    "github": "brabalan"
-  },
-  "ATI": {
-    "name": "Alberto Tontoni",
-    "github": "tontonialberto",
-    "affiliation": "University of Bergen"
-  },
-  "AMB": {
-    "name": "Alessia Bellisario",
-    "github": "alessbell",
-    "affiliation": "Apollo Graph"
-  },
-  "ARY": {
-    "name": "Alex Rattray"
-  },
-  "AR": {
-    "name": "Alex Russell",
-    "github": "slightlyoff",
-    "affiliation": "Microsoft"
-  },
-  "AAT": {
-    "name": "Alexander Akait",
-    "github": "alexander-akait",
-    "affiliation": "Invited Expert"
-  },
-  "AVT": {
-    "name": "Alexander J. Vincent",
-    "github": "ajvincent"
-  },
-  "ASH": {
-    "name": "Alexey Shvaika",
-    "github": "shvaikalesh"
-  },
-  "APO": {
-    "name": "Aliaksander Palpko"
-  },
-  "ARZ": {
-    "name": "Alissa Renz",
-    "github": "misscoded",
-    "affiliation": "Salesforce"
-  },
-  "AWB": {
-    "name": "Allen Wirfs-Brock",
-    "github": "allenwb",
-    "affiliation": "Ecma Fellow"
-  },
-  "AHN": {
-    "name": "Amal Hussein",
-    "github": "nomadtechie"
-  },
-  "ABL": {
-    "name": "André Bargull",
-    "github": "anba",
-    "affiliation": "Mozilla"
-  },
-  "ABR": {
-    "name": "Andrea Bergia",
-    "github": "andreabergia",
-    "affiliation": "ServiceNow"
-  },
-  "ARB": {
-    "name": "Andreas Rossberg",
-    "github": "rossberg",
-    "affiliation": "Invited Expert"
-  },
-  "AWO": {
-    "name": "Andreas Woess",
-    "github": "woess",
-    "affiliation": "Oracle"
-  },
-  "ASZ": {
-    "name": "Andres Suarez"
-  },
-  "ABO": {
-    "name": "Andreu Botella",
-    "github": "andreubotella",
-    "affiliation": "Igalia"
-  },
-  "ACB": {
-    "name": "Andrew Branch",
-    "github": "andrewbranch",
-    "affiliation": "Microsoft"
-  },
-  "ABN": {
-    "name": "Andrew Brown",
-    "github": "abrown"
-  },
-  "ABE": {
-    "name": "Andrew Burgese"
-  },
-  "ABS": {
-    "name": "Andrew Burgess",
-    "github": "burgessa23"
-  },
-  "API": {
-    "name": "Andrew Paprocki",
-    "github": "apaprocki",
-    "affiliation": "Bloomberg"
+  "AEH": {
+    "name": "Ashley Hauck",
+    "github": "khyperia"
   },
   "AFG": {
     "name": "Andy Fleming",
     "github": "andyfleming"
-  },
-  "AWG": {
-    "name": "Angela Wang",
-    "github": "sang4lv",
-    "affiliation": "Alibaba"
-  },
-  "AH": {
-    "name": "Anna Henningsen"
-  },
-  "AVK": {
-    "name": "Anne van Kesteren",
-    "github": "annevk",
-    "affiliation": "Apple"
-  },
-  "ABU": {
-    "name": "Anthony Bullard",
-    "github": "gamebox",
-    "affiliation": "ServiceNow"
   },
   "AFU": {
     "name": "Anthony Fu",
     "github": "antfu",
     "affiliation": "Vercel"
   },
-  "ARO": {
-    "name": "Armin Ronacher",
-    "github": "mitsuhiko"
+  "AGI": {
+    "name": "Akrosh Gandhi"
   },
-  "ALH": {
-    "name": "Arnaud Le Hors"
+  "AH": {
+    "name": "Anna Henningsen"
   },
-  "ARS": {
-    "name": "Arpad Borsos",
-    "github": "Swatinem"
+  "AHL": {
+    "name": "Adrian Hall"
+  },
+  "AHN": {
+    "name": "Amal Hussein",
+    "github": "nomadtechie"
+  },
+  "AIS": {
+    "name": "Marina Aísa",
+    "github": "marinaaisa",
+    "affiliation": "Apple"
+  },
+  "AK": {
+    "name": "Adam Klein",
+    "github": "ajklein"
+  },
+  "AKI": {
+    "name": "Aki Braun",
+    "github": "gesa",
+    "affiliation": "Invited Expert"
   },
   "AKR": {
     "name": "Artem Kobzar",
     "github": "JSMonk",
     "affiliation": "JetBrains"
   },
-  "ACE": {
-    "name": "Ashley Claymore",
-    "github": "acutmore",
+  "ALH": {
+    "name": "Arnaud Le Hors"
+  },
+  "AMB": {
+    "name": "Alessia Bellisario",
+    "github": "alessbell",
+    "affiliation": "Apollo Graph"
+  },
+  "API": {
+    "name": "Andrew Paprocki",
+    "github": "apaprocki",
     "affiliation": "Bloomberg"
   },
-  "AEH": {
-    "name": "Ashley Hauck",
-    "github": "khyperia"
+  "APO": {
+    "name": "Aliaksander Palpko"
   },
-  "AWS": {
-    "name": "Ashley Williams",
-    "github": "ashleygwilliams",
+  "AR": {
+    "name": "Alex Russell",
+    "github": "slightlyoff",
+    "affiliation": "Microsoft"
+  },
+  "ARB": {
+    "name": "Andreas Rossberg",
+    "github": "rossberg",
     "affiliation": "Invited Expert"
+  },
+  "ARO": {
+    "name": "Armin Ronacher",
+    "github": "mitsuhiko"
+  },
+  "ARR": {
+    "name": "Axel Rauschmayer",
+    "github": "rauschma",
+    "affiliation": "Invited Expert"
+  },
+  "ARS": {
+    "name": "Arpad Borsos",
+    "github": "Swatinem"
+  },
+  "ARY": {
+    "name": "Alex Rattray"
+  },
+  "ARZ": {
+    "name": "Alissa Renz",
+    "github": "misscoded",
+    "affiliation": "Salesforce"
+  },
+  "AS": {
+    "name": "Alan Schmitt",
+    "github": "brabalan"
+  },
+  "ASH": {
+    "name": "Alexey Shvaika",
+    "github": "shvaikalesh"
+  },
+  "ASZ": {
+    "name": "Andres Suarez"
   },
   "ATA": {
     "name": "Asumu Takikawa",
     "github": "takikawa",
     "affiliation": "Igalia"
   },
-  "ABA": {
-    "name": "Attila Bartha",
-    "github": "atikenny"
-  },
-  "AYN": {
-    "name": "Augustus Yuan"
+  "ATI": {
+    "name": "Alberto Tontoni",
+    "github": "tontonialberto",
+    "affiliation": "University of Bergen"
   },
   "AUR": {
     "name": "Aurèle Barrière",
@@ -225,10 +191,46 @@
   "AVC": {
     "name": "Avik Chaudhuri"
   },
-  "ARR": {
-    "name": "Axel Rauschmayer",
-    "github": "rauschma",
+  "AVK": {
+    "name": "Anne van Kesteren",
+    "github": "annevk",
+    "affiliation": "Apple"
+  },
+  "AVP": {
+    "name": "Aakash Patel",
+    "github": "avp",
+    "affiliation": "Meta"
+  },
+  "AVR": {
+    "name": "Adam Vandolder",
+    "github": "avandolder"
+  },
+  "AVT": {
+    "name": "Alexander J. Vincent",
+    "github": "ajvincent"
+  },
+  "AWB": {
+    "name": "Allen Wirfs-Brock",
+    "github": "allenwb",
+    "affiliation": "Ecma Fellow"
+  },
+  "AWG": {
+    "name": "Angela Wang",
+    "github": "sang4lv",
+    "affiliation": "Alibaba"
+  },
+  "AWO": {
+    "name": "Andreas Woess",
+    "github": "woess",
+    "affiliation": "Oracle"
+  },
+  "AWS": {
+    "name": "Ashley Williams",
+    "github": "ashleygwilliams",
     "affiliation": "Invited Expert"
+  },
+  "AYN": {
+    "name": "Augustus Yuan"
   },
   "AYS": {
     "name": "Aysegul Yonet"
@@ -237,52 +239,17 @@
     "name": "Ben Allen",
     "github": "ben-allen"
   },
-  "BLN": {
-    "name": "Ben Lichtman"
-  },
-  "BLY": {
-    "name": "Ben Lickly",
-    "github": "blickly",
-    "affiliation": "Google"
-  },
-  "BN": {
-    "name": "Ben Newman",
-    "github": "benjamn",
-    "affiliation": "Apollo Graph"
-  },
-  "BS": {
-    "name": "Ben Smith"
-  },
-  "BTR": {
-    "name": "Ben Titzer"
-  },
-  "BCE": {
-    "name": "Benjamin E. Coe",
-    "github": "bcoe"
-  },
-  "BGS": {
-    "name": "Benjamin Georges"
-  },
-  "BGD": {
-    "name": "Benoit Girard"
-  },
-  "BM": {
-    "name": "Bernd Mathiske"
+  "BB": {
+    "name": "Brandon Benvie"
   },
   "BBR": {
     "name": "Bert Belder",
     "github": "piscisaureus",
     "affiliation": "Invited Expert"
   },
-  "BTT": {
-    "name": "Bill Ticehurst",
-    "github": "billti"
-  },
-  "RTM": {
-    "name": "Bob Myers"
-  },
-  "BZ": {
-    "name": "Boris Zbarsky"
+  "BCE": {
+    "name": "Benjamin E. Coe",
+    "github": "bcoe"
   },
   "BCN": {
     "name": "Boshen Chen",
@@ -293,365 +260,414 @@
     "name": "Brad Decker",
     "github": "brad-decker"
   },
-  "BG": {
-    "name": "Brad Green"
-  },
-  "BNN": {
-    "name": "Brad Nelson"
-  },
-  "BSH": {
-    "name": "Bradford Smith",
-    "github": "brad4d",
-    "affiliation": "Google"
-  },
-  "BFS": {
-    "name": "Bradley Farias",
-    "github": "bmeck"
-  },
-  "BB": {
-    "name": "Brandon Benvie"
+  "BDS": {
+    "name": "Brian Douglas",
+    "github": "bdougie"
   },
   "BE": {
     "name": "Brendan Eich",
     "github": "BrendanEich",
     "affiliation": "Ecma Fellow"
   },
-  "BDS": {
-    "name": "Brian Douglas",
-    "github": "bdougie"
+  "BEL": {
+    "name": "Agata Belkius"
   },
-  "BRK": {
-    "name": "Brian Kim"
+  "BFS": {
+    "name": "Bradley Farias",
+    "github": "bmeck"
   },
-  "BT": {
-    "name": "Brian Terlson",
-    "github": "bterlson",
-    "affiliation": "Microsoft"
+  "BG": {
+    "name": "Brad Green"
   },
-  "BWR": {
-    "name": "Brian Warner"
+  "BGD": {
+    "name": "Benoit Girard"
   },
-  "BSZ": {
-    "name": "Brittany Storoz"
+  "BGS": {
+    "name": "Benjamin Georges"
+  },
+  "BLN": {
+    "name": "Ben Lichtman"
+  },
+  "BLY": {
+    "name": "Ben Lickly",
+    "github": "blickly",
+    "affiliation": "Google"
+  },
+  "BM": {
+    "name": "Bernd Mathiske"
+  },
+  "BN": {
+    "name": "Ben Newman",
+    "github": "benjamn",
+    "affiliation": "Apollo Graph"
   },
   "BNG": {
     "name": "Bron Gondwana",
     "github": "brong",
     "affiliation": "Invited Expert"
   },
-  "CGM": {
-    "name": "Caio Gondim"
+  "BNN": {
+    "name": "Brad Nelson"
   },
-  "CLA": {
-    "name": "Caio Lima",
-    "github": "caiolima",
-    "affiliation": "Igalia"
+  "BRK": {
+    "name": "Brian Kim"
   },
-  "CJT": {
-    "name": "Cam Tenny",
-    "github": "cjtenny"
+  "BS": {
+    "name": "Ben Smith"
   },
-  "CP": {
-    "name": "Caridy Patiño",
-    "github": "caridy",
-    "affiliation": "Salesforce"
+  "BSH": {
+    "name": "Bradford Smith",
+    "github": "brad4d",
+    "affiliation": "Google"
+  },
+  "BSZ": {
+    "name": "Brittany Storoz"
+  },
+  "BT": {
+    "name": "Brian Terlson",
+    "github": "bterlson",
+    "affiliation": "Microsoft"
+  },
+  "BTR": {
+    "name": "Ben Titzer"
+  },
+  "BTT": {
+    "name": "Bill Ticehurst",
+    "github": "billti"
+  },
+  "BWR": {
+    "name": "Brian Warner"
+  },
+  "BZ": {
+    "name": "Boris Zbarsky"
+  },
+  "CAN": {
+    "name": "Chris Anderson"
+  },
+  "CBT": {
+    "name": "Christopher Blappert"
+  },
+  "CCN": {
+    "name": "Craig Cornelius"
   },
   "CCU": {
     "name": "Caroline Cullen",
     "github": "carolinecullen"
-  },
-  "CGZ": {
-    "name": "Charly Gomez",
-    "github": "chargome",
-    "affiliation": "Functional Software (Sentry)"
-  },
-  "CZW": {
-    "name": "Chengzhong Wu",
-    "github": "legendecas",
-    "affiliation": "Bloomberg"
-  },
-  "CM": {
-    "name": "Chip Morningstar",
-    "github": "FUDCo",
-    "affiliation": "Metamask"
-  },
-  "CAN": {
-    "name": "Chris Anderson"
   },
   "CDA": {
     "name": "Chris de Almeida",
     "github": "ctcpip",
     "affiliation": "IBM"
   },
+  "CF": {
+    "name": "Corey Frang",
+    "github": "gnarf"
+  },
+  "CGM": {
+    "name": "Caio Gondim"
+  },
+  "CGZ": {
+    "name": "Charly Gomez",
+    "github": "chargome",
+    "affiliation": "Functional Software (Sentry)"
+  },
   "CHE": {
     "name": "Chris Hyle",
     "github": "chrishyle"
-  },
-  "CNM": {
-    "name": "Chris Needham"
-  },
-  "CHU": {
-    "name": "Christian Ulbrich",
-    "github": "ChristianUlbrich",
-    "affiliation": "Zalari"
-  },
-  "CWH": {
-    "name": "Christian Wirth",
-    "github": "wirthi"
-  },
-  "CNA": {
-    "name": "Christoph Nakazawa"
-  },
-  "CBT": {
-    "name": "Christopher Blappert"
   },
   "CHR": {
     "name": "Christopher Hiller",
     "github": "boneskull",
     "affiliation": "Metamask"
   },
-  "LCP": {
-    "name": "Chyi Pin Lim",
-    "github": "chyipin"
+  "CHU": {
+    "name": "Christian Ulbrich",
+    "github": "ChristianUlbrich",
+    "affiliation": "Zalari"
   },
-  "CSN": {
-    "name": "Clark Sampson"
+  "CJI": {
+    "name": "Colin Ihrig",
+    "github": "cjihrig"
   },
-  "CPE": {
-    "name": "Claude Pache",
-    "github": "claudepache"
+  "CJR": {
+    "name": "Corey Roy"
+  },
+  "CJT": {
+    "name": "Cam Tenny",
+    "github": "cjtenny"
+  },
+  "CLA": {
+    "name": "Caio Lima",
+    "github": "caiolima",
+    "affiliation": "Igalia"
+  },
+  "CM": {
+    "name": "Chip Morningstar",
+    "github": "FUDCo",
+    "affiliation": "Metamask"
+  },
+  "CMI": {
+    "name": "Cristian Mattarei"
+  },
+  "CNA": {
+    "name": "Christoph Nakazawa"
+  },
+  "CNM": {
+    "name": "Chris Needham"
+  },
+  "CP": {
+    "name": "Caridy Patiño",
+    "github": "caridy",
+    "affiliation": "Salesforce"
   },
   "CPC": {
     "name": "Clément Pit-Claudel",
     "github": "cpitclaudel",
     "affiliation": "EPFL"
   },
-  "CJI": {
-    "name": "Colin Ihrig",
-    "github": "cjihrig"
+  "CPE": {
+    "name": "Claude Pache",
+    "github": "claudepache"
+  },
+  "CSN": {
+    "name": "Clark Sampson"
+  },
+  "CWH": {
+    "name": "Christian Wirth",
+    "github": "wirthi"
+  },
+  "CWS": {
+    "name": "Conrad Watts"
   },
   "CWT": {
     "name": "Conrad Watt",
     "github": "conrad-watt"
   },
-  "CWS": {
-    "name": "Conrad Watts"
+  "CZW": {
+    "name": "Chengzhong Wu",
+    "github": "legendecas",
+    "affiliation": "Bloomberg"
   },
-  "CF": {
-    "name": "Corey Frang",
-    "github": "gnarf"
-  },
-  "CJR": {
-    "name": "Corey Roy"
-  },
-  "CCN": {
-    "name": "Craig Cornelius"
-  },
-  "CMI": {
-    "name": "Cristian Mattarei"
-  },
-  "DBD": {
-    "name": "Dale Bustad",
-    "github": "divmain"
-  },
-  "DES": {
-    "name": "Damien Engels",
-    "github": "engelsdamien",
-    "affiliation": "Google"
-  },
-  "DAV": {
-    "name": "Dan Abramov"
-  },
-  "DDC": {
-    "name": "Dan Clark",
-    "github": "dandclark",
-    "affiliation": "Microsoft"
-  },
-  "DJF": {
-    "name": "Dan Finlay",
-    "github": "danfinlay",
-    "affiliation": "Metamask"
-  },
-  "DGN": {
-    "name": "Dan Gohman",
-    "github": "sunfishcode",
-    "affiliation": "Invited Expert"
-  },
-  "DLP": {
-    "name": "Dan Lapid",
-    "github": "danlapid",
-    "affiliation": "Cloudflare"
+  "CZY": {
+    "name": "Harry Chen",
+    "github": "czy88840616",
+    "affiliation": "Alibaba"
   },
   "DAS": {
     "name": "Dan Stefan"
   },
-  "DHC": {
-    "name": "Daniel Chao",
-    "github": "bioball",
-    "affiliation": "Apple"
-  },
-  "DCD": {
-    "name": "Daniel Clifford"
-  },
-  "DE": {
-    "name": "Daniel Ehrenberg",
-    "github": "littledan"
-  },
-  "DGR": {
-    "name": "Daniel Griesser",
-    "github": "HazAT",
-    "affiliation": "Functional Software (Sentry)"
-  },
-  "DLM": {
-    "name": "Daniel Minor",
-    "github": "dminor",
-    "affiliation": "Mozilla"
-  },
-  "DRR": {
-    "name": "Daniel Rosenwasser",
-    "github": "DanielRosenwasser",
-    "affiliation": "Microsoft"
-  },
-  "DVE": {
-    "name": "Daniel Veditz",
-    "github": "dveditz",
-    "affiliation": "Mozilla"
+  "DAV": {
+    "name": "Dan Abramov"
   },
   "DBA": {
     "name": "Daniele Bonetta",
     "github": "eleinadani",
     "affiliation": "Oracle"
   },
-  "DFT": {
-    "name": "Danilo Francoso Tedeschi",
-    "github": "danft",
-    "affiliation": "Google"
+  "DBD": {
+    "name": "Dale Bustad",
+    "github": "divmain"
   },
-  "DH": {
-    "name": "Dave Herman",
-    "github": "dherman"
+  "DC": {
+    "name": "Doug Crockford"
   },
-  "DMP": {
-    "name": "Dave Poole",
-    "github": "davethegr8",
-    "affiliation": "Apple"
+  "DCD": {
+    "name": "Daniel Clifford"
+  },
+  "DD": {
+    "name": "Domenic Denicola",
+    "github": "domenic"
+  },
+  "DDC": {
+    "name": "Dan Clark",
+    "github": "dandclark",
+    "affiliation": "Microsoft"
+  },
+  "DE": {
+    "name": "Daniel Ehrenberg",
+    "github": "littledan"
   },
   "DEN": {
     "name": "David Enke",
     "github": "davidenke"
   },
-  "DRN": {
-    "name": "David Rudin"
-  },
-  "DTL": {
-    "name": "David Teller"
-  },
-  "DTI": {
-    "name": "David Turissini"
-  },
-  "DJW": {
-    "name": "David Walsh",
-    "github": "darkwing"
+  "DES": {
+    "name": "Damien Engels",
+    "github": "engelsdamien",
+    "affiliation": "Google"
   },
   "DFS": {
     "name": "Davidson Fellipe",
     "github": "davidsonfellipe",
     "affiliation": "Salesforce"
   },
-  "DT": {
-    "name": "Dean Tribble",
-    "github": "dtribble",
-    "affiliation": "Agoric"
-  },
-  "DRO": {
-    "name": "Devin Rousso",
-    "github": "dcrousso",
-    "affiliation": "Invited Expert"
+  "DFT": {
+    "name": "Danilo Francoso Tedeschi",
+    "github": "danft",
+    "affiliation": "Google"
   },
   "DFV": {
     "name": "Diego Ferreiro Val",
     "github": "diervo"
   },
-  "DL": {
-    "name": "Dmitry Lomov",
-    "github": "dslomov"
+  "DGN": {
+    "name": "Dan Gohman",
+    "github": "sunfishcode",
+    "affiliation": "Invited Expert"
+  },
+  "DGR": {
+    "name": "Daniel Griesser",
+    "github": "HazAT",
+    "affiliation": "Functional Software (Sentry)"
+  },
+  "DGY": {
+    "name": "Dominic Gannaway",
+    "github": "trueadm"
+  },
+  "DH": {
+    "name": "Dave Herman",
+    "github": "dherman"
+  },
+  "DHC": {
+    "name": "Daniel Chao",
+    "github": "bioball",
+    "affiliation": "Apple"
+  },
+  "DJF": {
+    "name": "Dan Finlay",
+    "github": "danfinlay",
+    "affiliation": "Metamask"
   },
   "DJM": {
     "name": "Dmitry Makhnev",
     "github": "DmitryMakhnev",
     "affiliation": "JetBrains"
   },
-  "DS": {
-    "name": "Dmitry Soshnikov",
-    "github": "DmitrySoshnikov"
+  "DJW": {
+    "name": "David Walsh",
+    "github": "darkwing"
   },
-  "DD": {
-    "name": "Domenic Denicola",
-    "github": "domenic"
+  "DL": {
+    "name": "Dmitry Lomov",
+    "github": "dslomov"
+  },
+  "DLM": {
+    "name": "Daniel Minor",
+    "github": "dminor",
+    "affiliation": "Mozilla"
+  },
+  "DLP": {
+    "name": "Dan Lapid",
+    "github": "danlapid",
+    "affiliation": "Cloudflare"
   },
   "DMF": {
     "name": "Dominic Farolino",
     "github": "domfarolino",
     "affiliation": "Google"
   },
-  "DGY": {
-    "name": "Dominic Gannaway",
-    "github": "trueadm"
-  },
-  "DC": {
-    "name": "Doug Crockford"
-  },
-  "FHS": {
-    "name": "Dr. Felienne Hermans"
-  },
   "DMM": {
     "name": "Duncan MacGregor",
     "github": "aardvark179",
     "affiliation": "ServiceNow"
+  },
+  "DMP": {
+    "name": "Dave Poole",
+    "github": "davethegr8",
+    "affiliation": "Apple"
+  },
+  "DRN": {
+    "name": "David Rudin"
+  },
+  "DRO": {
+    "name": "Devin Rousso",
+    "github": "dcrousso",
+    "affiliation": "Invited Expert"
+  },
+  "DRR": {
+    "name": "Daniel Rosenwasser",
+    "github": "DanielRosenwasser",
+    "affiliation": "Microsoft"
+  },
+  "DS": {
+    "name": "Dmitry Soshnikov",
+    "github": "DmitrySoshnikov"
   },
   "DSY": {
     "name": "Dustin Savery",
     "github": "dusave",
     "affiliation": "Microsoft"
   },
-  "EYH": {
-    "name": "Edd Yerburgh"
+  "DT": {
+    "name": "Dean Tribble",
+    "github": "dtribble",
+    "affiliation": "Agoric"
   },
-  "EDB": {
-    "name": "Edgar Barragan"
+  "DTI": {
+    "name": "David Turissini"
   },
-  "EY": {
-    "name": "Edward Yang"
+  "DTL": {
+    "name": "David Teller"
+  },
+  "DVE": {
+    "name": "Daniel Veditz",
+    "github": "dveditz",
+    "affiliation": "Mozilla"
+  },
+  "EA": {
+    "name": "Erik Arvidsson",
+    "github": "arv"
+  },
+  "EAD": {
+    "name": "Ethan Arrowood",
+    "github": "Ethan-Arrowood"
   },
   "EAO": {
     "name": "Eemeli Aro",
     "github": "eemeli",
     "affiliation": "Mozilla"
   },
-  "EGY": {
-    "name": "Eli Grey",
-    "github": "eligrey",
-    "affiliation": "Invited Expert"
+  "EBW": {
+    "name": "Evan B. Winslow",
+    "github": "ewinslow",
+    "affiliation": "Google"
   },
-  "EGH": {
-    "name": "Elliot Goodrich",
-    "github": "elliotgoodrich",
-    "affiliation": "Bloomberg"
+  "EDB": {
+    "name": "Edgar Barragan"
   },
-  "EHH": {
-    "name": "Emily Huynh"
+  "EF": {
+    "name": "Eric Ferraiuolo",
+    "github": "ericf"
   },
   "EFT": {
     "name": "Eric Faust",
     "github": "efaust",
     "affiliation": "Meta"
   },
-  "EF": {
-    "name": "Eric Ferraiuolo",
-    "github": "ericf"
+  "EGH": {
+    "name": "Elliot Goodrich",
+    "github": "elliotgoodrich",
+    "affiliation": "Bloomberg"
+  },
+  "EGY": {
+    "name": "Eli Grey",
+    "github": "eligrey",
+    "affiliation": "Invited Expert"
+  },
+  "EHH": {
+    "name": "Emily Huynh"
   },
   "EHK": {
     "name": "Eric Holk"
+  },
+  "EPR": {
+    "name": "Erica Pramer",
+    "github": "thumbsupep"
+  },
+  "ESG": {
+    "name": "Even Stensberg",
+    "github": "evenstensberg",
+    "affiliation": "Invited Expert"
   },
   "ESL": {
     "name": "Eric Leese",
@@ -661,58 +677,50 @@
   "ET": {
     "name": "Eric Toth"
   },
-  "EPR": {
-    "name": "Erica Pramer",
-    "github": "thumbsupep"
+  "EY": {
+    "name": "Edward Yang"
   },
-  "EA": {
-    "name": "Erik Arvidsson",
-    "github": "arv"
-  },
-  "REK": {
-    "name": "Erik Marks",
-    "github": "rekmarks",
-    "affiliation": "Metamask"
-  },
-  "EAD": {
-    "name": "Ethan Arrowood",
-    "github": "Ethan-Arrowood"
-  },
-  "EBW": {
-    "name": "Evan B. Winslow",
-    "github": "ewinslow",
-    "affiliation": "Google"
-  },
-  "ESG": {
-    "name": "Even Stensberg",
-    "github": "evenstensberg",
-    "affiliation": "Invited Expert"
-  },
-  "FNS": {
-    "name": "Fabio Niephaus",
-    "github": "fniephaus",
-    "affiliation": "Oracle"
-  },
-  "FRA": {
-    "name": "Fabio Rocha",
-    "github": "fabiorocha",
-    "affiliation": "Microsoft"
-  },
-  "FED": {
-    "name": "Federico Bucchi",
-    "github": "federicobucchi",
-    "affiliation": "Apple"
+  "EYH": {
+    "name": "Edd Yerburgh"
   },
   "FBN": {
     "name": "Felipe Balbontín",
     "github": "fabalbon",
     "affiliation": "Google"
   },
-  "FP": {
-    "name": "Filip Pizlo"
+  "FDY": {
+    "name": "Frederik Braun",
+    "github": "mozfreddyb",
+    "affiliation": "Mozilla"
+  },
+  "FED": {
+    "name": "Federico Bucchi",
+    "github": "federicobucchi",
+    "affiliation": "Apple"
+  },
+  "FHN": {
+    "name": "Franziska Hinkelmann",
+    "github": "fhinkel",
+    "affiliation": "Microsoft"
+  },
+  "FHS": {
+    "name": "Dr. Felienne Hermans"
   },
   "FN": {
     "name": "Forrest Norvell"
+  },
+  "FNS": {
+    "name": "Fabio Niephaus",
+    "github": "fniephaus",
+    "affiliation": "Oracle"
+  },
+  "FP": {
+    "name": "Filip Pizlo"
+  },
+  "FRA": {
+    "name": "Fabio Rocha",
+    "github": "fabiorocha",
+    "affiliation": "Microsoft"
   },
   "FRT": {
     "name": "Francisco Ryan Tolmasky I",
@@ -724,43 +732,19 @@
     "github": "FrankYFTang",
     "affiliation": "Google"
   },
-  "FHN": {
-    "name": "Franziska Hinkelmann",
-    "github": "fhinkel",
-    "affiliation": "Microsoft"
-  },
-  "FDY": {
-    "name": "Frederik Braun",
-    "github": "mozfreddyb",
-    "affiliation": "Mozilla"
-  },
-  "PFM": {
-    "name": "Frivalszky-Mayer Péter",
-    "github": "FrivalszkyP",
-    "affiliation": "IBM"
-  },
-  "GI": {
-    "name": "Gabriel Isenberg",
-    "github": "gisenberg",
-    "affiliation": "Invited Expert"
-  },
-  "GMS": {
-    "name": "Gabriel McAdams",
-    "github": "ghmcadams"
+  "GB": {
+    "name": "Guy Bedford",
+    "github": "guybedford",
+    "affiliation": "Cloudflare"
   },
   "GCG": {
     "name": "Gary Chang",
     "github": "garychangsf",
     "affiliation": "Salesforce"
   },
-  "GN": {
-    "name": "Georg Neis",
-    "github": "GeorgNeis"
-  },
-  "GKZ": {
-    "name": "George Zahariev",
-    "github": "gkz",
-    "affiliation": "Meta"
+  "GCL": {
+    "name": "Gus Caplan",
+    "github": "devsnek"
   },
   "GCN": {
     "name": "Godfrey Chan",
@@ -771,61 +755,65 @@
     "github": "gonzalocordero",
     "affiliation": "Salesforce"
   },
-  "GY": {
-    "name": "Gorkem Yakin",
-    "github": "goyakin"
+  "GCW": {
+    "name": "Greg Whitworth",
+    "github": "gregwhitworth",
+    "affiliation": "Salesforce"
   },
-  "GRS": {
-    "name": "Granville Schmidt",
-    "github": "gramidt"
+  "GHO": {
+    "name": "Guilherme Hermeto",
+    "github": "ghermeto"
+  },
+  "GI": {
+    "name": "Gabriel Isenberg",
+    "github": "gisenberg",
+    "affiliation": "Invited Expert"
+  },
+  "GKZ": {
+    "name": "George Zahariev",
+    "github": "gkz",
+    "affiliation": "Meta"
+  },
+  "GMS": {
+    "name": "Gabriel McAdams",
+    "github": "ghmcadams"
+  },
+  "GN": {
+    "name": "Georg Neis",
+    "github": "GeorgNeis"
   },
   "GPT": {
     "name": "Greg Tatum",
     "github": "gregtatum",
     "affiliation": "Mozilla"
   },
-  "GCW": {
-    "name": "Greg Whitworth",
-    "github": "gregwhitworth",
-    "affiliation": "Salesforce"
-  },
-  "GWG": {
-    "name": "Guang Wong",
-    "github": "hikaru-wong",
-    "affiliation": "Alibaba"
-  },
-  "LGY": {
-    "name": "Guanyu Liu",
-    "github": "liuguanyu",
-    "affiliation": "360"
-  },
-  "GHO": {
-    "name": "Guilherme Hermeto",
-    "github": "ghermeto"
-  },
-  "GCL": {
-    "name": "Gus Caplan",
-    "github": "devsnek"
+  "GRS": {
+    "name": "Granville Schmidt",
+    "github": "gramidt"
   },
   "GTO": {
     "name": "Gustavo Tonietto",
     "github": "tonietto",
     "affiliation": "Mozilla"
   },
-  "GB": {
-    "name": "Guy Bedford",
-    "github": "guybedford",
-    "affiliation": "Cloudflare"
-  },
-  "CZY": {
-    "name": "Harry Chen",
-    "github": "czy88840616",
+  "GWG": {
+    "name": "Guang Wong",
+    "github": "hikaru-wong",
     "affiliation": "Alibaba"
   },
-  "JHX": {
-    "name": "HE Shi-Jun",
-    "github": "hax",
-    "affiliation": "Invited Expert"
+  "GY": {
+    "name": "Gorkem Yakin",
+    "github": "goyakin"
+  },
+  "HBL": {
+    "name": "Holger Benl",
+    "github": "hbenl",
+    "affiliation": "Mozilla"
+  },
+  "HBM": {
+    "name": "Hubert Manilla",
+    "github": "bomsy",
+    "affiliation": "Mozilla"
   },
   "HHM": {
     "name": "Hemanth HM",
@@ -836,292 +824,189 @@
     "github": "hsivonen",
     "affiliation": "Mozilla"
   },
-  "HZU": {
-    "name": "Henry Zhu",
-    "github": "hzoo"
-  },
-  "HBL": {
-    "name": "Holger Benl",
-    "github": "hbenl",
-    "affiliation": "Mozilla"
-  },
-  "JLH": {
-    "name": "Huáng Jùnliàng",
-    "github": "JLHwung",
-    "affiliation": "Invited Expert"
-  },
-  "HBM": {
-    "name": "Hubert Manilla",
-    "github": "bomsy",
-    "affiliation": "Mozilla"
-  },
   "HUG": {
     "name": "Hugo van der Merwe",
     "github": "hugovdm"
   },
-  "IID": {
-    "name": "Iain Ireland",
-    "github": "iainireland",
-    "affiliation": "Mozilla"
+  "HUX": {
+    "name": "Xuan Huang (黄玄)",
+    "github": "Huxpro"
   },
-  "IH": {
-    "name": "Ian Halliday"
+  "HZO": {
+    "name": "小船",
+    "github": "adamchuan"
   },
-  "XWC": {
-    "name": "Ian Tse",
-    "github": "Tseian"
+  "HZU": {
+    "name": "Henry Zhu",
+    "github": "hzoo"
   },
-  "IMR": {
-    "name": "Igor Minar",
-    "github": "IgorMinar"
-  },
-  "IT": {
-    "name": "Ilias Tsangaris",
-    "github": "ilias-t",
-    "affiliation": "Invited Expert"
+  "IDO": {
+    "name": "Isaac Durazo",
+    "github": "isaacdurazo"
   },
   "IGK": {
     "name": "Ilya Grigorik",
     "github": "igrigorik",
     "affiliation": "Shopify"
   },
+  "IH": {
+    "name": "Ian Halliday"
+  },
+  "IID": {
+    "name": "Iain Ireland",
+    "github": "iainireland",
+    "affiliation": "Mozilla"
+  },
+  "IMR": {
+    "name": "Igor Minar",
+    "github": "IgorMinar"
+  },
   "IOA": {
     "name": "Ioanna M Dimitriou H",
     "github": "ioannad"
-  },
-  "IDO": {
-    "name": "Isaac Durazo",
-    "github": "isaacdurazo"
-  },
-  "ISR": {
-    "name": "Isaac Schlueter",
-    "github": "isaacs",
-    "affiliation": "Functional Software (Sentry)"
-  },
-  "IVH": {
-    "name": "Isabelle Valet-Harper"
   },
   "IS": {
     "name": "István Sebestyén",
     "github": "ecmageneva",
     "affiliation": "Ecma Staff"
   },
-  "JBS": {
-    "name": "Jack Steinberg",
-    "github": "jackbsteinberg",
-    "affiliation": "Google"
+  "ISR": {
+    "name": "Isaac Schlueter",
+    "github": "isaacs",
+    "affiliation": "Functional Software (Sentry)"
   },
-  "JWK": {
-    "name": "Jack Works",
-    "github": "Jack-Works",
-    "affiliation": "Sujitech"
+  "IT": {
+    "name": "Ilias Tsangaris",
+    "github": "ilias-t",
+    "affiliation": "Invited Expert"
   },
-  "JBG": {
-    "name": "Jacob Groundwater"
-  },
-  "JPG": {
-    "name": "Jacob Page",
-    "github": "jpage-godaddy"
-  },
-  "JSH": {
-    "name": "Jacob Smith",
-    "github": "JakobJingleheimer",
-    "affiliation": "OpenJS Foundation"
-  },
-  "JH": {
-    "name": "Jafar Husain",
-    "github": "jhusain",
-    "affiliation": "Meta"
-  },
-  "JVA": {
-    "name": "Jahziel Villasana"
+  "IVH": {
+    "name": "Isabelle Valet-Harper"
   },
   "JAD": {
     "name": "Jake Archibald",
     "github": "jakearchibald",
     "affiliation": "Mozilla"
   },
-  "JKW": {
-    "name": "Jakob Kummerow"
-  },
-  "JRB": {
-    "name": "James Burke"
-  },
-  "JSL": {
-    "name": "James M Snell",
-    "github": "jasnell",
-    "affiliation": "Cloudflare"
-  },
-  "YJM": {
-    "name": "James Yang",
-    "github": "futurist"
-  },
-  "JK": {
-    "name": "Jamie Kyle",
-    "github": "jamiebuilds",
-    "affiliation": "Invited Expert"
-  },
-  "JXF": {
-    "name": "Jamund Ferguson"
-  },
-  "JDM": {
-    "name": "Jan de Mooij",
-    "github": "jandem",
-    "affiliation": "Mozilla"
-  },
-  "JOM": {
-    "name": "Jan Olaf Martin",
-    "github": "hybrist",
-    "affiliation": "Google"
-  },
-  "JSA": {
-    "name": "Jan Štola",
-    "github": "iamstolis",
-    "affiliation": "Oracle"
-  },
   "JAN": {
     "name": "Jason Nutter",
     "github": "jasonnutter"
-  },
-  "JTO": {
-    "name": "Jason Orendorff",
-    "github": "jorendorff",
-    "affiliation": "Microsoft"
-  },
-  "JWS": {
-    "name": "Jason Williams",
-    "github": "jasonwilliams",
-    "affiliation": "Bloomberg"
-  },
-  "JYU": {
-    "name": "Jason Yu",
-    "github": "Becavalier"
-  },
-  "JNA": {
-    "name": "Jasvir Naga"
-  },
-  "JS": {
-    "name": "Jaswanth Sreeram",
-    "github": "jsreeram"
-  },
-  "JRA": {
-    "name": "Jatin Ramanathan",
-    "github": "jatraman",
-    "affiliation": "Google"
-  },
-  "JFP": {
-    "name": "Jean-Francois Paradis",
-    "github": "jfparadis",
-    "affiliation": "Salesforce"
-  },
-  "JHL": {
-    "name": "Jeff Long",
-    "github": "banterability"
-  },
-  "JM": {
-    "name": "Jeff Morrison",
-    "github": "jeffmo",
-    "affiliation": "Meta"
-  },
-  "JSW": {
-    "name": "Jeff Walden",
-    "github": "jswalden"
-  },
-  "JPO": {
-    "name": "Jeffrey Posnick",
-    "github": "jeffposnick",
-    "affiliation": "Bloomberg"
-  },
-  "JZY": {
-    "name": "Jem Young",
-    "github": "young"
   },
   "JAZ": {
     "name": "Jenna Zeigen",
     "github": "jennazee",
     "affiliation": "Salesforce"
   },
-  "JMN": {
-    "name": "Jesse Alama",
-    "github": "jessealama",
-    "affiliation": "Igalia"
-  },
-  "JSS": {
-    "name": "Jessica Sachs",
-    "github": "JessicaSachs",
-    "affiliation": "HeroDevs"
-  },
-  "JFB": {
-    "name": "JF Bastien",
-    "github": "jfbastien"
-  },
-  "JHP": {
-    "name": "Jihyeok Park",
-    "github": "jhnaldo",
-    "affiliation": "Invited Expert"
-  },
-  "JMK": {
-    "name": "Jirka Maršík",
-    "github": "jirkamarsik",
-    "affiliation": "Oracle"
-  },
-  "JLI": {
-    "name": "Joe Lencioni"
-  },
-  "JMY": {
-    "name": "Joe Mordetsky"
-  },
-  "JSI": {
-    "name": "Joe Sepi",
-    "github": "joesepi",
-    "affiliation": "Cloudflare"
-  },
-  "JMA": {
-    "name": "Joel Marcey",
-    "github": "JoelMarcey"
-  },
-  "JRN": {
-    "name": "Joffrey Richten"
-  },
-  "JRD": {
-    "name": "Johan Røed",
-    "github": "johanrd",
-    "affiliation": "Invited Expert"
-  },
   "JB": {
     "name": "John Buchanan"
   },
-  "JLZ": {
-    "name": "John Lenz",
-    "github": "concavelenz",
+  "JBG": {
+    "name": "Jacob Groundwater"
+  },
+  "JBN": {
+    "name": "Jory Burson",
+    "github": "jorydotcom",
+    "affiliation": "OpenJS Foundation"
+  },
+  "JBS": {
+    "name": "Jack Steinberg",
+    "github": "jackbsteinberg",
     "affiliation": "Google"
   },
-  "JMC": {
-    "name": "John McCutchan"
-  },
-  "JN": {
-    "name": "John Neumann"
-  },
-  "JP": {
-    "name": "John Pampuch"
+  "JCG": {
+    "name": "Joyee Cheung",
+    "github": "joyeecheung",
+    "affiliation": "Igalia"
   },
   "JDD": {
     "name": "John-David Dalton",
     "github": "jdalton",
     "affiliation": "Socket"
   },
+  "JDM": {
+    "name": "Jan de Mooij",
+    "github": "jandem",
+    "affiliation": "Mozilla"
+  },
+  "JDO": {
+    "name": "Juan Dopazo",
+    "github": "juandopazo"
+  },
+  "JDS": {
+    "name": "Jonathan Dallas"
+  },
+  "JEL": {
+    "name": "Jorge Lopez"
+  },
+  "JFB": {
+    "name": "JF Bastien",
+    "github": "jfbastien"
+  },
+  "JFI": {
+    "name": "Justin Fagnani",
+    "github": "justinfagnani"
+  },
+  "JFP": {
+    "name": "Jean-Francois Paradis",
+    "github": "jfparadis",
+    "affiliation": "Salesforce"
+  },
+  "JGI": {
+    "name": "Julien Gilli",
+    "github": "misterdjules"
+  },
+  "JGR": {
+    "name": "Jordan Gensler",
+    "github": "kesne"
+  },
+  "JGT": {
+    "name": "Justin Grant",
+    "github": "justingrant",
+    "affiliation": "Invited Expert"
+  },
+  "JH": {
+    "name": "Jafar Husain",
+    "github": "jhusain",
+    "affiliation": "Meta"
+  },
+  "JHD": {
+    "name": "Jordan Harband",
+    "github": "ljharb",
+    "affiliation": "Socket"
+  },
+  "JHJ": {
+    "name": "Randolf Jung",
+    "github": "jrandolf-zz",
+    "affiliation": "Google"
+  },
+  "JHL": {
+    "name": "Jeff Long",
+    "github": "banterability"
+  },
+  "JHP": {
+    "name": "Jihyeok Park",
+    "github": "jhnaldo",
+    "affiliation": "Invited Expert"
+  },
   "JHS": {
     "name": "Jonas Haukenes",
     "github": "johauke",
     "affiliation": "University of Bergen"
   },
-  "JKR": {
-    "name": "Jonas Kruckenberg",
-    "github": "JonasKruckenberg",
+  "JHX": {
+    "name": "HE Shi-Jun",
+    "github": "hax",
     "affiliation": "Invited Expert"
   },
-  "JDS": {
-    "name": "Jonathan Dallas"
+  "JK": {
+    "name": "Jamie Kyle",
+    "github": "jamiebuilds",
+    "affiliation": "Invited Expert"
+  },
+  "JKG": {
+    "name": "Josh Goldberg",
+    "github": "JoshuaKGoldberg",
+    "affiliation": "Invited Expert"
   },
   "JKN": {
     "name": "Jonathan Keslin",
@@ -1131,73 +1016,94 @@
     "name": "Jonathan Kuperman",
     "github": "jkup"
   },
-  "JSN": {
-    "name": "Jonathan Sampson"
+  "JKR": {
+    "name": "Jonas Kruckenberg",
+    "github": "JonasKruckenberg",
+    "affiliation": "Invited Expert"
   },
-  "JT": {
-    "name": "Jonathan Turner"
+  "JKW": {
+    "name": "Jakob Kummerow"
   },
-  "JGR": {
-    "name": "Jordan Gensler",
-    "github": "kesne"
+  "JLH": {
+    "name": "Huáng Jùnliàng",
+    "github": "JLHwung",
+    "affiliation": "Invited Expert"
   },
-  "JHD": {
-    "name": "Jordan Harband",
-    "github": "ljharb",
-    "affiliation": "Socket"
+  "JLI": {
+    "name": "Joe Lencioni"
   },
-  "JEL": {
-    "name": "Jorge Lopez"
+  "JLZ": {
+    "name": "John Lenz",
+    "github": "concavelenz",
+    "affiliation": "Google"
   },
-  "JBN": {
-    "name": "Jory Burson",
-    "github": "jorydotcom",
-    "affiliation": "OpenJS Foundation"
+  "JM": {
+    "name": "Jeff Morrison",
+    "github": "jeffmo",
+    "affiliation": "Meta"
   },
-  "JVO": {
-    "name": "Jose David Rodrigues Veloso"
+  "JMA": {
+    "name": "Joel Marcey",
+    "github": "JoelMarcey"
+  },
+  "JMC": {
+    "name": "John McCutchan"
+  },
+  "JMK": {
+    "name": "Jirka Maršík",
+    "github": "jirkamarsik",
+    "affiliation": "Oracle"
+  },
+  "JMN": {
+    "name": "Jesse Alama",
+    "github": "jessealama",
+    "affiliation": "Igalia"
+  },
+  "JMY": {
+    "name": "Joe Mordetsky"
+  },
+  "JN": {
+    "name": "John Neumann"
+  },
+  "JNA": {
+    "name": "Jasvir Naga"
+  },
+  "JOM": {
+    "name": "Jan Olaf Martin",
+    "github": "hybrist",
+    "affiliation": "Google"
+  },
+  "JP": {
+    "name": "John Pampuch"
   },
   "JPB": {
     "name": "Josh Blaney",
     "github": "joshbDev",
     "affiliation": "Apple"
   },
-  "JKG": {
-    "name": "Josh Goldberg",
-    "github": "JoshuaKGoldberg",
-    "affiliation": "Invited Expert"
+  "JPG": {
+    "name": "Jacob Page",
+    "github": "jpage-godaddy"
   },
   "JPK": {
     "name": "Joshua Peek"
   },
-  "JSC": {
-    "name": "Joshua S. Choi",
-    "github": "js-choi",
-    "affiliation": "Invited Expert"
+  "JPO": {
+    "name": "Jeffrey Posnick",
+    "github": "jeffposnick",
+    "affiliation": "Bloomberg"
   },
-  "JSM": {
-    "name": "Jovonni Smith-Martinez"
+  "JRA": {
+    "name": "Jatin Ramanathan",
+    "github": "jatraman",
+    "affiliation": "Google"
   },
-  "JCG": {
-    "name": "Joyee Cheung",
-    "github": "joyeecheung",
-    "affiliation": "Igalia"
+  "JRB": {
+    "name": "James Burke"
   },
-  "JDO": {
-    "name": "Juan Dopazo",
-    "github": "juandopazo"
-  },
-  "JGI": {
-    "name": "Julien Gilli",
-    "github": "misterdjules"
-  },
-  "JFI": {
-    "name": "Justin Fagnani",
-    "github": "justinfagnani"
-  },
-  "JGT": {
-    "name": "Justin Grant",
-    "github": "justingrant",
+  "JRD": {
+    "name": "Johan Røed",
+    "github": "johanrd",
     "affiliation": "Invited Expert"
   },
   "JRL": {
@@ -1205,35 +1111,139 @@
     "github": "jridgewell",
     "affiliation": "Google"
   },
-  "KGO": {
-    "name": "Kai Gong",
-    "github": "viekai"
+  "JRN": {
+    "name": "Joffrey Richten"
   },
-  "KWT": {
-    "name": "Kai Tamkun",
-    "github": "heimskr",
-    "affiliation": "Apple"
+  "JS": {
+    "name": "Jaswanth Sreeram",
+    "github": "jsreeram"
   },
-  "KOK": {
-    "name": "Kamil Ogórek",
-    "github": "kamilogorek"
+  "JSA": {
+    "name": "Jan Štola",
+    "github": "iamstolis",
+    "affiliation": "Oracle"
   },
-  "KZM": {
-    "name": "Kat Z. Marchán",
-    "github": "zkat"
+  "JSC": {
+    "name": "Joshua S. Choi",
+    "github": "js-choi",
+    "affiliation": "Invited Expert"
+  },
+  "JSH": {
+    "name": "Jacob Smith",
+    "github": "JakobJingleheimer",
+    "affiliation": "OpenJS Foundation"
+  },
+  "JSI": {
+    "name": "Joe Sepi",
+    "github": "joesepi",
+    "affiliation": "Cloudflare"
+  },
+  "JSL": {
+    "name": "James M Snell",
+    "github": "jasnell",
+    "affiliation": "Cloudflare"
+  },
+  "JSM": {
+    "name": "Jovonni Smith-Martinez"
+  },
+  "JSN": {
+    "name": "Jonathan Sampson"
+  },
+  "JSS": {
+    "name": "Jessica Sachs",
+    "github": "JessicaSachs",
+    "affiliation": "HeroDevs"
+  },
+  "JSW": {
+    "name": "Jeff Walden",
+    "github": "jswalden"
+  },
+  "JT": {
+    "name": "Jonathan Turner"
+  },
+  "JTO": {
+    "name": "Jason Orendorff",
+    "github": "jorendorff",
+    "affiliation": "Microsoft"
+  },
+  "JVA": {
+    "name": "Jahziel Villasana"
+  },
+  "JVO": {
+    "name": "Jose David Rodrigues Veloso"
+  },
+  "JWK": {
+    "name": "Jack Works",
+    "github": "Jack-Works",
+    "affiliation": "Sujitech"
+  },
+  "JWS": {
+    "name": "Jason Williams",
+    "github": "jasonwilliams",
+    "affiliation": "Bloomberg"
+  },
+  "JXF": {
+    "name": "Jamund Ferguson"
+  },
+  "JXZ": {
+    "name": "Xuanzi",
+    "github": "fefit",
+    "affiliation": "360"
+  },
+  "JYU": {
+    "name": "Jason Yu",
+    "github": "Becavalier"
+  },
+  "JZY": {
+    "name": "Jem Young",
+    "github": "young"
   },
   "KBA": {
     "name": "Katie Broida",
     "github": "ktbee"
   },
+  "KBK": {
+    "name": "Kyle Barron-Kraus",
+    "github": "kylebk",
+    "affiliation": "ServiceNow"
+  },
   "KBR": {
     "name": "Kawika Bader",
     "github": "kawikabader"
+  },
+  "KCD": {
+    "name": "Kent C. Dodds",
+    "github": "kentcdodds"
   },
   "KCL": {
     "name": "Keith Cirkel",
     "github": "keithamus",
     "affiliation": "Microsoft"
+  },
+  "KCN": {
+    "name": "Kirill Cherkoshin"
+  },
+  "KG": {
+    "name": "Kevin Gibbons",
+    "github": "bakkot",
+    "affiliation": "Invited Expert"
+  },
+  "KGO": {
+    "name": "Kai Gong",
+    "github": "viekai"
+  },
+  "KGY": {
+    "name": "Kris Gray"
+  },
+  "KHG": {
+    "name": "Kristen Hewell Garrett",
+    "github": "pzuraq",
+    "affiliation": "Invited Expert"
+  },
+  "KKL": {
+    "name": "Kris Kowal",
+    "github": "kriskowal",
+    "affiliation": "Agoric"
   },
   "KM": {
     "name": "Keith Miller",
@@ -1245,14 +1255,14 @@
     "github": "chadmoyashi",
     "affiliation": "Sony Interactive Entertainment"
   },
-  "KCD": {
-    "name": "Kent C. Dodds",
-    "github": "kentcdodds"
+  "KOK": {
+    "name": "Kamil Ogórek",
+    "github": "kamilogorek"
   },
-  "KG": {
-    "name": "Kevin Gibbons",
-    "github": "bakkot",
-    "affiliation": "Invited Expert"
+  "KOT": {
+    "name": "Krzysztof Kotowicz",
+    "github": "koto",
+    "affiliation": "Google"
   },
   "KR": {
     "name": "Kevin Reid"
@@ -1264,65 +1274,131 @@
   "KVN": {
     "name": "Kevin Venkiteswaran"
   },
-  "XAX": {
-    "name": "Khaidi Chu",
-    "github": "XadillaX"
+  "KVR": {
+    "name": "Kyle Verrier",
+    "github": "kverrier",
+    "affiliation": "Apple"
+  },
+  "KWL": {
+    "name": "Wenlu Wang",
+    "github": "Kingwl"
+  },
+  "KWT": {
+    "name": "Kai Tamkun",
+    "github": "heimskr",
+    "affiliation": "Apple"
+  },
+  "KZM": {
+    "name": "Kat Z. Marchán",
+    "github": "zkat"
   },
   "KZP": {
     "name": "Kiril Panayotov",
     "github": "zakrok",
     "affiliation": "JetBrains"
   },
-  "KCN": {
-    "name": "Kirill Cherkoshin"
-  },
-  "KGY": {
-    "name": "Kris Gray"
-  },
-  "KKL": {
-    "name": "Kris Kowal",
-    "github": "kriskowal",
-    "affiliation": "Agoric"
-  },
-  "KHG": {
-    "name": "Kristen Hewell Garrett",
-    "github": "pzuraq",
+  "LAF": {
+    "name": "Louis-Aimé de Fouquières",
+    "github": "Louis-Aime",
     "affiliation": "Invited Expert"
-  },
-  "KOT": {
-    "name": "Krzysztof Kotowicz",
-    "github": "koto",
-    "affiliation": "Google"
-  },
-  "KBK": {
-    "name": "Kyle Barron-Kraus",
-    "github": "kylebk",
-    "affiliation": "ServiceNow"
-  },
-  "KVR": {
-    "name": "Kyle Verrier",
-    "github": "kverrier",
-    "affiliation": "Apple"
-  },
-  "LHN": {
-    "name": "Lars T Hansen",
-    "github": "lars-t-hansen"
-  },
-  "LVU": {
-    "name": "Lea Verou",
-    "github": "LeaVerou",
-    "affiliation": "OpenJS Foundation"
   },
   "LB": {
     "name": "Lee Byron",
     "github": "leebyron"
   },
-  "LZM": {
-    "name": "LEI Zongmin",
-    "github": "leizongmin"
+  "LCA": {
+    "name": "Luca Casonato",
+    "github": "lucacasonato",
+    "affiliation": "Invited Expert"
+  },
+  "LCK": {
+    "name": "Lin Clark",
+    "github": "linclark"
+  },
+  "LCP": {
+    "name": "Chyi Pin Lim",
+    "github": "chyipin"
+  },
+  "LEK": {
+    "name": "Leo Kettmeir",
+    "github": "crowlKats",
+    "affiliation": "Deno Land"
+  },
+  "LEO": {
+    "name": "Leo Balter",
+    "github": "leobalter",
+    "affiliation": "Microsoft"
+  },
+  "LFP": {
+    "name": "Luis Fernando Pardo Sixtos",
+    "github": "lpardosixtosMs",
+    "affiliation": "Microsoft"
+  },
+  "LFR": {
+    "name": "Luca Forstner",
+    "github": "lforst",
+    "affiliation": "Invited Expert"
+  },
+  "LGH": {
+    "name": "Linus Groh",
+    "github": "linusg",
+    "affiliation": "Bloomberg"
+  },
+  "LGR": {
+    "name": "Lyza Gardner",
+    "github": "lyzadanger",
+    "affiliation": "Invited Expert"
+  },
+  "LGY": {
+    "name": "Guanyu Liu",
+    "github": "liuguanyu",
+    "affiliation": "360"
+  },
+  "LH": {
+    "name": "Luke Hoban",
+    "github": "lukehoban"
+  },
+  "LHN": {
+    "name": "Lars T Hansen",
+    "github": "lars-t-hansen"
+  },
+  "LHO": {
+    "name": "Long Ho",
+    "github": "longlho"
+  },
+  "LIU": {
+    "name": "Liu ZiJian",
+    "github": "Lxxyx",
+    "affiliation": "Alibaba"
+  },
+  "LL": {
+    "name": "Louis Lafreniere"
+  },
+  "LLI": {
+    "name": "Luigi Liquori",
+    "github": "luigiliquori",
+    "affiliation": "Inria"
   },
   "LM": {
     "name": "Leland Richardson"
+  },
+  "LPR": {
+    "name": "Luna Pfeiffer",
+    "github": "Sharktheone",
+    "affiliation": "Invited Expert"
+  },
+  "LSH": {
+    "name": "Logan Smyth",
+    "github": "loganfsmyth"
+  },
+  "LSR": {
+    "name": "Lukas Stadler",
+    "github": "lukasstadler"
+  },
+  "LVU": {
+    "name": "Lea Verou",
+    "github": "LeaVerou",
+    "affiliation": "OpenJS Foundation"
   },
   "LWR": {
     "name": "Luke Warlow",
@@ -1334,178 +1410,53 @@
     "github": "phryneas",
     "affiliation": "Apollo Graph"
   },
-  "LEO": {
-    "name": "Leo Balter",
-    "github": "leobalter",
-    "affiliation": "Microsoft"
-  },
-  "LEK": {
-    "name": "Leo Kettmeir",
-    "github": "crowlKats",
-    "affiliation": "Deno Land"
-  },
-  "YLI": {
-    "name": "Li YuBei",
-    "github": "leeight"
-  },
   "LWU": {
     "name": "Liang Wu"
   },
-  "LZU": {
-    "name": "Limin Zhu",
-    "github": "liminzhu",
-    "affiliation": "Microsoft"
+  "LWW": {
+    "name": "Weiwen Liang",
+    "github": "exoticknight"
   },
-  "LCK": {
-    "name": "Lin Clark",
-    "github": "linclark"
-  },
-  "LGH": {
-    "name": "Linus Groh",
-    "github": "linusg",
-    "affiliation": "Bloomberg"
-  },
-  "LIU": {
-    "name": "Liu ZiJian",
-    "github": "Lxxyx",
+  "LYL": {
+    "name": "Yilong Li",
+    "github": "umuoy1",
     "affiliation": "Alibaba"
-  },
-  "LSH": {
-    "name": "Logan Smyth",
-    "github": "loganfsmyth"
-  },
-  "LHO": {
-    "name": "Long Ho",
-    "github": "longlho"
-  },
-  "LL": {
-    "name": "Louis Lafreniere"
-  },
-  "LAF": {
-    "name": "Louis-Aimé de Fouquières",
-    "github": "Louis-Aime",
-    "affiliation": "Invited Expert"
-  },
-  "LCA": {
-    "name": "Luca Casonato",
-    "github": "lucacasonato",
-    "affiliation": "Invited Expert"
-  },
-  "LFR": {
-    "name": "Luca Forstner",
-    "github": "lforst",
-    "affiliation": "Invited Expert"
-  },
-  "LLI": {
-    "name": "Luigi Liquori",
-    "github": "luigiliquori",
-    "affiliation": "Inria"
-  },
-  "LFP": {
-    "name": "Luis Fernando Pardo Sixtos",
-    "github": "lpardosixtosMs",
-    "affiliation": "Microsoft"
-  },
-  "LSR": {
-    "name": "Lukas Stadler",
-    "github": "lukasstadler"
-  },
-  "LH": {
-    "name": "Luke Hoban",
-    "github": "lukehoban"
-  },
-  "LPR": {
-    "name": "Luna Pfeiffer",
-    "github": "Sharktheone",
-    "affiliation": "Invited Expert"
   },
   "LZG": {
     "name": "Luoming Zhang",
     "github": "epflboy",
     "affiliation": "Huawei"
   },
-  "LGR": {
-    "name": "Lyza Gardner",
-    "github": "lyzadanger",
-    "affiliation": "Invited Expert"
+  "LZH": {
+    "name": "ZhaoLei",
+    "github": "zhaolei0505",
+    "affiliation": "Alibaba"
   },
-  "MNN": {
-    "name": "Maël Nison"
+  "LZJ": {
+    "name": "Zhi Jie Li",
+    "github": "zeldajay",
+    "affiliation": "360"
   },
-  "MPT": {
-    "name": "Maggie Johnson-Pint",
-    "github": "maggiepint"
+  "LZM": {
+    "name": "LEI Zongmin",
+    "github": "leizongmin"
   },
-  "MJN": {
-    "name": "Manuel Jasso",
-    "github": "manuel-jasso",
-    "affiliation": "Salesforce"
+  "LZU": {
+    "name": "Limin Zhu",
+    "github": "liminzhu",
+    "affiliation": "Microsoft"
   },
-  "MSR": {
-    "name": "Manuel Serrano",
-    "github": "manuel-serrano"
-  },
-  "MIO": {
-    "name": "Marco Ippolito",
-    "github": "marco-ippolito",
-    "affiliation": "HeroDevs"
-  },
-  "MKA": {
-    "name": "Mariko Kosaka",
-    "github": "kosamari"
-  },
-  "AIS": {
-    "name": "Marina Aísa",
-    "github": "marinaaisa",
-    "affiliation": "Apple"
-  },
-  "MHA": {
-    "name": "Marja Hölttä",
-    "github": "marjakh",
-    "affiliation": "Google"
-  },
-  "MPC": {
-    "name": "Mark Cohen",
-    "github": "mpcsh",
-    "affiliation": "Invited Expert"
-  },
-  "MED": {
-    "name": "Mark E. Davis",
-    "github": "macchiati",
-    "affiliation": "Google"
-  },
-  "MH": {
-    "name": "Mark Honenberg"
-  },
-  "MM": {
-    "name": "Mark S. Miller",
-    "github": "erights",
-    "affiliation": "Agoric"
-  },
-  "MJS": {
-    "name": "Mark Stacey",
-    "github": "Gudahtt"
-  },
-  "MWS": {
-    "name": "Markus W. Scherer",
-    "github": "markusicu",
-    "affiliation": "Google"
+  "MAA": {
+    "name": "Maxim Aleksa"
   },
   "MAE": {
     "name": "Martin Alvarez-Espinar",
     "github": "espinr"
   },
-  "MAR": {
-    "name": "Mary Marchini",
-    "github": "mmarchini"
-  },
-  "MRN": {
-    "name": "Masud Rahman"
-  },
-  "MB": {
-    "name": "Mathias Bynens",
-    "github": "mathiasbynens",
-    "affiliation": "Google"
+  "MAG": {
+    "name": "Matthew Gaudet",
+    "github": "mgaudet",
+    "affiliation": "Mozilla"
   },
   "MAH": {
     "name": "Mathieu Hofman",
@@ -1516,29 +1467,48 @@
     "name": "Matt Johnson-Pint",
     "github": "mattjohnsonpint"
   },
-  "MMR": {
-    "name": "Matt Miller"
+  "MAR": {
+    "name": "Mary Marchini",
+    "github": "mmarchini"
   },
-  "MS": {
-    "name": "Matt Sweeney",
-    "github": "msweeney"
+  "MB": {
+    "name": "Mathias Bynens",
+    "github": "mathiasbynens",
+    "affiliation": "Google"
   },
-  "MAG": {
-    "name": "Matthew Gaudet",
-    "github": "mgaudet",
-    "affiliation": "Mozilla"
+  "MBH": {
+    "name": "Mikhail Barash",
+    "github": "mikbar-uib",
+    "affiliation": "University of Bergen"
   },
-  "MHK": {
-    "name": "Mattijs Hoitink",
-    "github": "mattijs"
+  "MBS": {
+    "name": "Myles Borins",
+    "github": "MylesBorins"
   },
-  "MAA": {
-    "name": "Maxim Aleksa"
+  "MCM": {
+    "name": "Myles C. Maxfield",
+    "github": "litherum"
+  },
+  "MCU": {
+    "name": "Mu-An Chiou",
+    "github": "muan"
+  },
+  "MCW": {
+    "name": "Mike West",
+    "github": "mikewest"
+  },
+  "MDH": {
+    "name": "Mohamed Hegazy"
   },
   "MDK": {
     "name": "Michael Dyck",
     "github": "jmdyck",
     "affiliation": "Invited Expert"
+  },
+  "MED": {
+    "name": "Mark E. Davis",
+    "github": "macchiati",
+    "affiliation": "Google"
   },
   "MF": {
     "name": "Michael Ficarra",
@@ -1549,127 +1519,161 @@
     "name": "Michael FIG",
     "github": "michaelfig"
   },
+  "MGR": {
+    "name": "Mira Gross"
+  },
+  "MH": {
+    "name": "Mark Honenberg"
+  },
+  "MHA": {
+    "name": "Marja Hölttä",
+    "github": "marjakh",
+    "affiliation": "Google"
+  },
   "MHH": {
     "name": "Michael Hablich"
   },
-  "MLS": {
-    "name": "Michael Saboff",
-    "github": "msaboff",
-    "affiliation": "Invited Expert"
-  },
-  "MZG": {
-    "name": "Michael Z Goddard",
-    "github": "mzgoddard"
+  "MHK": {
+    "name": "Mattijs Hoitink",
+    "github": "mattijs"
   },
   "MHN": {
     "name": "Michal Hollman"
   },
-  "MNY": {
-    "name": "Michal Mocny",
-    "github": "mmocny",
-    "affiliation": "Google"
+  "MHY": {
+    "name": "Miško Hevery"
   },
-  "MRA": {
-    "name": "Michele Riva",
-    "github": "micheleriva",
-    "affiliation": "OramaSearch"
+  "MIO": {
+    "name": "Marco Ippolito",
+    "github": "marco-ippolito",
+    "affiliation": "HeroDevs"
   },
-  "MMY": {
-    "name": "Mike Murry",
-    "github": "mikemurry"
+  "MJN": {
+    "name": "Manuel Jasso",
+    "github": "manuel-jasso",
+    "affiliation": "Salesforce"
   },
-  "MP": {
-    "name": "Mike Pennisi",
-    "github": "jugglinmike",
-    "affiliation": "Igalia"
+  "MJS": {
+    "name": "Mark Stacey",
+    "github": "Gudahtt"
   },
-  "MSL": {
-    "name": "Mike Samuel",
-    "github": "mikesamuel"
-  },
-  "MCW": {
-    "name": "Mike West",
-    "github": "mikewest"
-  },
-  "MRS": {
-    "name": "Mikeal Rogers",
-    "github": "mikeal"
-  },
-  "MBH": {
-    "name": "Mikhail Barash",
-    "github": "mikbar-uib",
-    "affiliation": "University of Bergen"
-  },
-  "MME": {
-    "name": "Miles Maltbie",
-    "github": "milesmaltbie",
-    "affiliation": "Datlas"
+  "MKA": {
+    "name": "Mariko Kosaka",
+    "github": "kosamari"
   },
   "MLM": {
     "name": "Milo Mighdoll",
     "github": "milomg",
     "affiliation": "Invited Expert"
   },
+  "MLS": {
+    "name": "Michael Saboff",
+    "github": "msaboff",
+    "affiliation": "Invited Expert"
+  },
+  "MM": {
+    "name": "Mark S. Miller",
+    "github": "erights",
+    "affiliation": "Agoric"
+  },
+  "MME": {
+    "name": "Miles Maltbie",
+    "github": "milesmaltbie",
+    "affiliation": "Datlas"
+  },
+  "MMR": {
+    "name": "Matt Miller"
+  },
+  "MMY": {
+    "name": "Mike Murry",
+    "github": "mikemurry"
+  },
+  "MNN": {
+    "name": "Maël Nison"
+  },
+  "MNY": {
+    "name": "Michal Mocny",
+    "github": "mmocny",
+    "affiliation": "Google"
+  },
+  "MP": {
+    "name": "Mike Pennisi",
+    "github": "jugglinmike",
+    "affiliation": "Igalia"
+  },
+  "MPC": {
+    "name": "Mark Cohen",
+    "github": "mpcsh",
+    "affiliation": "Invited Expert"
+  },
+  "MPS": {
+    "name": "Morgan Phillips"
+  },
+  "MPT": {
+    "name": "Maggie Johnson-Pint",
+    "github": "maggiepint"
+  },
   "MQW": {
     "name": "Min-qi Wu"
   },
-  "WMM": {
-    "name": "Ming Wang"
+  "MRA": {
+    "name": "Michele Riva",
+    "github": "micheleriva",
+    "affiliation": "OramaSearch"
+  },
+  "MRN": {
+    "name": "Masud Rahman"
+  },
+  "MRS": {
+    "name": "Mikeal Rogers",
+    "github": "mikeal"
+  },
+  "MS": {
+    "name": "Matt Sweeney",
+    "github": "msweeney"
+  },
+  "MSL": {
+    "name": "Mike Samuel",
+    "github": "mikesamuel"
+  },
+  "MSR": {
+    "name": "Manuel Serrano",
+    "github": "manuel-serrano"
+  },
+  "MTI": {
+    "name": "Mrelita Tiwari"
+  },
+  "MWS": {
+    "name": "Markus W. Scherer",
+    "github": "markusicu",
+    "affiliation": "Google"
   },
   "MYC": {
     "name": "MingYuan Cheng",
     "github": "nuanyang233"
   },
-  "MGR": {
-    "name": "Mira Gross"
+  "MZG": {
+    "name": "Michael Z Goddard",
+    "github": "mzgoddard"
   },
-  "MHY": {
-    "name": "Miško Hevery"
-  },
-  "MDH": {
-    "name": "Mohamed Hegazy"
-  },
-  "MPS": {
-    "name": "Morgan Phillips"
-  },
-  "MTI": {
-    "name": "Mrelita Tiwari"
-  },
-  "MCU": {
-    "name": "Mu-An Chiou",
-    "github": "muan"
-  },
-  "MBS": {
-    "name": "Myles Borins",
-    "github": "MylesBorins"
-  },
-  "MCM": {
-    "name": "Myles C. Maxfield",
-    "github": "litherum"
+  "NC": {
+    "name": "Nebojša Ćirić"
   },
   "NH": {
     "name": "Nagy Hostafa"
-  },
-  "NSH": {
-    "name": "Natalie Silvanovich",
-    "github": "natashenka"
   },
   "NHD": {
     "name": "Nathan Hammond",
     "github": "nathanhammond"
   },
-  "NC": {
-    "name": "Nebojša Ćirić"
+  "NL": {
+    "name": "Norbert Lindenberg",
+    "github": "norbertlindenberg"
   },
   "NLY": {
     "name": "Nicholas Yang",
     "github": "NicholasLYang",
     "affiliation": "Vercel"
-  },
-  "NRO": {
-    "name": "Nicolò Ribaudo",
-    "github": "nicolo-ribaudo",
-    "affiliation": "Igalia"
   },
   "NM": {
     "name": "Niko Matsakis",
@@ -1680,18 +1684,28 @@
     "github": "nickie",
     "affiliation": "Google"
   },
+  "NRO": {
+    "name": "Nicolò Ribaudo",
+    "github": "nicolo-ribaudo",
+    "affiliation": "Igalia"
+  },
+  "NSH": {
+    "name": "Natalie Silvanovich",
+    "github": "natashenka"
+  },
   "NTE": {
     "name": "Noah Tye",
     "github": "noahlt"
   },
-  "TLY": {
-    "name": "Noelle Levy",
-    "github": "NilSet",
-    "affiliation": "Bending Spoons"
+  "NVP": {
+    "name": "Preston Sego",
+    "github": "NullVoxPopuli",
+    "affiliation": "Invited Expert"
   },
-  "NL": {
-    "name": "Norbert Lindenberg",
-    "github": "norbertlindenberg"
+  "OFR": {
+    "name": "Olivier Flückiger",
+    "github": "o-",
+    "affiliation": "Google"
   },
   "OH": {
     "name": "Oliver Hunt"
@@ -1701,33 +1715,31 @@
     "github": "CanadaHonk",
     "affiliation": "Invited Expert"
   },
-  "OFR": {
-    "name": "Olivier Flückiger",
-    "github": "o-",
-    "affiliation": "Google"
+  "PDL": {
+    "name": "Philipp Dunkel",
+    "github": "pipobscure"
+  },
+  "PED": {
+    "name": "Pedram Emrouznejad",
+    "github": "pemrouz"
+  },
+  "PFC": {
+    "name": "Philip Chimento",
+    "github": "ptomato",
+    "affiliation": "Igalia"
+  },
+  "PFM": {
+    "name": "Frivalszky-Mayer Péter",
+    "github": "FrivalszkyP",
+    "affiliation": "IBM"
   },
   "PGO": {
     "name": "Pablo Gorostiaga Belio",
     "github": "gorosgobe",
     "affiliation": "Bloomberg"
   },
-  "PSI": {
-    "name": "Paolo Severini"
-  },
-  "PST": {
-    "name": "Patrick Soquet",
-    "github": "patrick-soquet",
-    "affiliation": "Moddable"
-  },
-  "PLR": {
-    "name": "Paul Leather"
-  },
-  "PL": {
-    "name": "Paul Leathers"
-  },
-  "PED": {
-    "name": "Pedram Emrouznejad",
-    "github": "pemrouz"
+  "PGR": {
+    "name": "Philippa Gardner"
   },
   "PHE": {
     "name": "Peter Hoddie",
@@ -1743,40 +1755,37 @@
     "github": "peetklecha",
     "affiliation": "Bloomberg"
   },
-  "PZE": {
-    "name": "Peter van der Zee"
-  },
-  "PFC": {
-    "name": "Philip Chimento",
-    "github": "ptomato",
-    "affiliation": "Igalia"
-  },
-  "PDL": {
-    "name": "Philipp Dunkel",
-    "github": "pipobscure"
-  },
-  "PGR": {
-    "name": "Philippa Gardner"
+  "PL": {
+    "name": "Paul Leathers"
   },
   "PLH": {
     "name": "Philippe Le Hégaret"
   },
-  "PMS": {
-    "name": "Phillip Mates",
-    "github": "philomates"
+  "PLR": {
+    "name": "Paul Leather"
   },
   "PMD": {
     "name": "Pierre-Marie Dartus"
+  },
+  "PMS": {
+    "name": "Phillip Mates",
+    "github": "philomates"
   },
   "POK": {
     "name": "Pieter Ouwerkerk",
     "github": "pouwerkerk",
     "affiliation": "Runkit"
   },
-  "NVP": {
-    "name": "Preston Sego",
-    "github": "NullVoxPopuli",
-    "affiliation": "Invited Expert"
+  "PSI": {
+    "name": "Paolo Severini"
+  },
+  "PST": {
+    "name": "Patrick Soquet",
+    "github": "patrick-soquet",
+    "affiliation": "Moddable"
+  },
+  "PZE": {
+    "name": "Peter van der Zee"
   },
   "QTU": {
     "name": "Qiang Tu",
@@ -1785,76 +1794,99 @@
   "QZG": {
     "name": "Qiuyi Zhang"
   },
-  "RX": {
-    "name": "Rafael Xavier de Souza",
-    "github": "rxaviers"
-  },
-  "RWN": {
-    "name": "Rafeal Weinstein"
-  },
-  "JHJ": {
-    "name": "Randolf Jung",
-    "github": "jrandolf-zz",
-    "affiliation": "Google"
-  },
-  "RLE": {
-    "name": "Randy Luecke",
-    "github": "Me1000",
-    "affiliation": "Runkit"
-  },
-  "RJN": {
-    "name": "Ravi Jayaramappan"
-  },
-  "RTR": {
-    "name": "Rebecca Turner",
-    "github": "iarna"
-  },
-  "RRI": {
-    "name": "Reefath Rajali",
-    "github": "reefath"
-  },
   "RB": {
     "name": "Reid Burke"
   },
-  "RJE": {
-    "name": "Rex Jaeschke"
-  },
-  "RMH": {
-    "name": "Rezvan Mahdavi Hezaveh",
-    "github": "rmahdav",
+  "RBA": {
+    "name": "Rishipal Singh Bhatia",
+    "github": "rishipal",
     "affiliation": "Google"
   },
-  "RGN": {
-    "name": "Richard Gibson",
-    "github": "gibson042",
-    "affiliation": "Agoric / OpenJS Foundation"
+  "RBN": {
+    "name": "Ron Buckton",
+    "github": "rbuckton",
+    "affiliation": "F5"
+  },
+  "RBR": {
+    "name": "Ruben Bridgewater",
+    "github": "BridgeAR",
+    "affiliation": "Invited Expert"
   },
   "RBU": {
     "name": "Rick Button",
     "github": "rickbutton",
     "affiliation": "Bloomberg"
   },
+  "RCA": {
+    "name": "Romulo Cintra",
+    "github": "romulocintra",
+    "affiliation": "Igalia"
+  },
+  "RCH": {
+    "name": "Ryan Cavanaugh",
+    "github": "RyanCavanaugh",
+    "affiliation": "Microsoft"
+  },
+  "REK": {
+    "name": "Erik Marks",
+    "github": "rekmarks",
+    "affiliation": "Metamask"
+  },
+  "RGN": {
+    "name": "Richard Gibson",
+    "github": "gibson042",
+    "affiliation": "Agoric / OpenJS Foundation"
+  },
   "RH": {
     "name": "Rick Hudson"
   },
-  "RMS": {
-    "name": "Rick Markins",
-    "github": "rxmarbles"
+  "RHA": {
+    "name": "Ryuichi Hayashida",
+    "github": "rhysd",
+    "affiliation": "Sony Interactive Entertainment"
   },
-  "RW": {
-    "name": "Rick Waldron",
-    "github": "rwaldron",
-    "affiliation": "Salesforce"
+  "RJE": {
+    "name": "Rex Jaeschke"
+  },
+  "RJN": {
+    "name": "Ravi Jayaramappan"
   },
   "RKA": {
     "name": "Riki Khorana",
     "github": "rikilele",
     "affiliation": "Sony Interactive Entertainment"
   },
-  "RBA": {
-    "name": "Rishipal Singh Bhatia",
-    "github": "rishipal",
+  "RKG": {
+    "name": "Ross Kirsling",
+    "github": "rkirsling",
+    "affiliation": "Sony Interactive Entertainment"
+  },
+  "RLE": {
+    "name": "Randy Luecke",
+    "github": "Me1000",
+    "affiliation": "Runkit"
+  },
+  "RLH": {
+    "name": "Ryan Hunt",
+    "github": "eqrion",
+    "affiliation": "Mozilla"
+  },
+  "RMH": {
+    "name": "Rezvan Mahdavi Hezaveh",
+    "github": "rmahdav",
     "affiliation": "Google"
+  },
+  "RMS": {
+    "name": "Rick Markins",
+    "github": "rxmarbles"
+  },
+  "RMT": {
+    "name": "Robin Morisset"
+  },
+  "ROF": {
+    "name": "Rodrigo Fernandez",
+    "github": "rodfernandez",
+    "affiliation": "ServiceNow"
   },
   "RPR": {
     "name": "Rob Palmer",
@@ -1866,125 +1898,141 @@
     "github": "rpamely",
     "affiliation": "Bloomberg"
   },
-  "RMT": {
-    "name": "Robin Morisset"
-  },
   "RRD": {
     "name": "Robin Ricard",
     "github": "rricard"
   },
-  "ROF": {
-    "name": "Rodrigo Fernandez",
-    "github": "rodfernandez",
-    "affiliation": "ServiceNow"
+  "RRI": {
+    "name": "Reefath Rajali",
+    "github": "reefath"
   },
-  "RCA": {
-    "name": "Romulo Cintra",
-    "github": "romulocintra",
-    "affiliation": "Igalia"
+  "RTM": {
+    "name": "Bob Myers"
   },
-  "RBN": {
-    "name": "Ron Buckton",
-    "github": "rbuckton",
-    "affiliation": "F5"
+  "RTR": {
+    "name": "Rebecca Turner",
+    "github": "iarna"
   },
-  "ZRJ": {
-    "name": "Rongjian Zhang",
-    "github": "pd4d10"
+  "RW": {
+    "name": "Rick Waldron",
+    "github": "rwaldron",
+    "affiliation": "Salesforce"
   },
-  "RKG": {
-    "name": "Ross Kirsling",
-    "github": "rkirsling",
-    "affiliation": "Sony Interactive Entertainment"
+  "RWN": {
+    "name": "Rafeal Weinstein"
   },
-  "RBR": {
-    "name": "Ruben Bridgewater",
-    "github": "BridgeAR",
+  "RX": {
+    "name": "Rafael Xavier de Souza",
+    "github": "rxaviers"
+  },
+  "SAN": {
+    "name": "Seungmin An",
+    "github": "h2oche",
     "affiliation": "Invited Expert"
   },
-  "RCH": {
-    "name": "Ryan Cavanaugh",
-    "github": "RyanCavanaugh",
-    "affiliation": "Microsoft"
+  "SBE": {
+    "name": "Sean Burke",
+    "github": "leftmostcat"
   },
-  "RLH": {
-    "name": "Ryan Hunt",
-    "github": "eqrion",
-    "affiliation": "Mozilla"
-  },
-  "RHA": {
-    "name": "Ryuichi Hayashida",
-    "github": "rhysd",
-    "affiliation": "Sony Interactive Entertainment"
+  "SBH": {
+    "name": "Seth Brenith"
   },
   "SBI": {
     "name": "Saam Barati",
     "github": "saambarati"
   },
-  "SGO": {
-    "name": "Sam Goto",
-    "github": "samuelgoto",
-    "affiliation": "Google"
-  },
-  "SML": {
-    "name": "Sam Mussell"
-  },
-  "STH": {
-    "name": "Sam Tobin-Hochstadt",
-    "github": "samth",
-    "affiliation": "Indiana University"
-  },
-  "SHN": {
-    "name": "Samina Husain",
-    "github": "SaminaHusain",
-    "affiliation": "Ecma Staff"
-  },
-  "SJI": {
-    "name": "Sanket Joshi"
-  },
-  "SDZ": {
-    "name": "Santiago Diaz",
-    "github": "salcho",
-    "affiliation": "Google"
+  "SC": {
+    "name": "Satish Chondra"
   },
   "SDO": {
     "name": "Sarah D'Onofrio",
     "github": "sarahdonofrio",
     "affiliation": "Microsoft"
   },
-  "SHO": {
-    "name": "Sarah Groff Hennigh-Palermo",
-    "github": "sarahghp"
+  "SDZ": {
+    "name": "Santiago Diaz",
+    "github": "salcho",
+    "affiliation": "Google"
+  },
+  "SEP": {
+    "name": "Staffan Eketorp",
+    "github": "staeke",
+    "affiliation": "Apple"
+  },
+  "SFC": {
+    "name": "Shane F. Carr",
+    "github": "sffc",
+    "affiliation": "Google"
+  },
+  "SFR": {
+    "name": "Steve Faulkner",
+    "github": "southpolesteve",
+    "affiliation": "Cloudflare"
   },
   "SGN": {
     "name": "Sathya Gunasekaran",
     "github": "gsathya",
     "affiliation": "Meta"
   },
-  "SC": {
-    "name": "Satish Chondra"
+  "SGO": {
+    "name": "Sam Goto",
+    "github": "samuelgoto",
+    "affiliation": "Google"
   },
-  "SSN": {
-    "name": "Satish Srinivasan",
-    "github": "0xe",
-    "affiliation": "ServiceNow"
+  "SHK": {
+    "name": "Shelby Hubick"
   },
-  "SMS": {
-    "name": "Scott Myers"
+  "SHN": {
+    "name": "Samina Husain",
+    "github": "SaminaHusain",
+    "affiliation": "Ecma Staff"
   },
-  "SWR": {
-    "name": "Scott Whittaker",
-    "github": "scottrobertwhittaker",
-    "affiliation": "Bloomberg"
+  "SHO": {
+    "name": "Sarah Groff Hennigh-Palermo",
+    "github": "sarahghp"
   },
-  "SBE": {
-    "name": "Sean Burke",
-    "github": "leftmostcat"
+  "SHR": {
+    "name": "Sigrid Huemer",
+    "github": "s1gr1d",
+    "affiliation": "Functional Software (Sentry)"
+  },
+  "SHS": {
+    "name": "Stephen Hicks",
+    "github": "shicks",
+    "affiliation": "Google"
+  },
+  "SJI": {
+    "name": "Sanket Joshi"
+  },
+  "SJL": {
+    "name": "Sung-Jae Lee"
+  },
+  "SJY": {
+    "name": "Shi Jiang Yu",
+    "github": "yusj",
+    "affiliation": "Alibaba"
+  },
+  "SK": {
+    "name": "Simon Kaegi"
+  },
+  "SKI": {
+    "name": "Sulekha Kulkarni",
+    "github": "sulekhark",
+    "affiliation": "Microsoft"
+  },
+  "SLI": {
+    "name": "Songfeng Li（李松峰）",
+    "github": "cncuckoo"
   },
   "SLN": {
     "name": "Sean Larkin",
     "github": "TheLarkInn",
     "affiliation": "Microsoft"
+  },
+  "SLV": {
+    "name": "Shumaf Lovpache",
+    "github": "Soarex16",
+    "affiliation": "JetBrains"
   },
   "SM": {
     "name": "Sebastian Markbåge",
@@ -1995,169 +2043,133 @@
     "name": "Sebastian McKenzie",
     "github": "sebmck"
   },
-  "SYH": {
-    "name": "Seo-Young Hwang"
-  },
-  "SRV": {
-    "name": "Sergey Rubanov",
-    "github": "chicoxyzzy",
-    "affiliation": "Invited Expert"
-  },
-  "SBH": {
-    "name": "Seth Brenith"
-  },
-  "SAN": {
-    "name": "Seungmin An",
-    "github": "h2oche",
-    "affiliation": "Invited Expert"
-  },
-  "SSR": {
-    "name": "Shaheer Shabbir",
-    "github": "shaheershabbir",
-    "affiliation": "Apple"
-  },
-  "SFC": {
-    "name": "Shane F. Carr",
-    "github": "sffc",
-    "affiliation": "Google"
-  },
-  "SPN": {
-    "name": "Shaundai Person",
-    "github": "shaundai"
-  },
-  "SYL": {
-    "name": "Shay Lewis",
-    "github": "shaylew",
-    "affiliation": "Invited Expert"
-  },
-  "SHK": {
-    "name": "Shelby Hubick"
-  },
-  "SVR": {
-    "name": "Shelley Vohr",
-    "github": "codebytere"
-  },
-  "SJY": {
-    "name": "Shi Jiang Yu",
-    "github": "yusj",
-    "affiliation": "Alibaba"
-  },
-  "SRK": {
-    "name": "Shruti Kapoor",
-    "github": "shrutikapoor08"
-  },
-  "SYG": {
-    "name": "Shu-yu Guo",
-    "github": "syg",
-    "affiliation": "Apple"
-  },
-  "SLV": {
-    "name": "Shumaf Lovpache",
-    "github": "Soarex16",
-    "affiliation": "JetBrains"
-  },
-  "SHR": {
-    "name": "Sigrid Huemer",
-    "github": "s1gr1d",
-    "affiliation": "Functional Software (Sentry)"
-  },
-  "SK": {
-    "name": "Simon Kaegi"
-  },
-  "SZD": {
-    "name": "Simon Zünd",
-    "github": "szuend",
-    "affiliation": "Google"
-  },
-  "SYP": {
-    "name": "Song Yang Pu",
-    "github": "pusongyang",
-    "affiliation": "Alibaba"
-  },
-  "SLI": {
-    "name": "Songfeng Li（李松峰）",
-    "github": "cncuckoo"
+  "SML": {
+    "name": "Sam Mussell"
   },
   "SMO": {
     "name": "Sora Morimoto",
     "github": "smorimoto"
   },
-  "SPI": {
-    "name": "Sri Pillalamarri"
-  },
-  "SEP": {
-    "name": "Staffan Eketorp",
-    "github": "staeke",
-    "affiliation": "Apple"
-  },
-  "STM": {
-    "name": "Stanisław Małolepszy",
-    "github": "stasm",
-    "affiliation": "Google"
-  },
-  "SP": {
-    "name": "Stefan Penner",
-    "github": "stefanpenner",
-    "affiliation": "Microsoft"
-  },
-  "SRA": {
-    "name": "Stephen Adams",
-    "github": "rakudrama",
-    "affiliation": "Google"
-  },
-  "SHS": {
-    "name": "Stephen Hicks",
-    "github": "shicks",
-    "affiliation": "Google"
+  "SMS": {
+    "name": "Scott Myers"
   },
   "SMY": {
     "name": "Stephen Murphy",
     "github": "twobit",
     "affiliation": "Apple"
   },
-  "SFR": {
-    "name": "Steve Faulkner",
-    "github": "southpolesteve",
-    "affiliation": "Cloudflare"
+  "SNS": {
+    "name": "沧浪",
+    "github": "sinoon"
+  },
+  "SP": {
+    "name": "Stefan Penner",
+    "github": "stefanpenner",
+    "affiliation": "Microsoft"
+  },
+  "SPI": {
+    "name": "Sri Pillalamarri"
+  },
+  "SPN": {
+    "name": "Shaundai Person",
+    "github": "shaundai"
+  },
+  "SRA": {
+    "name": "Stephen Adams",
+    "github": "rakudrama",
+    "affiliation": "Google"
+  },
+  "SRK": {
+    "name": "Shruti Kapoor",
+    "github": "shrutikapoor08"
   },
   "SRL": {
     "name": "Steven R. Loomis",
     "github": "srl295"
-  },
-  "STY": {
-    "name": "Steven Salat",
-    "github": "styfle",
-    "affiliation": "Vercel"
-  },
-  "SZH": {
-    "name": "Subo Zheng",
-    "github": "medns"
   },
   "SRU": {
     "name": "Sukyoung Ryu",
     "github": "sukyoung",
     "affiliation": "KAIST"
   },
-  "SKI": {
-    "name": "Sulekha Kulkarni",
-    "github": "sulekhark",
-    "affiliation": "Microsoft"
+  "SRV": {
+    "name": "Sergey Rubanov",
+    "github": "chicoxyzzy",
+    "affiliation": "Invited Expert"
   },
-  "SJL": {
-    "name": "Sung-Jae Lee"
+  "SSA": {
+    "name": "Sven Sauleau",
+    "github": "xtuc",
+    "affiliation": "Invited Expert"
   },
-  "SUS": {
-    "name": "Suraj Sharma"
+  "SSN": {
+    "name": "Satish Srinivasan",
+    "github": "0xe",
+    "affiliation": "ServiceNow"
+  },
+  "SSR": {
+    "name": "Shaheer Shabbir",
+    "github": "shaheershabbir",
+    "affiliation": "Apple"
+  },
+  "STH": {
+    "name": "Sam Tobin-Hochstadt",
+    "github": "samth",
+    "affiliation": "Indiana University"
+  },
+  "STM": {
+    "name": "Stanisław Małolepszy",
+    "github": "stasm",
+    "affiliation": "Google"
+  },
+  "STY": {
+    "name": "Steven Salat",
+    "github": "styfle",
+    "affiliation": "Vercel"
   },
   "SUR": {
     "name": "Surma",
     "github": "surma",
     "affiliation": "Shopify"
   },
-  "SSA": {
-    "name": "Sven Sauleau",
-    "github": "xtuc",
+  "SUS": {
+    "name": "Suraj Sharma"
+  },
+  "SVR": {
+    "name": "Shelley Vohr",
+    "github": "codebytere"
+  },
+  "SWR": {
+    "name": "Scott Whittaker",
+    "github": "scottrobertwhittaker",
+    "affiliation": "Bloomberg"
+  },
+  "SYG": {
+    "name": "Shu-yu Guo",
+    "github": "syg",
+    "affiliation": "Apple"
+  },
+  "SYH": {
+    "name": "Seo-Young Hwang"
+  },
+  "SYL": {
+    "name": "Shay Lewis",
+    "github": "shaylew",
     "affiliation": "Invited Expert"
+  },
+  "SYP": {
+    "name": "Song Yang Pu",
+    "github": "pusongyang",
+    "affiliation": "Alibaba"
+  },
+  "SZD": {
+    "name": "Simon Zünd",
+    "github": "szuend",
+    "affiliation": "Google"
+  },
+  "SZH": {
+    "name": "Subo Zheng",
+    "github": "medns"
   },
   "SZT": {
     "name": "Szabolcs Szabolcsi-Toth",
@@ -2168,146 +2180,133 @@
     "github": "tabatkins",
     "affiliation": "Google"
   },
-  "TZO": {
-    "name": "Tadeu Zagallo"
+  "TBS": {
+    "name": "Trevor Bliss"
   },
-  "TKI": {
-    "name": "Takuya Kawasaki",
-    "github": "kawa",
-    "affiliation": "Sony Interactive Entertainment"
-  },
-  "TEK": {
-    "name": "Tantek Çelik",
-    "github": "tantek",
-    "affiliation": "Mozilla"
-  },
-  "TS": {
-    "name": "Tatiana Shpeisman"
-  },
-  "TW": {
-    "name": "Taylor Woll"
-  },
-  "TOC": {
-    "name": "Theresa O’Connor",
-    "github": "hober",
-    "affiliation": "Apple"
-  },
-  "TND": {
-    "name": "Thomas Nattestad"
-  },
-  "TWD": {
-    "name": "Thomas Wood",
-    "github": "IgnoredAmbience"
-  },
-  "YTX": {
-    "name": "Tianxing Yang",
-    "github": "ytxmobile98"
-  },
-  "XTY": {
-    "name": "Tianyang Xu",
-    "github": "XGHeaven"
+  "TC": {
+    "name": "Tom Care",
+    "github": "tcare"
   },
   "TCN": {
     "name": "Tierney Cyren",
     "github": "bnb"
   },
-  "TST": {
-    "name": "Till Schneidereit",
-    "github": "tschneidereit"
-  },
-  "TJC": {
-    "name": "Tim Chevalier",
-    "github": "catamorphism",
-    "affiliation": "Igalia"
-  },
   "TD": {
     "name": "Tim Disney",
     "github": "disnet"
-  },
-  "TME": {
-    "name": "Tim McClure"
-  },
-  "TGU": {
-    "name": "Timothy Gu",
-    "github": "TimothyGu"
-  },
-  "TWR": {
-    "name": "Titus Wormer",
-    "github": "wooorm",
-    "affiliation": "Igalia"
-  },
-  "TKS": {
-    "name": "Tobias Koppers",
-    "github": "sokra",
-    "affiliation": "Vercel"
-  },
-  "TC": {
-    "name": "Tom Care",
-    "github": "tcare"
   },
   "TDE": {
     "name": "Tom Dale",
     "github": "tomdale",
     "affiliation": "Microsoft"
   },
-  "TKP": {
-    "name": "Tom Kopp",
-    "github": "TomKopp",
-    "affiliation": "Zalari"
-  },
-  "TVC": {
-    "name": "Tom Van Cutsem",
-    "github": "tvcutsem",
-    "affiliation": "Invited Expert"
-  },
-  "TII": {
-    "name": "Tomoki Imai",
-    "github": "tomoki",
-    "affiliation": "Sony Interactive Entertainment"
-  },
-  "TVT": {
-    "name": "Toon Verwaest"
+  "TEK": {
+    "name": "Tantek Çelik",
+    "github": "tantek",
+    "affiliation": "Mozilla"
   },
   "TFA": {
     "name": "Tooru Fujisawa a.k.a Arai",
     "github": "arai-a",
     "affiliation": "Mozilla"
   },
-  "TLD": {
-    "name": "Travis Leithead",
-    "github": "travisleithead"
+  "TGU": {
+    "name": "Timothy Gu",
+    "github": "TimothyGu"
   },
-  "TBS": {
-    "name": "Trevor Bliss"
+  "TII": {
+    "name": "Tomoki Imai",
+    "github": "tomoki",
+    "affiliation": "Sony Interactive Entertainment"
+  },
+  "TJC": {
+    "name": "Tim Chevalier",
+    "github": "catamorphism",
+    "affiliation": "Igalia"
+  },
+  "TKI": {
+    "name": "Takuya Kawasaki",
+    "github": "kawa",
+    "affiliation": "Sony Interactive Entertainment"
   },
   "TKN": {
     "name": "Tyler Kellen",
     "github": "tkellen"
+  },
+  "TKP": {
+    "name": "Tom Kopp",
+    "github": "TomKopp",
+    "affiliation": "Zalari"
+  },
+  "TKS": {
+    "name": "Tobias Koppers",
+    "github": "sokra",
+    "affiliation": "Vercel"
+  },
+  "TLD": {
+    "name": "Travis Leithead",
+    "github": "travisleithead"
+  },
+  "TLY": {
+    "name": "Noelle Levy",
+    "github": "NilSet",
+    "affiliation": "Bending Spoons"
+  },
+  "TME": {
+    "name": "Tim McClure"
   },
   "TMV": {
     "name": "Tzvetan Mikov",
     "github": "tmikov",
     "affiliation": "Meta"
   },
-  "USA": {
-    "name": "Ujjwal Sharma",
-    "github": "ryzokuken",
+  "TND": {
+    "name": "Thomas Nattestad"
+  },
+  "TOC": {
+    "name": "Theresa O’Connor",
+    "github": "hober",
+    "affiliation": "Apple"
+  },
+  "TS": {
+    "name": "Tatiana Shpeisman"
+  },
+  "TST": {
+    "name": "Till Schneidereit",
+    "github": "tschneidereit"
+  },
+  "TVC": {
+    "name": "Tom Van Cutsem",
+    "github": "tvcutsem",
     "affiliation": "Invited Expert"
+  },
+  "TVT": {
+    "name": "Toon Verwaest"
+  },
+  "TW": {
+    "name": "Taylor Woll"
+  },
+  "TWD": {
+    "name": "Thomas Wood",
+    "github": "IgnoredAmbience"
+  },
+  "TWR": {
+    "name": "Titus Wormer",
+    "github": "wooorm",
+    "affiliation": "Igalia"
+  },
+  "TZO": {
+    "name": "Tadeu Zagallo"
   },
   "UGN": {
     "name": "Ulises Gascón",
     "github": "UlisesGascon",
     "affiliation": "OpenJS Foundation"
   },
-  "VYG": {
-    "name": "Valerie Young",
-    "github": "spectranaut",
-    "affiliation": "Igalia"
-  },
-  "VWG": {
-    "name": "Victor Wang",
-    "github": "vic2019",
-    "affiliation": "Datlas"
+  "USA": {
+    "name": "Ujjwal Sharma",
+    "github": "ryzokuken",
+    "affiliation": "Invited Expert"
   },
   "VDC": {
     "name": "Vladan Djeric"
@@ -2315,106 +2314,108 @@
   "VM": {
     "name": "Vladimir Matveev"
   },
-  "WH": {
-    "name": "Waldemar Horwat",
-    "github": "waldemarhorwat",
-    "affiliation": "Invited Expert"
+  "VWG": {
+    "name": "Victor Wang",
+    "github": "vic2019",
+    "affiliation": "Datlas"
   },
-  "WWG": {
-    "name": "Weijia Wang",
-    "github": "starkwang"
-  },
-  "LWW": {
-    "name": "Weiwen Liang",
-    "github": "exoticknight"
-  },
-  "WXL": {
-    "name": "Weixuan Lin",
-    "github": "linbudu599",
-    "affiliation": "Alibaba"
-  },
-  "KWL": {
-    "name": "Wenlu Wang",
-    "github": "Kingwl"
+  "VYG": {
+    "name": "Valerie Young",
+    "github": "spectranaut",
+    "affiliation": "Igalia"
   },
   "WES": {
     "name": "Westin Wrzesinski",
     "github": "westeezy"
   },
-  "WWW": {
-    "name": "Whymarrh Whitby",
-    "github": "whymarrh"
+  "WH": {
+    "name": "Waldemar Horwat",
+    "github": "waldemarhorwat",
+    "affiliation": "Invited Expert"
   },
   "WMA": {
     "name": "Will Medina",
     "github": "willyelm",
     "affiliation": "Mozilla"
   },
+  "WMM": {
+    "name": "Ming Wang"
+  },
   "WMS": {
     "name": "Willian Martins",
     "github": "wmsbill"
   },
+  "WWG": {
+    "name": "Weijia Wang",
+    "github": "starkwang"
+  },
+  "WWW": {
+    "name": "Whymarrh Whitby",
+    "github": "whymarrh"
+  },
   "WXK": {
     "name": "Xian Kun Wang"
   },
-  "HUX": {
-    "name": "Xuan Huang (黄玄)",
-    "github": "Huxpro"
-  },
-  "JXZ": {
-    "name": "Xuanzi",
-    "github": "fefit",
-    "affiliation": "360"
-  },
-  "YNP": {
-    "name": "Yagiz Nizipli",
-    "github": "anonrig"
+  "WXL": {
+    "name": "Weixuan Lin",
+    "github": "linbudu599",
+    "affiliation": "Alibaba"
   },
   "WYJ": {
     "name": "YaJu Wang",
     "github": "wangyaju",
     "affiliation": "Huawei"
   },
-  "YKZ": {
-    "name": "Yan Kun Zhen"
+  "XAX": {
+    "name": "Khaidi Chu",
+    "github": "XadillaX"
+  },
+  "XTY": {
+    "name": "Tianyang Xu",
+    "github": "XGHeaven"
+  },
+  "XWC": {
+    "name": "Ian Tse",
+    "github": "Tseian"
   },
   "YGO": {
     "name": "Yang Guo",
     "github": "hashseed"
+  },
+  "YIY": {
+    "name": "Yi Yi"
+  },
+  "YJM": {
+    "name": "James Yang",
+    "github": "futurist"
   },
   "YK": {
     "name": "Yehuda Katz",
     "github": "wycats",
     "affiliation": "Salesforce"
   },
-  "YIY": {
-    "name": "Yi Yi"
-  },
-  "LYL": {
-    "name": "Yilong Li",
-    "github": "umuoy1",
-    "affiliation": "Alibaba"
-  },
-  "YWS": {
-    "name": "Yoav Weiss",
-    "github": "yoavweiss",
-    "affiliation": "Shopify"
-  },
   "YKL": {
     "name": "Yorkie Liu",
     "github": "yorkie"
+  },
+  "YKZ": {
+    "name": "Yan Kun Zhen"
+  },
+  "YLI": {
+    "name": "Li YuBei",
+    "github": "leeight"
   },
   "YMD": {
     "name": "Younies Mahmoud",
     "github": "younies",
     "affiliation": "Google"
   },
+  "YNP": {
+    "name": "Yagiz Nizipli",
+    "github": "anonrig"
+  },
   "YRL": {
     "name": "Yuanrui Liang"
-  },
-  "YYC": {
-    "name": "Yuanyan Cao",
-    "github": "yuanyan"
   },
   "YSV": {
     "name": "Yulia Startsev",
@@ -2426,50 +2427,49 @@
     "github": "Constellation",
     "affiliation": "Apple"
   },
-  "ZBV": {
-    "name": "Zalim Bashorov",
-    "github": "bashor",
-    "affiliation": "JetBrains"
+  "YTX": {
+    "name": "Tianxing Yang",
+    "github": "ytxmobile98"
   },
-  "ZTZ": {
-    "name": "Zbigniew Tenerowicz",
-    "github": "naugtur",
-    "affiliation": "Metamask"
+  "YWS": {
+    "name": "Yoav Weiss",
+    "github": "yoavweiss",
+    "affiliation": "Shopify"
   },
-  "ZSN": {
-    "name": "Zev Solomon",
-    "github": "zsolomon88",
-    "affiliation": "Sony Interactive Entertainment"
-  },
-  "ZYY": {
-    "name": "Zeyu Yang"
-  },
-  "LZH": {
-    "name": "ZhaoLei",
-    "github": "zhaolei0505",
-    "affiliation": "Alibaba"
-  },
-  "LZJ": {
-    "name": "Zhi Jie Li",
-    "github": "zeldajay",
-    "affiliation": "360"
+  "YYC": {
+    "name": "Yuanyan Cao",
+    "github": "yuanyan"
   },
   "ZB": {
     "name": "Zibi Braniecki",
     "github": "zbraniecki",
     "affiliation": "Invited Expert"
   },
+  "ZBV": {
+    "name": "Zalim Bashorov",
+    "github": "bashor",
+    "affiliation": "JetBrains"
+  },
   "ZJL": {
     "name": "Zuo Jian Lin",
     "github": "linzj",
     "affiliation": "Alibaba"
   },
-  "HZO": {
-    "name": "小船",
-    "github": "adamchuan"
+  "ZRJ": {
+    "name": "Rongjian Zhang",
+    "github": "pd4d10"
   },
-  "SNS": {
-    "name": "沧浪",
-    "github": "sinoon"
+  "ZSN": {
+    "name": "Zev Solomon",
+    "github": "zsolomon88",
+    "affiliation": "Sony Interactive Entertainment"
+  },
+  "ZTZ": {
+    "name": "Zbigniew Tenerowicz",
+    "github": "naugtur",
+    "affiliation": "Metamask"
+  },
+  "ZYY": {
+    "name": "Zeyu Yang"
   }
 }
