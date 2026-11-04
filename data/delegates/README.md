@@ -9,7 +9,7 @@
 
 TC39 delegates data, public source of truth.
 
-The package exports an object keyed by each delegate's two- or three-letter uppercase abbreviation, as used to identify them in meeting notes. Each entry has the delegate's `name`, and may have their `github` username and their `affiliation` (an employer, or a status such as "Invited Expert").
+The package exports an object keyed by each delegate's two- or three-letter uppercase abbreviation, as used to identify them in meeting notes. Entries are sorted lexicographically by abbreviation. Each entry has the delegate's `name`, and may have their `github` username and their `affiliation` (an employer, or a status such as "Invited Expert").
 
 ## Example
 
